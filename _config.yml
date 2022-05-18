@@ -59,8 +59,8 @@ people:
       url: #
 
 - name: Cedric Decruw
-  pic: 1
-  position: https://images.vliz.be/thumbs/140632_decruw-cedric.jpg?w=200
+  pic: https://images.vliz.be/thumbs/140632_decruw-cedric.jpg?w=200
+  position: position goes here
   social:
     - title: twitter
       url: #
