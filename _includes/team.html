@@ -13,9 +13,9 @@
                         {% assign picParts = member.pic | split:'http' %}
                         {% if picParts[0] == blank %}
                          <img src="{{ member.pic }}" class="img-responsive img-circle" alt="">
-                        {% else }
+                        {% else %}
                          <img src="img/team/{{ member.pic }}_small.jpg" class="img-responsive img-circle" alt="">
-                        {% endif }
+                        {% endif %}
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
