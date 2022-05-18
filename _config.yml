@@ -15,7 +15,7 @@ github_username: vliz-be-opsci
 # Team names, titles and social links
 people:
 - name: Marc Portier
-  pic: 1
+  pic: https://images.vliz.be/thumbs/142900_marc-portier.jpg?w=500
   position: position goes here
   social:
     - title: twitter
