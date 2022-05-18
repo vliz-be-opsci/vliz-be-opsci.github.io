@@ -15,7 +15,7 @@ github_username: vliz-be-opsci
 # Team names, titles and social links
 people:
 - name: Marc Portier
-  pic: https://images.vliz.be/thumbs/142900_marc-portier.jpg?w=500
+  pic: https://images.vliz.be/thumbs/142900_marc-portier.jpg?w=200
   position: position goes here
   social:
     - title: twitter
@@ -26,7 +26,7 @@ people:
       url: #
 
 - name: Katrina Exter
-  pic: 1
+  pic: https://images.vliz.be/thumbs/133324_katrina-exter.jpg?w=200
   position: position goes here
   social:
     - title: twitter
@@ -48,7 +48,7 @@ people:
       url: #
 
 - name: Laurian Van Maldeghem
-  pic: 1
+  pic: https://images.vliz.be/thumbs/140676_van-maldeghem-laurian.jpg?w=200
   position: position goes here
   social:
     - title: twitter
@@ -60,7 +60,7 @@ people:
 
 - name: Cedric Decruw
   pic: 1
-  position: position goes here
+  position: https://images.vliz.be/thumbs/140632_decruw-cedric.jpg?w=200
   social:
     - title: twitter
       url: #
