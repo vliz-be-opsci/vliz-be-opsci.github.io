@@ -12,7 +12,7 @@
                     <div class="team-member">
                         {% assign picParts = member.pic | split:'http' %}
                         <!-- debug == {{ picParts | join: ', ' }} --> 
-                        {% if picParts[0] == blank %}
+                        {% if picParts[0] == '' %}
                          <img src="{{ member.pic }}" class="img-responsive img-circle" alt="">
                         {% else %}
                          <img src="img/team/{{ member.pic }}_small.jpg" class="img-responsive img-circle" alt="">
