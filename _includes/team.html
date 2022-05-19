@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="row">
-                {% for member in site.people %}
+                {% for member in site.data.team %}
                 <div class="col-sm-4">
                     <div class="team-member">
                         {% assign picParts = member.pic | split:'http' %}

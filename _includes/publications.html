@@ -1,0 +1,32 @@
+<!-- Services Section -->
+<section id="publications">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Publications</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            {% for publication in site.data.publications %}
+            <div class="col-md-4 ">
+                
+                <span class="fa-stack fa-3x">
+                    <a href="{{publication.DOI}}" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-file"></i>
+                            </div>
+                        </div>
+                    </a>
+                </span>
+                <h4 class="service-heading">{{publication.title}}</h4>
+                <h6 class="section-subheading">{{publication.authors}}</h6>
+                <p class="text-muted">{{publication.abstract}}</p>
+                
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

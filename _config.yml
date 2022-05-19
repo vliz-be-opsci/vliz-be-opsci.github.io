@@ -2,7 +2,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vliz-be-opsci.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #Site settings
-title: Open Science Site
+title: Open Science Team
 email: opsci@vliz.be
 description: >- 
   Write an awesome description for your new site here. You can edit this
@@ -10,61 +10,3 @@ description: >-
   Google search results) and in your feed.xml site description.
 #twitter_username: jekyllrb
 github_username: vliz-be-opsci
-
-
-# Team names, titles and social links
-people:
-- name: Marc Portier
-  pic: https://images.vliz.be/thumbs/142900_marc-portier.jpg?w=200
-  position: position goes here
-  social:
-    - title: twitter
-      url: #
-    - title: linkedin
-      url: #
-    - title: github
-      url: #
-
-- name: Katrina Exter
-  pic: https://images.vliz.be/thumbs/133324_katrina-exter.jpg?w=200
-  position: position goes here
-  social:
-    - title: twitter
-      url: #
-    - title: linkedin
-      url: #
-    - title: github
-      url: #
-
-- name: Rory Meyer
-  pic: 1
-  position: position goes here
-  social:
-    - title: twitter
-      url: #
-    - title: linkedin
-      url: #
-    - title: github
-      url: #
-
-- name: Laurian Van Maldeghem
-  pic: https://images.vliz.be/thumbs/140676_van-maldeghem-laurian.jpg?w=200
-  position: position goes here
-  social:
-    - title: twitter
-      url: #
-    - title: linkedin
-      url: #
-    - title: github
-      url: #
-
-- name: Cedric Decruw
-  pic: https://images.vliz.be/thumbs/140632_decruw-cedric.jpg?w=200
-  position: position goes here
-  social:
-    - title: twitter
-      url: #
-    - title: linkedin
-      url: #
-    - title: github
-      url: #
