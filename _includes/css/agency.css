@@ -524,6 +524,10 @@ section h3.section-subheading {
 }
 .grayscale { filter: grayscale(100%); }
 
+.timeline .timeline-image .fa-book {
+    color: #999999;
+}
+
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;

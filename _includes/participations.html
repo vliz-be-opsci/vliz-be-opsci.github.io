@@ -1,0 +1,53 @@
+<!-- About Section -->
+    <section id="participations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Participations</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        {% for item in site.data.participations %}
+                            {% assign remainder = item.year | modulo: 2 %}
+                            {% for part in item.participations %}
+                                {% if remainder != 0 %}
+                                <li class="timeline">
+                                {% else %}
+                                <li class="timeline-inverted">
+                                {% endif %}
+                                <div class="timeline-image">
+                                    {% if part.img %}
+                                    <img class="img-responsive grayscale" src="{{part.img}}" alt="" >
+                                    {% else %}
+                                    <span class="fa-stack fa-5x">
+                                        <i class="fa fa-{{part.icon}} fa-stack-2x"></i>
+                                    </span>
+                                    {% endif %}
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <a href="{{part.heading-url}}" target="_blank"><h4>{{part.heading}}</h4></a>
+                                        <h4 class="subheading">{{part.subheading-onset}}: <a href="{{part.subheading-url}}" target="_blank">{{part.subheading-topic}}</a></h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">{{part.description}}</p>
+                                    </div>
+                                </div>
+                                </li>
+                            {% endfor %}
+                        {% endfor %}
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>More 
+                                    <br>to
+                                    <br>follow!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
