@@ -10,7 +10,7 @@
             <div class="row">
             {% for project in site.data.projects %}
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="{{ project.url}}#readme" class="portfolio-link" target="_blank">
+                <a href="{{project.url}}#readme" class="portfolio-link" target="_blank">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             {% assign picParts = project.url | split:'/' %}
@@ -27,8 +27,7 @@
                     </div>
                     <img src="img/portfolio/treasure-chest-thumbnail.png" class="img-responsive img-centered" alt="">
                 </a>
-                <div class="portfolio-caption">
-                        <div class="modal-body">
+                <div class="overflow-auto portfolio-caption">
                         <h3>{{ project.title }}</h3>
                         <hr class="star-primary">
                         <p class="text-muted">{{ project.subtitle }}</p>
@@ -41,8 +40,6 @@
                                 <strong>Category:</strong> {{ project.category }}
                             </li>
                         </ul>
-                    </div>
-
                 </div>
             </div>
             {% endfor %}

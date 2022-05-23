@@ -379,6 +379,8 @@ section h3.section-subheading {
 #projects .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    width: 33%;
+    height: 20%
 }
 
 #projects .portfolio-item .portfolio-link {
@@ -428,8 +430,10 @@ section h3.section-subheading {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
+    height: 300px;
     text-align: center;
     background-color: #fff;
+    overflow-x: auto;
 }
 
 #projects .portfolio-item .portfolio-caption h4 {
