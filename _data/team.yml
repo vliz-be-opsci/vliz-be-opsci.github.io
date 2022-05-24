@@ -1,55 +1,69 @@
 # Team names, titles and social links
 - name: Marc Portier
   pic: https://images.vliz.be/thumbs/142900_marc-portier.jpg?w=200
-  position: position goes here
+  position: Team lead
   social:
+    - title: envelope
+      url: mailto:marc.portier@vliz.be
+    - title: orcid
+      url:  https://orcid.org/0000-0002-9648-6484 
     - title: twitter
-      url: #
+      url: https://twitter.com/mportier
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/marcportier
     - title: github
-      url: #
+      url: https://github.com/marc-portier
+
 
 - name: Katrina Exter
   pic: https://images.vliz.be/thumbs/133324_katrina-exter.jpg?w=200
-  position: position goes here
+  position: Scientific data expert
   social:
-    - title: twitter
-      url: #
+    - title: envelope
+      url: mailto:katrina.exter@vliz.be
+    - title: orcid
+      url: https://orcid.org/0000-0002-5911-1536
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/katrina-exter-32868369
     - title: github
-      url: #
+      url: https://github.com/kmexter
+
 
 - name: Cedric Decruw
   pic: https://images.vliz.be/thumbs/140632_decruw-cedric.jpg?w=200
-  position: position goes here
+  position: Developer
   social:
-    - title: twitter
-      url: #
+    - title: envelope
+      url: mailto:cedric.decruw@vliz.be
+    - title: orcid
+      url: https://orcid.org/0000-0001-6387-5988
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/cedric-decruw-974793180
     - title: github
-      url: #
+      url: https://github.com/cedricdcc
 
 - name: Laurian Van Maldeghem
   pic: https://images.vliz.be/thumbs/140676_van-maldeghem-laurian.jpg?w=200
-  position: position goes here
+  position: Science officer
   social:
-    - title: twitter
-      url: #
+    - title: envelope
+      url: mailto:laurian.van.maldeghem@vliz.be
+    - title: orcid
+      url: https://orcid.org/0000-0003-0663-5907
     - title: linkedin
-      url: #
+      url:  https://www.linkedin.com/in/laurianvanmaldeghem
     - title: github
-      url: #
+      url: https://github.com/laurianvm
 
 - name: Rory Meyer
   pic: 1
-  position: position goes here
+  position: Data science architect
   social:
-    - title: twitter
-      url: #
+    - title: envelope
+      url: mailto:rory.meyer@vliz.be
+    - title: orcid
+      url: https://orcid.org/0000-0002-0440-215X
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/rory-meyer
     - title: github
-      url: #
+      url: https://github.com/RoryMMMM
