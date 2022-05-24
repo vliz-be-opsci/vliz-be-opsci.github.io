@@ -3,9 +3,9 @@
   title: DMBON Assistent
   subtitle: A short description goes here. 
 
-- url: https://example.com/openAIS
-  title: Open AIS
-  subtitle: A short description goes here. 
+- url: https://openais.gitlab.io/
+  title: OpenAIS
+  subtitle: A set of tools for processing and visualising ship position data with a scientific focus.
 
 - url: https://vliz-be-opsci.github.io/NS/ #https://github.com/vliz-be-opsci/NS#readme
   title: NS
