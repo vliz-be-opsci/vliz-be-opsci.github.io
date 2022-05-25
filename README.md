@@ -5,6 +5,13 @@ Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/templ
 
 # How to use
 
+## how to start
+
+    `gem install gemstash
+     bundle install
+     bundle exec jekyll serve`
+    `
+
 ###Portfolio 
 
 Portfolio projects are in '/_posts'
