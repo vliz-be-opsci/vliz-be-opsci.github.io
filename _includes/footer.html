@@ -1,23 +1,13 @@
   <footer>
         <div class="container">
+            <div class="row"> 
+                <span class="copyright">&copy; {{ site.title }} {{ 'now' | date: "%Y" }} - All licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">cc by 4.0</a> </span>
+            </div>
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }} </span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="https://www.vliz.be/en/" target="_blank"><img src="img/VLIZ_logo.png" alt=""></a> 
-                        </li>
-                    </ul>
-                </div>
+                        <ul class="list-inline quicklinks">
+                            <li><a href="https://www.vliz.be/en/" target="_blank"><img src="img/VLIZ_logo.png" alt=""></a></li>
+                            <li><p>Flanders Marine Institute | InnovOcean site | Wandelaarkaai 7, 8400 Ostend, Belgium | <a href="http://www.vliz.be/privacy" target="_blank">Privacy and cookie policy</a></p></li>
+                        </ul>
             </div>
         </div>
     </footer>
