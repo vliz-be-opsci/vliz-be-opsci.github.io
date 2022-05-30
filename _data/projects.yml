@@ -1,45 +1,56 @@
-# using github urls for now
+
 - url: https://example.com/DMBON_Assistent #https://github.com/vliz-be-opsci/dmbon-RO-profiles-pre-alpha#readme 
   title: DMBON Assistent
-  subtitle: A short description goes here. 
+  subtitle: An Assistant for your data management 
+  icon: open-science-logo.png
+  categories: project
+  display: main 
 
 - url: https://openais.gitlab.io/
   title: OpenAIS
   subtitle: A set of tools for processing and visualising ship position data with a scientific focus.
+  icon:
+  categories: project
+  display: main 
 
 - url: https://vliz-be-opsci.github.io/NS/ #https://github.com/vliz-be-opsci/NS#readme
   title: NS
   subtitle: Namespaces for ontologies for external projects.
-  #category: Ontologies
+  icon:
+  categories: ontologies, linked data, project
+  display: main 
 
 - url: https://github.com/vliz-be-opsci/pysubyt#readme
   title: PySUByT
   subtitle: A python library for Linked Data production through templating. 
+  categories: tool, linked data, python library
 
 - url: https://github.com/vliz-be-opsci/pykg2tbl#readme
   title: pykg2tbl
   subtitle: A python library to convert knowledge graphs into tables. 
+  categories: python library, linked data, KG
 
-- url: https://github.com/vliz-be-opsci/py-xmlasdict
+- url: https://github.com/vliz-be-opsci/py-xmlasdict#readme
   title: py-xmlasdict 
   subtitle: A python library to approach xml DOM trees as python dicts with iterating and attribute-getting behavior.
+  categories: python library
 
-- url: https://github.com/vliz-be-opsci/py-xmlasdict
+- url: https://github.com/vliz-be-opsci/yaml4parms#readme
   title: yaml4parms 
   subtitle: A tool to mix yaml structured schema description with actual text based parameters files.
+  categories: python library
 
-- url: https://github.com/vliz-be-opsci/yaml4parms
-  title: yaml4parms 
-  subtitle: A tool to mix yaml structured schema description with actual text based parameters files.
-
-- url: https://github.com/vliz-be-opsci/maris-cdi-py
+- url: https://github.com/vliz-be-opsci/maris-cdi-py#readme
   title: maris-cdi-py 
   subtitle: A python library to consume the maris cdi api to retrieve ODV datasets programmatically.
- 
-- url: https://github.com/vliz-be-opsci/pyConSem
+  categories: python library
+
+- url: https://github.com/vliz-be-opsci/pyConSem#readme
   title: pyConSem
   subtitle: TBD
+  categories: 
 
-- url: https://github.com/vliz-be-opsci/pyodv
+- url: https://github.com/vliz-be-opsci/pyodv#readme
   title: pyodv
   subtitle: A Python package for reading ODV (Ocean Data Variables) files.
+  categories: python library
