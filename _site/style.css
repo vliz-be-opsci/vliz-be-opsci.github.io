@@ -1010,5 +1010,13 @@ body {
     aspect-ratio: 1;
 }
 
-
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #f4d74b;
+    border-color: #f4d74b;
+    border-radius: 50%;
+  }
 

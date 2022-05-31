@@ -1002,3 +1002,12 @@ body {
     aspect-ratio: 1;
 }
 
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.primary }};
+    border-radius: 50%;
+  }
