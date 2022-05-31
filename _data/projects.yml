@@ -2,28 +2,28 @@
 - url: https://example.com/DMBON_Assistent #https://github.com/vliz-be-opsci/dmbon-RO-profiles-pre-alpha#readme 
   title: DMBON Assistent
   subtitle: An Assistant for your data management 
-  icon: open-science-logo.png
-  categories: project
-  display: main 
+  icon: 
+  categories: data-managemet, browser tool
+  display: main-1
 
 - url: https://openais.gitlab.io/
   title: OpenAIS
-  subtitle: A set of tools for processing and visualising ship position data with a scientific focus.
+  subtitle: Tools for processing and visualising ship position data with a scientific focus.
   icon:
-  categories: project
-  display: main 
+  categories: georeferencing, awesome tool
+  display: main-2
 
 - url: https://vliz-be-opsci.github.io/NS/ #https://github.com/vliz-be-opsci/NS#readme
   title: NS
   subtitle: Namespaces for ontologies for external projects.
   icon:
-  categories: ontologies, linked data, project
-  display: main 
+  categories: ontologies, linked data
+  display: main-3
 
 - url: https://github.com/vliz-be-opsci/pysubyt#readme
   title: PySUByT
   subtitle: A python library for Linked Data production through templating. 
-  categories: tool, linked data, python library
+  categories: linked data, python library
 
 - url: https://github.com/vliz-be-opsci/pykg2tbl#readme
   title: pykg2tbl

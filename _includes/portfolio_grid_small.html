@@ -9,7 +9,9 @@
             </div>
             <div class="row">
             {% for project in site.data.projects %}
-            {% if project.display contains 'main' %}
+            {% assign cat_arr = project.categories | split: ', ' %}
+            {% assign display_arr = project.display | split: '-' %}
+            {% if display_arr[0] == 'main' %}
             
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <a href="{{project.url}}#readme" class="portfolio-link" target="_blank">
@@ -23,11 +25,7 @@
                             {% endif %}
                         </div>
                     </div>
-                    {% if project.icon %}
-                    <img src="img/portfolio/{{project.icon}}" class="img-responsive img-centered" alt="">
-                    {% else %}
-                    <img src="img/portfolio/treasure-chest-thumbnail.png" class="img-responsive img-centered" alt="">
-                    {% endif %}
+                    <img src="img/portfolio/{{display_arr[1]}}-thumbnail.png" class="img-responsive img-centered" alt="">
                 </a>
                 <div class="overflow-auto portfolio-caption">
                         <h3>{{ project.title }}</h3>
@@ -42,7 +40,10 @@
                             {% endif %}
                             {% if project.categories %}
                             <li>
-                                <strong>Category:</strong> {{ project.categories }}
+                                <strong>Category:</strong> 
+                                {% for cat in  cat_arr%}
+                                <p class="badge badge-primary">{{ cat }}</p>
+                                {% endfor %}
                             </li>
                             {% endif %}
                         </ul>
@@ -51,7 +52,7 @@
             {% endif %}
             {% endfor %}
             </div>
-            <div class="row">
+            <div class="row text-center">
                 <a href="{{ "/projects" | relative_url}}" class="page-scroll btn btn-xl">See all projects</a>
             </div>
         </div>

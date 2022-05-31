@@ -1,5 +1,5 @@
 #please add years at the top
-- year: "2022"
+- year: "2022" #make sure this is character string
   events:
     - img: https://2020.openbelgium.be/themes/appsforghent/assets/images/logo_big.png
       heading: Open Belgium 2022
@@ -16,7 +16,7 @@
       subheading-topic: Read the LOD paper
       description: A reading club for relevant contemporary Linked Open Data and Semantic Web documents
 
-- year: "2021" #make sure this is character string
+- year: "2021" 
   events: 
     - img: https://2020.openbelgium.be/themes/appsforghent/assets/images/logo_big.png
       heading: Open Belgium 2021

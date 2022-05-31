@@ -1,12 +1,22 @@
-- DOI: http://ceur-ws.org/Vol-2969/paper8-s4biodiv.pdf
+- url: http://ceur-ws.org/Vol-2969/paper8-s4biodiv.pdf
   title: Publishing Marine Regions Gazetteer as a linked data event stream
   authors: B. Lonneville et al.
-  #abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-- DOI: 1569841351
-  title: another paper
-  authors: other awesome people et al.
-  #abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-- DOI: 15698
-  title: another paper
-  authors: other awesome people et al.
-  #abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  display: main-1
+
+- url: https://doi.org/...
+  title: Pleasant paper 2
+  authors: awesome people et al.
+  abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  display: main-2
+
+- url: https://doi.org/...
+  title: Pleasant paper 3
+  authors: more awesome people et al.
+  abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  display: main-3
+
+- url: https://doi.org/...
+  title: Pleasant paper 4
+  authors: more awesome people et al.
+  abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
