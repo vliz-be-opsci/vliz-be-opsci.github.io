@@ -1,6 +1,7 @@
 # Team names, titles and social links
-- name: Marc Portier
-  pic: https://images.vliz.be/thumbs/142900_marc-portier.jpg?w=200
+- id: https://orcid.org/0000-0002-9648-6484 
+  name: Marc Portier
+  pic: marc_portier.jpg
   position: Team lead
   social:
     - title: envelope
@@ -15,8 +16,9 @@
       url: https://github.com/marc-portier
 
 
-- name: Katrina Exter
-  pic: https://images.vliz.be/thumbs/133324_katrina-exter.jpg?w=200
+- id: https://orcid.org/0000-0002-5911-1536
+  name: Katrina Exter
+  pic: katrina_exter.jpg
   position: Scientific data expert
   social:
     - title: envelope
@@ -29,8 +31,24 @@
       url: https://github.com/kmexter
 
 
-- name: Cedric Decruw
-  pic: https://images.vliz.be/thumbs/140632_decruw-cedric.jpg?w=200
+- id: https://orcid.org/0000-0002-0440-215X
+  name: Rory Meyer
+  pic: rory_meyer.jpg
+  position: Data science architect
+  social:
+    - title: envelope
+      url: mailto:rory.meyer@vliz.be
+    - title: orcid
+      url: https://orcid.org/0000-0002-0440-215X
+    - title: linkedin
+      url: https://www.linkedin.com/in/rory-meyer
+    - title: github
+      url: https://github.com/RoryMMMM
+
+
+- id: https://orcid.org/0000-0001-6387-5988
+  name: Cedric Decruw
+  pic: cedric_decruw.jpg
   position: Developer
   social:
     - title: envelope
@@ -42,8 +60,10 @@
     - title: github
       url: https://github.com/cedricdcc
 
-- name: Laurian Van Maldeghem
-  pic: https://images.vliz.be/thumbs/140676_van-maldeghem-laurian.jpg?w=200
+
+- id: https://orcid.org/0000-0003-0663-5907
+  name: Laurian Van Maldeghem
+  pic: laurian_van_maldeghem.jpg
   position: Science officer
   social:
     - title: envelope
@@ -55,15 +75,3 @@
     - title: github
       url: https://github.com/laurianvm
 
-- name: Rory Meyer
-  pic: 1
-  position: Data science architect
-  social:
-    - title: envelope
-      url: mailto:rory.meyer@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0002-0440-215X
-    - title: linkedin
-      url: https://www.linkedin.com/in/rory-meyer
-    - title: github
-      url: https://github.com/RoryMMMM
