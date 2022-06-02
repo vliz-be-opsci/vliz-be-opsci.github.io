@@ -112,7 +112,7 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #fff;
+    color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
