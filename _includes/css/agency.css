@@ -404,12 +404,23 @@ section h3.section-subheading {
     width: 33%;
 }
 
+#projects .portfolio-item img {
+    max-height: 200px;
+    max-width: 400px;
+}
+
 #projects .portfolio-item .portfolio-link {
-    display: block;
+    display: flex;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
 }
+
+
 
 #projects .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;

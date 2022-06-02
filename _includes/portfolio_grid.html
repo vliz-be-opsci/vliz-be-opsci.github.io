@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-                Categories: 
+                keywords: 
                 <div class="button-group filter-button-group justify-content-center">
                     <a class="btn btn-sm btn-primary" data-filter=".tool">awesome tool</a>
                     <a class="btn btn-sm btn-primary" data-filter=".python">python library</a>
@@ -21,11 +21,16 @@
             <div class="row">
                 <div class="grid">
                 {% for project in site.data.projects %}
-                {% assign cat = project.categories | replace: ", ", " " %}
-                {% assign badge_arr = project.categories | split: ', ' %}
+                {% assign key = project.keywords | replace: ", ", " " %}
+                {% assign key_arr = project.keywords | split: ', ' %}
 
-                <div class="col-md-4 col-sm-6 portfolio-item {{cat}}">
-                    <a href="{{project.url}}#readme" class="portfolio-link" target="_blank">
+                <div class="col-md-4 col-sm-6 portfolio-item {{key}}" resource="{{project.url}}" typeof="schema:SoftwareSourceCode">
+                    <a href="{{project.url}}#readme" class="portfolio-link" target="_blank" property="schema:codeRepository">
+                        {% if project.img %}
+                        <img src="{{ project.img }}" class="img-responsive img-centered" alt="">
+                        {% else %}
+                        <img src="img/project-logos/code-thumbnail.png" class="img-responsive img-centered" alt="">
+                        {% endif %}
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 {% assign picParts = project.url | split:'/' %}
@@ -36,29 +41,28 @@
                                 {% endif %}
                             </div>
                         </div>
-                        {% if project.icon %}
-                        <img src="img/portfolio/{{project.icon}}" class="img-responsive img-centered" alt="">
-                        {% else %}
-                        <img src="img/portfolio/treasure-chest-thumbnail.png" class="img-responsive img-centered" alt="">
-                        {% endif %}
                     </a>
                     <div class="overflow-auto portfolio-caption">
-                            <h3 id="myListTitle">{{ project.title }}</h3>
+                            <h3 property="schema:name">{{ project.title }}</h3>
                             <hr class="star-primary">
-                            <p class="text-muted">{{ project.subtitle }}</p>
+                            <p class="text-muted" property="schema:abstract">{{ project.subtitle }}</p>
                             <br>
                             <ul class="list-inline item-details" >
                                 {% if project.project-date %}
                                 <li>
-                                    <strong>Date:</strong> {{ project.project-date }}
+                                    <span property="schema:dateCreated">
+                                        <strong>Start date:</strong> {{ project.project-startdate }}
+                                    </span>
                                 </li>
                                 {% endif %}
-                                {% if project.categories %}
+                                {% if project.keywords %}
                                 <li>
-                                    <strong>Category:</strong>
-                                    {% for cat in  badge_arr%}
-                                    <p class="badge badge-primary">{{ cat }}</p>
-                                    {% endfor %}
+                                    <span property="keywords">
+                                        <strong>Keywords:</strong> 
+                                        {% for key in  key_arr %}
+                                        <p class="badge badge-primary">{{ key }}</p>
+                                        {% endfor %}
+                                    </span>
                                 </li>
                                 {% endif %}
                             </ul>
