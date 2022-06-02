@@ -122,7 +122,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.secondary }};
 }
 
