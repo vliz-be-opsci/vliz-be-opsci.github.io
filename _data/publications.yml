@@ -1,22 +1,60 @@
-- url: http://ceur-ws.org/Vol-2969/paper8-s4biodiv.pdf
-  title: Publishing Marine Regions Gazetteer as a linked data event stream
-  authors: Britt Lonneville, Harm Delva, Marc Portier, Laurian Van Maldeghem, Lennert Schepers, Dias Bakeev, Bart Vanhoorne, Lennert Tyberghein, Pieter Colpaert
-  abstract: 
-  display: main-1
+scientificPapers:
+  - url: http://ceur-ws.org/Vol-2969/paper8-s4biodiv.pdf
+    title: Publishing Marine Regions Gazetteer as a linked data event stream
+    authors: Britt Lonneville, Harm Delva, Marc Portier, Laurian Van Maldeghem, Lennert Schepers, Dias Bakeev, Bart Vanhoorne, Lennert Tyberghein, Pieter Colpaert
+    abstract:
+    date:
+    journal:
+    access:
+    display: main-1
 
-- url: https://doi.org/...
-  title: Pleasant paper 2
-  authors: awesome people et al.
-  abstract:  
-  display: main-2
+  - url: https://www.frontiersin.org/article/10.3389/fmars.2020.572680
+    title: A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)
+    authors: Matthias Obst, Katrina Exter, A. Louise Allcock, Christos Arvanitidis, Alizz Axberg, Maria Bustamante, Ibon Cancio, Diego Carreira-Flores, Eva Chatzinikolaou, Giorgos Chatzigeorgiou, Nathan Chrismas, Melody S. Clark, Thierry Comtet, Thanos Dailianis, Neil Davies, Klaas Deneudt, Oihane Diaz de Cerio, Ana Fortič, Vasilis Gerovasileiou, Pascal I. Hablützel, Kleoniki Keklikoglou, Georgios Kotoulas, Rafal Lasota, Barbara R. Leite, Stéphane Loisel, Laurent Lévêque, Liraz Levy, Magdalena Malachowicz, Borut Mavrič, Christopher Meyer, Jonas Mortelmans, Joanna Norkko, Nicolas Pade, Anne Marie Power, Andreja Ramšak, Henning Reiss, Jostein Solbakken, Peter A. Staehr, Per Sundberg, Jakob Thyrring, Jesus S. Troncoso, Frédérique Viard, Roman Wenne, Eleni Ioanna Yperifanou, Malgorzata Zbawicka and Christina Pavloudi
+    abstract: Marine hard-bottom communities are undergoing severe change under the influence of multiple drivers, notably climate change, extraction of natural resources, pollution and eutrophication, habitat degradation, and invasive species. Monitoring marine biodiversity in such habitats is, however, challenging as it typically involves expensive, non-standardized, and often destructive sampling methods that limit its scalability. Differences in monitoring approaches furthermore hinders inter-comparison among monitoring programs. Here, we announce a Marine Biodiversity Observation Network (MBON) consisting of Autonomous Reef Monitoring Structures (ARMS) with the aim to assess the status and changes in benthic fauna with genomic-based methods, notably DNA metabarcoding, in combination with image-based identifications.
+    display: main-2
 
-- url: https://doi.org/...
-  title: Pleasant paper 3
-  authors: more awesome people et al.
-  abstract:  
-  display: main-3
+  - url: https://doi.org/10.3897/biss.4.58938
+    title: Genomics Observatory Use-Case - The challenge to standardise image and sequence data to Darwin Core format
+    authors: Katrina Exter, Cedric Decruw, Marc Portier, Vasilis Gerovasileiou, Christina Pavloudi, Matthias Obst
+    abstract:
+    date:
+    journal:
+    access:
+    display: main-3
 
-- url: https://doi.org/...
-  title: Pleasant paper 4
-  authors: more awesome people et al.
-  abstract:  
+  - url: https://doi.org/...
+    title: Pleasant paper 4
+    authors: more awesome people et al.
+    abstract:
+    date:
+    journal:
+    access:
+    display:
+
+conferenceProceedings:
+  - url: "https://doi.org/..."
+    title: "example 1 conf proceeding"
+    authors: "blablabla"
+    abstract: "qmqdjfqmughiuhvfdjkgbqidrg"
+    date:
+    journal:
+    access:
+    display: main-1
+  - url: "https://doi.org/..."
+    title: "example 2 conf proceeding"
+    authors: "blablabla"
+    abstract: "qmqdjfqmughiuhvfdjkgbqidrg"
+    date:
+    journal:
+    access:
+    display: main-2
+  - url: "https://doi.org/..."
+    title: "example 3 conf proceeding"
+    authors: "blablabla"
+    abstract: "qmqdjfqmughiuhvfdjkgbqidrg"
+    date:
+    journal:
+    access:
+    display: main-3
+# please provide all authors - these will be displayed in a hidden manner

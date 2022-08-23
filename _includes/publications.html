@@ -8,35 +8,78 @@
             </div>
         </div>
 
-        <div class="row text-center">
-            {% for publication in site.data.publications %}
-            <div class="col-md-4" resource="{{publication.url}}" typeof="schema:ScholarlyArticle">
-                
-                <span class="fa-stack fa-3x">
-                    <a href="{{publication.url}}" class="portfolio-link" target="_blank" property="schema:url">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-file"></i>
-                            </div>
-                        </div>
-                    </a>
-                </span>
-                <h4 class="service-heading" property="schema:name">{{publication.title}}</h4>
-                <h6 class="section-subheading" property="schema:authors">
+        <div class="row" id="scientificPubs">
+            <h3> Scientific papers</h3>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Authors</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Journal</th>
+                        <th scope="col">Access</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for publication in site.data.publications.scientificPapers %}
+                    <tr resource="{{publication.url}}" typeof="schema:ScholarlyArticle">
+                        <td property="schema:name">{{publication.title}}</td>
+                        <td property="schema:authors">{{publication.authors}}</td>
+                        <td>{{publication.date}}</td>
+                        <td>{{publication.journal}}</td>
+                        <td property="schema:url"> <a href="{{publication.url}}" class="portfolio-link" target="_blank">{{publication.url}}</a></td>
                     <span>
                         {% assign author_arr = publication.authors | split: ", " %}
-                        {{author_arr.first}} et al.
                         {% for author in author_arr %}
                         <span hidden resource="{{site.url}}{{site.baseurl}}/{{author | replace: ' ', '' }}" property="schema:author" typeof="schema:Person">                           
                             <span hidden property="schema:name">{{ author }}</span>
                         </span>
                         {% endfor %}
                     </span>
-                </h6>
-                <!-- <p class="text-muted" property="schema:abstract">{{publication.abstract}}</p> -->
-                
-            </div>
-            {% endfor %}
+                    </tr>
+                    
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row" id="confProceeding">
+            <h3>Conference proceedings</h3>
+
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Authors</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Journal</th>
+                    <th scope="col">Access</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for publication in site.data.publications.conferenceProceedings %}
+                    <tr resource="{{publication.url}}" typeof="schema:ScholarlyArticle">
+                        <th scope="row">1</th>
+                        <td property="schema:name">{{publication.title}}</td>
+                        <td property="schema:authors">{{publication.authors}}</td>
+                        <td>{{publication.date}}</td>
+                        <td>{{publication.journal}}</td>
+                        <td property="schema:url"> <a href="{{publication.url}}" class="portfolio-link" target="_blank">{{publication.url}}</a></td>
+                    </tr>
+
+                    <span>
+                        {% assign author_arr = publication.authors | split: ", " %}
+                        {% for author in author_arr %}
+                        <span hidden resource="{{site.url}}{{site.baseurl}}/{{author | replace: ' ', '' }}" property="schema:author" typeof="schema:Person">                           
+                            <span hidden property="schema:name">{{ author }}</span>
+                        </span>
+                        {% endfor %}
+                    </span>
+                {% endfor %}
+                </tbody>
+            </table>
         </div>
     </div>
 </section>

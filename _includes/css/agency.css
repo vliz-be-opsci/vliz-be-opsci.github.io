@@ -232,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-collapse {
-    border-color: #999999;
+    border-color: #f7c97c;
 }
 
 .navbar-default .navbar-toggle {
@@ -1022,3 +1022,30 @@ body {
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 50%;
   }
+
+#expertise .container .row .col-md-4 .text-muted {
+    text-align: justify;
+}
+
+#publications 
+.service-heading {
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 20px;
+    font-weight: 550;
+}
+.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#events
+.text-muted {
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 16px;
+    font-weight: 400;
+}
