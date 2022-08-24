@@ -8,13 +8,16 @@
                 </div>
             </div>
             <div class="row">
-                keywords: 
+                <h4>keywords:</h4>  
                 <div class="button-group filter-button-group justify-content-center">
                     <a class="btn btn-sm btn-primary" data-filter=".tool">awesome tool</a>
                     <a class="btn btn-sm btn-primary" data-filter=".python">python library</a>
                     <a class="btn btn-sm btn-primary" data-filter=".browser">browser tool</a>
                     <a class="btn btn-sm btn-primary" data-filter=".linked">linked data</a>
-                    <a class="btn btn-sm btn-primary active" data-filter="*">All</a>
+                    <a class="btn btn-sm btn-primary" data-filter="*">
+                        <i class="fa fa-filter"></i>
+                        <i class="fa-solid fa-rectangle-xmark"></i>
+                    </a>
                 </div>                
                 <br>
             </div>
@@ -44,7 +47,7 @@
                     </a>
                     <div class="overflow-auto portfolio-caption">
                             <h3 property="schema:name">{{ project.title }}</h3>
-                            <hr class="star-primary">
+                            <hr>
                             <p class="text-muted" property="schema:abstract">{{ project.subtitle }}</p>
                             <br>
                             <ul class="list-inline item-details" >
