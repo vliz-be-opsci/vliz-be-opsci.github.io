@@ -784,9 +784,10 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
+#team {
     margin-bottom: 50px;
     text-align: center;
+    font-family: {{ site.data.template.font.primary }};
 }
 
 .team-member img {
@@ -1025,7 +1026,7 @@ body {
 .yellowbol {
     background-color: #{{ site.data.template.color.primary }};
     border-radius: 50%;
-    width: 10%;
+    width: 5%;
     min-width: 100px;
     aspect-ratio: 1;
 }

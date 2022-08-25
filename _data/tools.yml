@@ -1,15 +1,15 @@
 - url: https://example.com/DMBON_Assistent #https://github.com/vliz-be-opsci/dmbon-RO-profiles-pre-alpha#readme
   title: DMBON Assistent
   subtitle: An assistant for your data management
-  keywords: data-management, Ro-Crate
+  keywords: data-management, Ro-Crate, open source
   display: main
   img: img/project-logos/treasure-chest.png
   #startdate:
 
 - url: https://openais.gitlab.io/
   title: OpenAIS
-  subtitle: Tools for processing and visualising ship position data with a scientific focus
-  keywords: georeferencing
+  subtitle: Set of tools to explore and use vessel tracking datasets
+  keywords: vessel tracking, ship tracking, open source, AIS
   display: main
   img: img/project-logos/openais.png
 
@@ -23,7 +23,7 @@
 - url: https://github.com/vliz-be-opsci/pysubyt#readme
   title: PySUByT
   subtitle: A python library for Linked Data production through templating
-  keywords: linked data, python library
+  keywords: linked data, python library, templating
 
 - url: https://github.com/vliz-be-opsci/pykg2tbl#readme
   title: pykg2tbl

@@ -792,9 +792,10 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
+#team {
     margin-bottom: 50px;
     text-align: center;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .team-member img {
@@ -1033,7 +1034,7 @@ body {
 .yellowbol {
     background-color: #31b7bc;
     border-radius: 50%;
-    width: 10%;
+    width: 5%;
     min-width: 100px;
     aspect-ratio: 1;
 }

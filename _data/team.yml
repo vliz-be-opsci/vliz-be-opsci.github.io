@@ -6,10 +6,6 @@
   social:
     - title: envelope
       url: mailto:marc.portier@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0002-9648-6484
-    - title: twitter
-      url: https://twitter.com/mportier
     - title: linkedin
       url: https://www.linkedin.com/in/marcportier
     - title: github
@@ -22,8 +18,6 @@
   social:
     - title: envelope
       url: mailto:katrina.exter@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0002-5911-1536
     - title: linkedin
       url: https://www.linkedin.com/in/katrina-exter-32868369
     - title: github
@@ -36,8 +30,6 @@
   social:
     - title: envelope
       url: mailto:rory.meyer@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0002-0440-215X
     - title: linkedin
       url: https://www.linkedin.com/in/rory-meyer
     - title: github
@@ -50,8 +42,6 @@
   social:
     - title: envelope
       url: mailto:cedric.decruw@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0001-6387-5988
     - title: linkedin
       url: https://www.linkedin.com/in/cedric-decruw-974793180
     - title: github
@@ -64,8 +54,6 @@
   social:
     - title: envelope
       url: mailto:laurian.van.maldeghem@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0003-0663-5907
     - title: linkedin
       url: https://www.linkedin.com/in/laurianvanmaldeghem
     - title: github
@@ -78,8 +66,6 @@
   social:
     - title: envelope
       url: mailto:johannes.nauta@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0002-5859-2729
     - title: linkedin
       url: https://www.linkedin.com/in/johannes-nauta-888283134
     - title: github
