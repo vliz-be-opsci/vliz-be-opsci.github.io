@@ -1,5 +1,5 @@
 # Team names, titles and social links
-- id: https://orcid.org/0000-0002-9648-6484 
+- id: https://orcid.org/0000-0002-9648-6484
   name: Marc Portier
   pic: marc_portier.jpg
   position: Team lead
@@ -7,14 +7,13 @@
     - title: envelope
       url: mailto:marc.portier@vliz.be
     - title: orcid
-      url:  https://orcid.org/0000-0002-9648-6484 
+      url: https://orcid.org/0000-0002-9648-6484
     - title: twitter
       url: https://twitter.com/mportier
     - title: linkedin
       url: https://www.linkedin.com/in/marcportier
     - title: github
       url: https://github.com/marc-portier
-
 
 - id: https://orcid.org/0000-0002-5911-1536
   name: Katrina Exter
@@ -30,7 +29,6 @@
     - title: github
       url: https://github.com/kmexter
 
-
 - id: https://orcid.org/0000-0002-0440-215X
   name: Rory Meyer
   pic: rory_meyer.jpg
@@ -44,7 +42,6 @@
       url: https://www.linkedin.com/in/rory-meyer
     - title: github
       url: https://github.com/RoryMMMM
-
 
 - id: https://orcid.org/0000-0001-6387-5988
   name: Cedric Decruw
@@ -60,7 +57,6 @@
     - title: github
       url: https://github.com/cedricdcc
 
-
 - id: https://orcid.org/0000-0003-0663-5907
   name: Laurian Van Maldeghem
   pic: laurian_van_maldeghem.jpg
@@ -71,7 +67,20 @@
     - title: orcid
       url: https://orcid.org/0000-0003-0663-5907
     - title: linkedin
-      url:  https://www.linkedin.com/in/laurianvanmaldeghem
+      url: https://www.linkedin.com/in/laurianvanmaldeghem
     - title: github
       url: https://github.com/laurianvm
 
+- id: https://orcid.org/0000-0002-5859-2729
+  name: Johannes Nauta
+  pic: 1_small.jpg
+  position: Postdoctoral researcher
+  social:
+    - title: envelope
+      url: mailto:johannes.nauta@vliz.be
+    - title: orcid
+      url: https://orcid.org/0000-0002-5859-2729
+    - title: linkedin
+      url: https://www.linkedin.com/in/johannes-nauta-888283134
+    - title: github
+      url: https://github.com/github-jnauta
