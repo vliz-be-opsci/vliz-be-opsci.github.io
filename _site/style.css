@@ -213,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color: #31b7bc;
-    background-color: #fff;
+    background-color: #31b7bc;
 }
 
 .navbar-expand {
@@ -249,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #31b7bc;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -262,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #31b7bc;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -276,13 +276,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #31b7bc;
     background-color: #31b7bc;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #31b7bc;
     background-color: #31b7bc;
 }
 
@@ -337,7 +337,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif";
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -363,7 +363,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+        font-family: "Droid Serif";
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -392,7 +392,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -823,6 +823,10 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+#contact .a:link{
+    text-decoration: none;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
@@ -955,7 +959,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }

@@ -10,7 +10,7 @@
       description: Lorem ipsum dolor sit amet, ecusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur
       date: "March 2022"
 
-    - icon: book
+    - img: "https://raw.githubusercontent.com/vliz-be-opsci/vliz-be-opsci.github.io/main/img/rtlp_logo.svg"
       heading: Read the LOD paper
       subheading: Talk on
       subheading-onset: Co-creator of
