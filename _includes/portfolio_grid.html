@@ -8,16 +8,22 @@
                 </div>
             </div>
             <div class="row">
-                <h4>keywords:</h4>  
+                {% assign unique_keywords = "" | split: ',' %}
+                {% for project in site.data.projects %}
+                    {% if project.keywords %}
+                        {% assign keyword_arr = project.keywords | split: ', ' %}
+                            {% for keyword in keyword_arr %}
+                                {% assign unique_keywords = unique_keywords | push: keyword | uniq %}
+                            {% endfor %}
+                    {% endif %}
+                {% endfor %}
+
+                <h4><i class="fas fa-filter"></i>Filter:</h4>  
                 <div class="button-group filter-button-group justify-content-center">
-                    <a class="btn btn-sm btn-primary" data-filter=".tool">awesome tool</a>
-                    <a class="btn btn-sm btn-primary" data-filter=".python">python library</a>
-                    <a class="btn btn-sm btn-primary" data-filter=".browser">browser tool</a>
-                    <a class="btn btn-sm btn-primary" data-filter=".linked">linked data</a>
-                    <a class="btn btn-sm btn-primary" data-filter="*">
-                        <i class="fa fa-filter"></i>
-                        <i class="fa-solid fa-rectangle-xmark"></i>
-                    </a>
+                    {% for keyword in unique_keywords %}
+                    <a class="btn btn-sm btn-primary" data-filter=".{{keyword}}">{{keyword}}</a>                      
+                    {% endfor %}
+                    <a class="btn btn-sm btn-primary" data-filter="*"><i class="fa-solid fa-delete-left"></i></a>
                 </div>                
                 <br>
             </div>
@@ -61,7 +67,6 @@
                                 {% if project.keywords %}
                                 <li>
                                     <span property="keywords">
-                                        <strong>Keywords:</strong> 
                                         {% for key in  key_arr %}
                                         <p class="badge badge-primary">{{ key }}</p>
                                         {% endfor %}
