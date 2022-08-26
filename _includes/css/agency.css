@@ -204,40 +204,41 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .btn-xl .badge {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary-dark }};
     background-color: #{{ site.data.template.color.secondary }};
 }
 
 .navbar-expand {
     border-color: transparent;
-    background-color: #999999;
+    background-color: #{{ site.data.template.color.tertiary }};
     font-family: {{ site.data.template.font.secondary }};
+    font-size: large;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #999999;
+    background-color: #{{ site.data.template.color.tertiary }};
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.secondary }};
+    font-family: {{ site.data.template.font.primary }};
+    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .navbar-default .navbar-collapse {
-    border-color: #f7c97c;
+    border-color: #{{ site.data.template.color.tertiary }};
 }
 
 .navbar-default .navbar-toggle {
     border-color: #{{ site.data.template.color.secondary }};
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -252,9 +253,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.secondary }};
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 1px;
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.secondary-dark }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -263,18 +264,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary-dark }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary-dark }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -301,7 +303,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #bcbcbc ;;
+        background-color: #{{ site.data.template.color.primary }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -333,7 +335,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    color:  #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 header .intro-text .intro-heading {
@@ -343,7 +345,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color:  #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.secondary-dark }};
 
 }
 

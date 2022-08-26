@@ -212,35 +212,36 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .btn-xl .badge {
-    color: #31b7bc;
+    color: #354d9b;
     background-color: #31b7bc;
 }
 
 .navbar-expand {
     border-color: transparent;
-    background-color: #999999;
+    background-color: #fff7d0;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: large;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #999999;
+    background-color: #fff7d0;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #31b7bc;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #354d9b;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #31b7bc;
+    color: #354d9b;
 }
 
 .navbar-default .navbar-collapse {
-    border-color: #f7c97c;
+    border-color: #fff7d0;
 }
 
 .navbar-default .navbar-toggle {
@@ -260,9 +261,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 1px;
-    color: #31b7bc;
+    color: #354d9b;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -271,18 +272,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #31b7bc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #354d9b;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #31b7bc;
+    color: #354d9b;
     background-color: #31b7bc;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #31b7bc;
+    color: #354d9b;
     background-color: #31b7bc;
 }
 
@@ -309,7 +311,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #bcbcbc ;;
+        background-color: #31b7bc;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -341,7 +343,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    color:  #31b7bc;
+    color: #354d9b;
 }
 
 header .intro-text .intro-heading {
@@ -351,7 +353,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color:  #31b7bc;
+    color: #354d9b;
 
 }
 
