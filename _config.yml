@@ -11,3 +11,5 @@ description: >-
 github_username: vliz-be-opsci
 plugins:
   - jekyll-seo-tag
+
+include: [CNAME]
