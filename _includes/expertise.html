@@ -10,11 +10,21 @@
             <div class="row text-center">
                 {% for exp in site.data.expertise.domains %}
                 <div class="col-md-4">
+                    {% if exp.url %}
+                    <a href={{ exp.url | relative_url}}>
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-{{exp.icon}} fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">{{exp.domain}}</h4>
+                    </a>
+                    {% else %} 
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-{{exp.icon}} fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">{{exp.domain}}</h4>
+                    {% endif %}
                     <p class="text-muted">{{exp.description}}</p>
                 </div>
                 {% endfor %}
