@@ -11,5 +11,10 @@ description: >-
 github_username: vliz-be-opsci
 plugins:
   - jekyll-seo-tag
+  - jemoji
+
+# Kramdown settings
+# kramdown:
+#   header_offset: 20
 
 include: [CNAME]

@@ -9,7 +9,7 @@ domains:
     icon: star
     description: For Open science to be possible, scientific outputs - the data, software, publications, etc - must be FAIR (Findable, Accessible, Interoperable, and Re-usable). Achieving this is a multi-personality challenge, as it involves the scientists producing scientific outputs; labs, institutes, universities, marine stations, and research infrastructures providing the support to produce the science; online data publishers providing archiving, standardising, and discovery services; scientific journals and the encouraging of open access publishing. It is also a multi-technology challenge, involving; database technology and services, federated and linked open data, ontologies and semantic annotation, metadata standards and formats, e-tools to FAIRify the scientific outputs, interoperability across scientific and data domains, and the ability to deal with an ever-evolving landscape.
 
-  - domain: DM BON
-    description: here goes the important 'blabla' section ~ A cloud of interconnected mini data websites
+  - domain: DMBON
+    description: Data management framework and weptop application that supports scientists to upload meaningful data and metadata. It lowers the barrier for collaborative efforts by making data more easily accessible and enables querying frameworks that allow for complex queries over multiple scientific data sources.
     icon: globe
     url: /dmbon.html
