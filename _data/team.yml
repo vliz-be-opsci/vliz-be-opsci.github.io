@@ -58,18 +58,6 @@
       url: https://www.linkedin.com/in/laurianvanmaldeghem
     - title: github
       url: https://github.com/laurianvm
-
-- id: https://orcid.org/0000-0002-5859-2729
-  name: Johannes Nauta
-  pic: 1_small.jpg
-  position: Postdoctoral researcher
-  social:
-    - title: envelope
-      url: mailto:johannes.nauta@vliz.be
-    - title: linkedin
-      url: https://www.linkedin.com/in/johannes-nauta-888283134
-    - title: github
-      url: https://github.com/github-jnauta
       
 - id: https://orcid.org/0000-0002-5859-2729
   name: Joanna Goley
