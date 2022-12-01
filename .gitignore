@@ -1,0 +1,9 @@
+# .gitignore for Jekyll website
+
+# Jekyll built HTML
+_site/
+_site/*
+
+# Cache & metadata
+.jekyll-cache/
+.jekyll-metadata

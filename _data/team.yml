@@ -1,20 +1,15 @@
 # Team names, titles and social links
-- id: https://orcid.org/0000-0002-9648-6484 
+- id: https://orcid.org/0000-0002-9648-6484
   name: Marc Portier
   pic: marc_portier.jpg
   position: Team lead
   social:
     - title: envelope
       url: mailto:marc.portier@vliz.be
-    - title: orcid
-      url:  https://orcid.org/0000-0002-9648-6484 
-    - title: twitter
-      url: https://twitter.com/mportier
     - title: linkedin
       url: https://www.linkedin.com/in/marcportier
     - title: github
       url: https://github.com/marc-portier
-
 
 - id: https://orcid.org/0000-0002-5911-1536
   name: Katrina Exter
@@ -23,13 +18,10 @@
   social:
     - title: envelope
       url: mailto:katrina.exter@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0002-5911-1536
     - title: linkedin
       url: https://www.linkedin.com/in/katrina-exter-32868369
     - title: github
       url: https://github.com/kmexter
-
 
 - id: https://orcid.org/0000-0002-0440-215X
   name: Rory Meyer
@@ -38,13 +30,10 @@
   social:
     - title: envelope
       url: mailto:rory.meyer@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0002-0440-215X
     - title: linkedin
       url: https://www.linkedin.com/in/rory-meyer
     - title: github
       url: https://github.com/RoryMMMM
-
 
 - id: https://orcid.org/0000-0001-6387-5988
   name: Cedric Decruw
@@ -53,13 +42,10 @@
   social:
     - title: envelope
       url: mailto:cedric.decruw@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0001-6387-5988
     - title: linkedin
       url: https://www.linkedin.com/in/cedric-decruw-974793180
     - title: github
       url: https://github.com/cedricdcc
-
 
 - id: https://orcid.org/0000-0003-0663-5907
   name: Laurian Van Maldeghem
@@ -68,10 +54,19 @@
   social:
     - title: envelope
       url: mailto:laurian.van.maldeghem@vliz.be
-    - title: orcid
-      url: https://orcid.org/0000-0003-0663-5907
     - title: linkedin
-      url:  https://www.linkedin.com/in/laurianvanmaldeghem
+      url: https://www.linkedin.com/in/laurianvanmaldeghem
     - title: github
       url: https://github.com/laurianvm
-
+      
+- id: https://orcid.org/0000-0002-5859-2729
+  name: Joanna Goley
+  pic: joanna.goley.jpg
+  position: Project manager
+  social:
+    - title: envelope
+      url: mailto:joanna.goley@vliz.be
+    - title: linkedin
+      url: https://www.linkedin.com/in/joannagoley
+    - title: github
+      url: https://github.com/joannagoley

@@ -1,32 +1,38 @@
 <!-- Portfolio Grid Section -->
-    <section id="projects" class="bg-light-gray page-section">
+    <section id="tools" class="bg-light-gray page-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Projects</h2>
-                    <h3 class="section-subheading text-muted">Overview of All tools and libraries</h3>
+                    <h2 class="section-heading">Tools and libraries</h2>
+                    <h3 class="section-subheading text-muted">An overview of all our code projects and repositories</h3>
                 </div>
             </div>
             <div class="row">
-                <h4>keywords:</h4>  
+                {% assign unique_keywords = "" | split: ',' %}
+                {% for project in site.data.tools %}
+                    {% if project.keywords %}
+                        {% assign keyword_arr = project.keywords | split: ', ' %}
+                            {% for keyword in keyword_arr %}
+                                {% assign unique_keywords = unique_keywords | push: keyword | uniq %}
+                            {% endfor %}
+                    {% endif %}
+                {% endfor %}
+
+                <h4><i class="fas fa-filter"></i>Filter:</h4>  
                 <div class="button-group filter-button-group justify-content-center">
-                    <a class="btn btn-sm btn-primary" data-filter=".tool">awesome tool</a>
-                    <a class="btn btn-sm btn-primary" data-filter=".python">python library</a>
-                    <a class="btn btn-sm btn-primary" data-filter=".browser">browser tool</a>
-                    <a class="btn btn-sm btn-primary" data-filter=".linked">linked data</a>
-                    <a class="btn btn-sm btn-primary" data-filter="*">
-                        <i class="fa fa-filter"></i>
-                        <i class="fa-solid fa-rectangle-xmark"></i>
-                    </a>
+                    {% for keyword in unique_keywords %}
+                    {% assign dotted_keyword = keyword | replace: " ", "." %}
+                    <a class="btn btn-sm btn-primary" data-filter=".{{dotted_keyword}}">{{keyword}}</a> 
+                    {% endfor %}
+                    <a class="btn btn-sm btn-primary" data-filter="*"><i class="fa-solid fa-delete-left"></i></a>
                 </div>                
                 <br>
             </div>
             <div class="row">
                 <div class="grid">
-                {% for project in site.data.projects %}
+                {% for project in site.data.tools %}
                 {% assign key = project.keywords | replace: ", ", " " %}
                 {% assign key_arr = project.keywords | split: ', ' %}
-
                 <div class="col-md-4 col-sm-6 portfolio-item {{key}}" resource="{{project.url}}" typeof="schema:SoftwareSourceCode">
                     <a href="{{project.url}}#readme" class="portfolio-link" target="_blank" property="schema:codeRepository">
                         {% if project.img %}
@@ -61,9 +67,8 @@
                                 {% if project.keywords %}
                                 <li>
                                     <span property="keywords">
-                                        <strong>Keywords:</strong> 
                                         {% for key in  key_arr %}
-                                        <p class="badge badge-primary">{{ key }}</p>
+                                        <p class="badge badge-primary {{stripped_key}}">{{ key }}</p>
                                         {% endfor %}
                                     </span>
                                 </li>
@@ -88,7 +93,8 @@
         });
         $('.filter-button-group').on( 'click', 'a', function() {
             var filterValue = $(this).attr('data-filter');
-            $grid.isotope({ filter: filterValue });
+            console.log(filterValue);
+            $grid.isotope({ filter: `${filterValue}` });
          });
          $('.button-group a.btn').on('click', function(){
             $('.button-group a.btn').removeClass('active');

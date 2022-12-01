@@ -4,6 +4,7 @@ color:
   secondary: 31b7bc #005a2c
   secondary-dark: 354d9b
   muted: 354d9b
+  tertiary: fff7d0
 
 # darker one: 354d9b
 # lighter one: 31b7bc
@@ -11,4 +12,4 @@ color:
 # Font Families
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  secondary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'

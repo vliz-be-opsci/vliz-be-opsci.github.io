@@ -1,0 +1,56 @@
+- url: https://github.com/vliz-be-opsci/dmbon-assistant/ #https://github.com/vliz-be-opsci/dmbon-RO-profiles-pre-alpha#readme
+  title: DMBON Assistent
+  subtitle: An assistant for your data management
+  keywords: data-management, Ro-Crate, open source
+  display: main
+  img: img/project-logos/treasure-chest.png
+  #startdate:
+
+- url: https://openais.gitlab.io/
+  title: OpenAIS
+  subtitle: Set of tools to explore and use vessel tracking datasets
+  keywords: vessel tracking, ship tracking, open source, AIS
+  display: main
+  img: img/project-logos/openais.png
+
+- url: https://vliz-be-opsci.github.io/NS/ #https://github.com/vliz-be-opsci/NS#readme
+  title: NS
+  subtitle: Namespaces for ontologies for external projects
+  keywords: ontologies, linked data
+  display: main
+  img: https://www.w3.org/RDF/icons/rdf_w3c_icon.128.gif
+
+- url: https://github.com/vliz-be-opsci/pysubyt#readme
+  title: PySUByT
+  subtitle: A python library for Linked Data production through templating
+  keywords: linked data, python library, templating
+
+- url: https://github.com/vliz-be-opsci/pykg2tbl#readme
+  title: pykg2tbl
+  subtitle: A python library to convert knowledge graphs into tables
+  keywords: python library, linked data, KG
+
+- url: https://github.com/vliz-be-opsci/py-xmlasdict#readme
+  title: py-xmlasdict
+  subtitle: A python library to approach xml DOM trees as python dicts with iterating and attribute-getting behavior
+  keywords: python library
+
+- url: https://github.com/vliz-be-opsci/yaml4parms#readme
+  title: yaml4parms
+  subtitle: A tool to mix yaml structured schema description with actual text based parameters files
+  keywords: python library
+
+- url: https://github.com/vliz-be-opsci/maris-cdi-py#readme
+  title: maris-cdi-py
+  subtitle: A python library to consume the maris cdi api to retrieve ODV datasets programmatically
+  keywords: python library
+
+- url: https://github.com/vliz-be-opsci/pyConSem#readme
+  title: pyConSem
+  subtitle: TBD
+  keywords:
+
+- url: https://github.com/vliz-be-opsci/pyodv#readme
+  title: pyodv
+  subtitle: A Python package for reading ODV (Ocean Data Variables) files
+  keywords: python library
