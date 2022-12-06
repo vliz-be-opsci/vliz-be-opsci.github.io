@@ -70,3 +70,15 @@
       url: https://www.linkedin.com/in/joannagoley
     - title: github
       url: https://github.com/joannagoley
+
+- id: https://orcid.org/0000-0002-5934-8998
+  name: Bram Ulrichts
+  pic: bram_ulrichts.jpg
+  position: Open Science Developer
+  social:
+    - title: envelope
+      url: mailto:bram.ulrichts@vliz.be
+    - title: linkedin
+      url: https://www.linkedin.com/in/ulrichtsblr
+    - title: github
+      url: https://github.com/bulricht
