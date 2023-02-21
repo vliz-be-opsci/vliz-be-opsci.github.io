@@ -61,7 +61,7 @@
       
 - id: https://orcid.org/0000-0002-5859-2729
   name: Joanna Goley
-  pic: joanna_goley.JPG
+  pic: joanna_goley.jpg
   position: Project manager
   social:
     - title: envelope
@@ -73,7 +73,7 @@
 
 - id: https://orcid.org/0000-0002-5934-8998
   name: Bram Ulrichts
-  pic: bram_ulrichts.JPG
+  pic: bram_ulrichts.jpg
   position: Open Science Developer
   social:
     - title: envelope
