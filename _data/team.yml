@@ -82,3 +82,15 @@
       url: https://www.linkedin.com/in/ulrichtsblr
     - title: github
       url: https://github.com/bulricht
+
+- id: https://orcid.org/0009-0007-5995-8060
+  name: João dos Santos
+  pic: joao_dos_santos.jpg
+  position: Open Science Officer
+  social:
+    - title: envelope
+      url: mailto:joao.dos.santos@vliz.be
+    - title: linkedin
+      url: https://www.linkedin.com/in/jo%C3%A3o-dos-santos-45a66312b/
+    - title: github
+      url: https://github.com/JotaFan
