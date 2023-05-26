@@ -1,3 +1,7 @@
+---
+layout: conventions
+---
+
 # Github Convention
 
 ## Naming and Messages
