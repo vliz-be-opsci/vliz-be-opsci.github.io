@@ -6,7 +6,7 @@
 
 - Names should use dashes and lower case. ([kebab case]([http://example.com](https://en.wikipedia.org/wiki/Letter_case#Kebab_case)) -> name-of-repo
 - They should be accompanied by topics in the about section (e.g. python, docker-compose, react, ...), these topics can be filtered on when looking for a repo.
-- Releases should make use of git tag  and conform to semantic versioning (`major.minor.patch`, not prefixed with v)
+- Releases should make use of git tag and conform to semantic versioning (`major.minor.patch`, not prefixed with v)
 - each repo should contain a LICENSE:
   - MIT for source code 
   - CC-BY for datasets
@@ -23,7 +23,7 @@ Specific Rules for naming:
 
 There should be two default branchs on each repo:
 - main (release ready code)
-- gh-pages (documentation) -> this branch is maintened automatically by a documentation workflow
+- gh-pages (documentation) -> this branch is maintained automatically by a documentation workflow
 
 Other branches should be open whenever a change is required and the name should fit the change.
 
@@ -72,8 +72,8 @@ A new PR from a new branch should be made on every code change.
 
 When opening a PR a name should be given (Can be like the branch name), and a description explaining the goal of the PR, and also using [GitHub keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests#linking-a-pull-request-to-an-issue) if available.
 
-To be able to merge a PR it need to:
-- Have at least one aproval
+To be able to merge a PR it needs to:
+- Have at least one approval
 - Passed checker actions
     - Linting
     - Testing
