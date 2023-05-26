@@ -1,0 +1,7 @@
+title: Our guiding documents
+subtitle:
+domains:
+  - domain: conventions
+    description: GitHub pratices and conventions.
+    icon: globe # TODO: github icon
+    url: /conventions.html
