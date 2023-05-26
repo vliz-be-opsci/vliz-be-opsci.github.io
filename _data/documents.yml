@@ -3,5 +3,5 @@ subtitle:
 domains:
   - domain: conventions
     description: GitHub pratices and conventions.
-    icon: globe # TODO: github icon
+    icon: github-alt
     url: /conventions.html
