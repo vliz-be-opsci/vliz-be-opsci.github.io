@@ -1,0 +1,7 @@
+title: Documents
+subtitle:
+domains:
+  - domain: Conventions
+    description: documentation to accompany our conventions
+    icon: file
+    url: /conventions.html
