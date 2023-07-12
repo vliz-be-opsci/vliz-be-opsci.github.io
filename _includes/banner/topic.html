@@ -1,0 +1,20 @@
+<div class="col-6 col-lg-{{colw}} field__item">
+    <div
+      class="paragraph paragraph--type--image-link paragraph--view-mode--default">
+      <div
+        class="field field--name-field-image field--type-image field--label-hidden field__items">
+        <a href="{{ topic.clickthrough_url }}"><img loading="lazy"
+            {% if topic.image contains 'http'%}
+            src="{{ topic.image }}"
+            {% else %}
+            src="{{ site.baseurl }}{{ topic.image }}"
+            {% endif %}
+            width="600" height="450" alt="{{topic.title}}" typeof="Image"
+            class="image-style-medium-cropped" /></a>
+      </div>
+      <h3
+        class="field field--name-field-title field--type-string field--label-hidden field__items">
+        <a href="{{topic.clickthrough_url}}">{{topic.title}}</a>
+      </h3>
+    </div>
+</div>

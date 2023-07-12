@@ -1,0 +1,48 @@
+<div class="col-12 field__item">
+    <div
+        class="container-align-items-center pb-4 pt-5 paragraph paragraph--type--container paragraph--view-mode--default">
+        <div
+            class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+            <div class="row field__items">
+                <div class="col-lg-6 col-xl-6 offset-xl-1 field__item">
+                    <div
+                        class="media-field-rounded-top-right paragraph paragraph--type--media paragraph--view-mode--default">
+                        <div
+                            class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+                            <article class="media media--type-image media--view-mode-large">
+                                <div
+                                    class="field field--name-field-media-image field--type-image field--label-hidden field__items">
+                                    <img loading="lazy"
+                                        {% if data.image contains 'http' %}
+                                        src="{{data.image}}"
+                                        {% else %}
+                                        src="{{site.base_uri}}{{data.image}}"
+                                        {% endif %}
+                                        width="1000" height="666" alt="{{data.title}}" typeof="foaf:Image"
+                                        class="image-style-large-1000" />
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 field__item">
+                    <div class="text-add-swoosh paragraph paragraph--type--basic-text paragraph--view-mode--default">
+                        <div
+                            class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+                            <h2 class="highlighted-heading">
+                                {{data.title}}
+                            </h2>
+
+                            <p>{{data.description}}</p>
+                            </p>
+                            <p><a class="more-link" href="{{data.clickthrough_button_url}}">{{data.clickthrough_button_text}}</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
