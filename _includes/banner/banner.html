@@ -1,0 +1,50 @@
+<div class="col-12 field__item">
+    <div class="paragraph paragraph--type--hero paragraph--view-mode--default">
+      <div class="hero-container">
+        <div
+          class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+          <article class="media media--type-video media--view-mode-hero">
+            {% assign media_object = banner.banner_media | default:"assets/media/video/Homepage_website_SimonStevin.mp4" %}
+            {% if media_object contains '.mp4' %}
+                {% if media_object contains 'http' %}
+                <video autoplay="autoplay" loop="loop" muted="muted" width="640" height="480">
+                <source src="{{ media_object }}" type="video/mp4" />
+                </video>
+                {% else %}
+                <video autoplay="autoplay" loop="loop" muted="muted" width="640" height="480">
+                <source src="{{ site.baseurl }}{{ media_object }}" type="video/mp4" />
+                </video>
+                {% endif %}
+            {% else %}
+                {% if media_object contains 'http' %}
+                <img 
+                    loading="lazy"
+                    src="{{ media_object }}"
+                    width="640" height="480" alt="{{ banner.title}}"
+                    title="{{ banner.title}}" typeof="foaf:Image"
+                    class="image-style-medium-cropped"
+                />
+                {% else %}
+                <img 
+                    loading="lazy"
+                    src="{{ site.baseurl }}{{ media_object }}"
+                    width="640" height="480" alt="{{ banner.title}}"
+                    title="{{ banner.title}}" typeof="foaf:Image"
+                    class="image-style-medium-cropped"
+                />
+                {% endif %}
+            {% endif %}
+          </article>
+        </div>
+        <div
+          class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items grayoverlay">
+          <div class="field__item">
+            <h2>{{ banner.title}}</h2>
+            <p>{{ banner.description }} </p>
+            <p><a class="more-link" href="{{ banner.button_url}}">{{ banner.button_text}}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

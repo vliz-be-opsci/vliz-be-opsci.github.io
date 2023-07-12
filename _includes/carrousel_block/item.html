@@ -1,0 +1,21 @@
+<div class="field__item">
+    <div
+      class="background-white pb-4 pt-4 px-4 text-add-box-shadow paragraph paragraph--type--basic-text paragraph--view-mode--default">
+
+      <div
+        class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+        <h4 class="highlighted-heading text-align-center">
+          {{ item.title }}
+        </h4>
+
+        <p class="paragraph-small text-align-center">
+          {{ item.description }}
+        </p>
+
+        <p class="paragraph-brand-color text-align-center">
+          <a class="more-link-colored"
+            href="{{ item.clickthrough_url }}">{{ item.clickthrough_button_text }}</a>
+        </p>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,24 @@
+title: "Open Science"
+description: "VLIZ is committed to Open Science. We believe that sharing data, software, publications and other research outputs is essential to advance science."
+button_text: "More About The Open Science Team"
+button_url: "https://www.vliz.be/nl/wie-we-zijn/over-vliz"
+banner_media: "/assets/media/img/graph_concept_art.jpg"
+topics:
+- title: Klimaat
+  image: "/assets/media/img/placeholder.png"
+  clickthrough_url: "https://www.vliz.be/nl/klimaat"
+- title: Biodiversiteit
+  image: "/assets/media/img/placeholder.png"
+  clickthrough_url: "https://www.vliz.be/nl/biodiversiteit"
+- title: Ecosysteem
+  image: "/assets/media/img/placeholder.png"
+  clickthrough_url: "https://www.vliz.be/nl/ecosysteem"
+- title: Gezondheid
+  image: "/assets/media/img/placeholder.png"
+  clickthrough_url: "https://www.vliz.be/nl/gezondheid"
+- title: Economie
+  image: "/assets/media/img/placeholder.png"
+  clickthrough_url: "https://www.vliz.be/nl/economie"
+- title: Energie
+  image: "/assets/media/img/placeholder.png"
+  clickthrough_url: "https://www.vliz.be/nl/energie"
