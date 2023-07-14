@@ -6,45 +6,55 @@ layout: default
 {% assign banner = site.data.main_banner %}
 {% include banner/main.html banner=banner %}
 {% endif %}
+{% assign data=site.data.opsci_mission_values %}
+{% include image_w_descr_curly/main.html data=data %}
+{% assign data=site.data.core_principles %}
+{% include carrousel_block/main.html data=data %}
 
-
-<h2>
-    Open science mission and values
-</h2>
-
+<h4>
+    In order to promote open science and fair data practices, there are several priority areas of action that can be considered:
+</h4>
 <p>
-    VLIZ is committed to open science. We believe that open science is the best way to advance science and to make it more
-    efficient, reliable and transparent. We are convinced that open science is the best way to make science more
-    inclusive and to increase its societal impact. We are committed to open science because we believe that it is the
-    best way to make science more fun.
-</p>
-
-<p>
-    Core values and guiding principles for open science at VLIZ:
-
     <ul>
         <li>
-           <b>Objectivity:</b> Open science promotes an attitude of impartiality in research, where researchers strive to approach their work without bias or personal interests.
+            <b>Adoption of the FAIR Principles: </b>
+            <p>
+                The FAIR (Findable, Accessible, Interoperable, and Reusable) Principles provide a framework for making research data more accessible and reusable. These principles emphasize the importance of data discoverability, accessibility, and interoperability, enabling researchers to find and use data more effectively. By adopting the FAIR Principles, researchers and institutions can contribute to the overall goal of open science and fair data.
+            </p>
         </li>
         <li>
-            <b>Honesty:</b> Open science emphasizes the importance of honesty in all aspects of research, including reporting findings accurately and transparently. Researchers are expected to be truthful and avoid fabrication or falsification of data. 
+            <b>Implementation of Data Management Plans:</b>
+            <p>
+                Data management plans (DMPs) are essential for ensuring that research data is properly managed, preserved, and shared. DMPs outline the strategies and practices for data collection, organization, documentation, storage, and sharing throughout the research process. By implementing robust DMPs, researchers can ensure that their data is properly managed and made available to others in a fair and transparent manner.
+            </p>
         </li>
         <li>
-            <b>Openness:</b> Open science values transparency and accessibility. It encourages researchers to eliminate barriers to accessing and sharing data, materials, experiences, and tools. This includes making research outputs, such as data sets and publications, openly available to the scientific community and the public.
+            <b>Promotion of Data Sharing and Collaboration: </b>
+            <p>
+                Open sharing of research data promotes collaboration and accelerates scientific progress. Researchers and institutions can prioritize the sharing of research data through data repositories, data archives, and open data platforms. This not only enhances the visibility and impact of research but also allows others to validate and build upon existing findings. Encouraging a culture of data sharing and collaboration can significantly contribute to the advancement of open science and fair data practices
+            </p>
         </li>
         <li>
-            <b>Accountability:</b> Open science promotes accountability by holding researchers responsible for their actions and ensuring that they adhere to ethical standards and research integrity. Researchers are expected to be accountable for their methodologies, results, and interpretations.
+            <b>
+                Education and Training on Open Science and Fair Data:
+            </b>
+            <p>
+                To foster a culture of open science and fair data, it is important to provide education and training opportunities to researchers, students, and other stakeholders. Workshops, webinars, and online resources can be developed to raise awareness about the benefits and best practices of open science and fair data. By equipping individuals with the necessary skills and knowledge, we can ensure the widespread adoption of open science principles and fair data practices
+            </p>
         </li>
         <li>
-            <b>Fairness:</b> Open science advocates for fairness in research practices. This includes fair attribution of credit to contributors, fair evaluation of research outputs, and fair access to research opportunities and resources. Open science strives to create an inclusive and equitable research environment.
-        </li>
-        <li>
-            <b>Stewardship:</b> Open science recognizes the responsibility of researchers to protect and promote the research enterprise. This involves taking care of the research process, resources, and relationships within the scientific community. Researchers are encouraged to contribute to the development and improvement of research practices and policies. 
+            <b>
+                Support from Funding Agencies and Institutions: 
+            </b>
+            <p>
+                Funding agencies and institutions play a crucial role in promoting open science and fair data practices. They can develop policies and guidelines that encourage researchers to adopt open science principles and adhere to fair data practices. By providing support, resources, and incentives, funding agencies and institutions can create an environment that fosters the sharing and reuse of research data
+            </p>
         </li>
     </ul>
 </p>
-
-#TODO => Recommendations for priority areas of action
+<p>
+    By focusing on these priority areas of action, we can advance open science and fair data practices, leading to greater transparency, reproducibility, and collaboration in scientific research.
+</p>
 
 {% include light_bg.html content=
     "<h2>FAIR values</h2>
