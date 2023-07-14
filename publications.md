@@ -1,3 +1,3 @@
 ---
-layout: publications
+layout: default
 ---

@@ -1,3 +1,3 @@
 ---
-layout: tools
+layout: default
 ---

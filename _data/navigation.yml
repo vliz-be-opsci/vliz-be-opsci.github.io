@@ -1,0 +1,60 @@
+- title: Who are we
+  url: /who-are-we/
+  items:
+    - title: "VLIZ"
+      url: "https://www.vliz.be/en/wie-we-zijn/about-vliz"
+      items:
+        - title: "mission & vision"
+          url: "https://www.vliz.be/en/who-we-are/about-vliz/mission-vision"
+        
+    - title: "Data Center"
+      url: "https://www.vliz.be/en/what-we-do/data-information/data"
+      items:
+        - title: "How do we work"
+          url: "https://www.vliz.be/en/wie-we-zijn/over-vliz/our-operation"
+    - title: "Open Science Team"
+      url: "/open-science-team/"
+      items:
+        - title: "About us"
+          url: "/open-science-team/#about-us"
+        - title: "Domains of expertise" 
+          url: "/open-science-team/#domains-of-expertise"
+        - title: "team members"
+          url: "/open-science-team/#team-members"
+- title: What we do
+  url: /what-we-do/
+  items:
+    - title: "Projects"
+      url: "#projects"
+      items:
+        - title: "project 1"
+          url: "/projects/project-1/"
+        - title: "project 2"
+          url: "/projects/project-2/"
+        - title: "project 3"
+          url: "/projects/project-3/"
+    - title: "Databases"
+      url: "#databases"
+      items:
+        - title: "database 1"
+          url: "/databases/#database-1"
+        - title: "database 2"
+          url: "/databases/#database-2"
+    - title: "Tools"
+      url: "#tools"
+      items:
+        - title: "DMBON"
+          url: "/tools/dmbon/"
+        - title: "Open AIS"
+          url: "/tools/open-ais/"
+        - title: "NS"
+          url: "/tools/ns/"
+- title: Collaboration
+  url: /collaboration/
+  items:
+    - title: "Meet our partners"
+      url: "/collaboration/placeholder-title-7/"
+    - title: "Read the LOD"
+      url: "https://readthelod.org/"
+- title: Publications
+  url: /publications/
