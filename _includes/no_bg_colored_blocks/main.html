@@ -18,10 +18,12 @@
                                             {% include no_bg_colored_blocks/item.html item=item %}
                                             {% endfor %}
                                         </div>
+                                        {% if data.clickthrough_button_url %}
                                         <div class="more-link">
                                             <a
                                                 href="{{data.clickthrough_button_url}}">{{data.clickthrough_button_text}}</a>
                                         </div>
+                                        {% endif %}
                                     </div>
                                 </div>
                             </div>
