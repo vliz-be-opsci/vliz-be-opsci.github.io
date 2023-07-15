@@ -1,7 +1,7 @@
 # Team names, titles and social links
 - id: https://orcid.org/0000-0002-9648-6484
   name: Marc Portier
-  pic: marc_portier.jpg
+  image: /assets/media/img/team/marc_portier.jpg
   position: Team lead
   social:
     - title: envelope
@@ -13,7 +13,7 @@
 
 - id: https://orcid.org/0000-0002-5911-1536
   name: Katrina Exter
-  pic: katrina_exter.jpg
+  image: /assets/media/img/team/katrina_exter.jpg
   position: Scientific data expert
   social:
     - title: envelope
@@ -25,7 +25,8 @@
 
 - id: https://orcid.org/0000-0002-0440-215X
   name: Rory Meyer
-  pic: rory_meyer.jpg
+  image: /assets/media/img/team/rory_meyer.jpg
+  legacy: true
   position: Data science architect
   social:
     - title: envelope
@@ -37,7 +38,7 @@
 
 - id: https://orcid.org/0000-0001-6387-5988
   name: Cedric Decruw
-  pic: cedric_decruw.jpg
+  image: /assets/media/img/team/cedric_decruw.jpg
   position: Developer
   social:
     - title: envelope
@@ -49,7 +50,7 @@
 
 - id: https://orcid.org/0000-0003-0663-5907
   name: Laurian Van Maldeghem
-  pic: laurian_van_maldeghem.jpg
+  image: /assets/media/img/team/laurian_van_maldeghem.jpg
   position: Science officer
   social:
     - title: envelope
@@ -61,7 +62,7 @@
       
 - id: https://orcid.org/0000-0002-5859-2729
   name: Joanna Goley
-  pic: joanna_goley.jpg
+  image: /assets/media/img/team/joanna_goley.jpg
   position: Project manager
   social:
     - title: envelope
@@ -73,7 +74,7 @@
 
 - id: https://orcid.org/0000-0002-5934-8998
   name: Bram Ulrichts
-  pic: bram_ulrichts.jpg
+  image: /assets/media/img/team/bram_ulrichts.jpg
   position: Open Science Developer
   social:
     - title: envelope
@@ -85,7 +86,7 @@
 
 - id: https://orcid.org/0009-0007-5995-8060
   name: João dos Santos
-  pic: joao_dos_santos.jpg
+  image: /assets/media/img/team/joao_dos_santos.jpg
   position: Open Science Officer
   social:
     - title: envelope
