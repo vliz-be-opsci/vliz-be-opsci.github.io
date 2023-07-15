@@ -11,11 +11,12 @@
         <p class="paragraph-small text-align-center">
           {{ item.description }}
         </p>
-
+        {% if item.item.clickthrough_url %}
         <p class="paragraph-brand-color text-align-center">
           <a class="more-link-colored"
             href="{{ item.clickthrough_url }}">{{ item.clickthrough_button_text }}</a>
         </p>
+        {% endif %}
       </div>
     </div>
   </div>
