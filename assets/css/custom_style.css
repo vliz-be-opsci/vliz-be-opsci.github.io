@@ -1,5 +1,31 @@
+
+/* make a few vars */
+:root {
+    --vliz-color-background-light-1: #f7c97c;
+    --vliz-color-background-light-2: #fff7d0;
+    --vliz-color-background-light-3: #65c9cd;
+}
+
 .grayoverlay {
     background: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.light-one-box  {
+    background-color: var(--vliz-color-background-light-1) !important;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.light-two-box {
+    background: var(--vliz-color-background-light-2) !important;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.light-three-box {
+    background: var(--vliz-color-background-light-3) !important;
     padding: 2rem;
     border-radius: 15px;
 }
