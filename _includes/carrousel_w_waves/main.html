@@ -24,9 +24,11 @@
                                             {% include carrousel_w_waves/item.html item=item %}
                                             {% endfor %}
                                         </div>
+                                        {% if data.clickthrough_button_text %}
                                         <div class="more-link">
-                                            <a href="{{ site.data.carrousel.clickthrough_button_url }}">{{ data.clickthrough_button_text }}</a>
+                                            <a href="{{ data.clickthrough_button_url }}">{{ data.clickthrough_button_text }}</a>
                                         </div>
+                                        {% endif %}
                                     </div>
                                 </div>
                             </div>

@@ -7,34 +7,78 @@ permalink: /open-science-team/
 {% include image_w_descr_curly/main.html data=data %}
 {% assign data= site.data.open-science-team.members %}
 <div class="col-12 field__item">
-    <div class="pb-6 pt-4 paragraph paragraph--type--container paragraph--view-mode--default">
-      <div
-        class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
-        <div class="row field__items">
-          <div class="col-12 field__item">
-            <div class="paragraph paragraph--type--block paragraph--view-mode--default">
+  <div class="row field__items">
+    <div class="col-12 field__item">
+      <h2>The dream team
+      </h2>
+      <div class="row field__items">
+          {% for member in data %}
+          <div class="col-4 field__item" style="margin-bottom: 10px;">
+            <div class="field__item">
               <div
-                class="field field--name-field-block field--type-block-field field--label-hidden field__items">
+                class="background-white pb-4 pt-4 px-4 text-add-box-shadow paragraph paragraph--type--basic-text paragraph--view-mode--default">
                 <div
-                  class="views-element-container block block-views block-views-blocknews-news-promoted"
-                  id="block-views-block-news-news-promoted">
-                  <h2>
-                    The Dream Team
-                  </h2>
-                  <div>
-                    <div
-                      class="view-news-promoted view view-news view-id-news view-display-id-news_promoted js-view-dom-id-7833dfaeee25c3f8b6282f714fe453ff553a6e540616d19c0fc830a81d0e4c44">
-                      {% for member in data %}
-                      <p>{{ member.name }}</p>
-                      {% endfor %}
-                      </div>
-                    </div>
-                  </div>
+                  class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+                  <h5 class="highlighted-heading text-align-center">
+                    {{ member.name }}
+                  </h5>
+                  <p class="paragraph-small text-align-center">
+                    {{ item.description }}
+                  </p>
+                  {% if item.item.clickthrough_url %}
+                  <p class="paragraph-brand-color text-align-center">
+                    <a class="more-link-colored"
+                      href="{{ item.clickthrough_url }}">{{ item.clickthrough_button_text }}</a>
+                  </p>
+                  {% endif %}
                 </div>
               </div>
             </div>
           </div>
-        </div>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-12 field__item">
+  <div
+      class="background-white container-full-width pb-6 pt-6 paragraph paragraph--type--container paragraph--view-mode--default">
+      <div
+          class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+          <div class="row field__items">
+              <div class="col-12 field__item">
+                  <div class="paragraph paragraph--type--block paragraph--view-mode--default">
+                      <div
+                          class="field field--name-field-block field--type-block-field field--label-hidden field__items">
+                          <div class="views-element-container block block-views block-views-blockevents-events-upcoming-block"
+                              id="block-views-block-events-events-upcoming-block">
+                              <h5>The legacy team
+                              </h5>
+                              <div>
+                                  <div
+                                      class="events-ticker view view-events view-id-events view-display-id-events_upcoming_block js-view-dom-id-e191d37c185b818cd5a6c279ebcc6dfdf564c0f46c280e772a63f13439f29bd0">
+                                      <div class="view-header-wrapper">
+                                          <div class="view-header">
+                                          </div>
+                                      </div>
+                                      <div class="view-content">
+                                        {% for member in data %}
+                                        <p>{{ member.name }}</p>
+                                        {% endfor %}
+                                      </div>
+                                      {% if data.clickthrough_button_text %}
+                                      <div class="more-link">
+                                          <a href="{{ data.clickthrough_button_url }}">{{ data.clickthrough_button_text }}</a>
+                                      </div>
+                                      {% endif %}
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
   </div>
+</div>
 
