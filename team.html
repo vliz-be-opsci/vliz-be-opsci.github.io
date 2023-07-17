@@ -9,76 +9,126 @@ permalink: /open-science-team/
 <div class="col-12 field__item">
   <div class="row field__items">
     <div class="col-12 field__item">
-      <h2>The dream team
+      <h2 
+      class="paragraph-small text-align-center" 
+      style="margin-bottom:15px;">
+        The dream team
       </h2>
       <div class="row field__items">
-          {% for member in data %}
-          <div class="col-4 field__item" style="margin-bottom: 10px;">
-            <div class="field__item">
+        {% for member in data %}
+        {% if member.legacy %}
+        {% else %}
+        <div class="col-3 field__item" style="margin-bottom: 10px;">
+          <div class="field__item">
+            <div
+              class="background-white pb-4 pt-4 px-4 text-add-box-shadow paragraph paragraph--type--basic-text paragraph--view-mode--default">
               <div
-                class="background-white pb-4 pt-4 px-4 text-add-box-shadow paragraph paragraph--type--basic-text paragraph--view-mode--default">
-                <div
-                  class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
-                  <h5 class="highlighted-heading text-align-center">
-                    {{ member.name }}
-                  </h5>
-                  <p class="paragraph-small text-align-center">
-                    {{ item.description }}
-                  </p>
-                  {% if item.item.clickthrough_url %}
-                  <p class="paragraph-brand-color text-align-center">
-                    <a class="more-link-colored"
-                      href="{{ item.clickthrough_url }}">{{ item.clickthrough_button_text }}</a>
-                  </p>
-                  {% endif %}
+                class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+                <h5 class="highlighted-heading text-align-center">
+                  {{ member.name }}
+                </h5>
+                <div class="row field__items">
+                  <div class="col-12 field__items">
+                    <img loading="lazy" {% if member.image contains 'http' %} src="{{ member.image }}" {% else %}
+                    src="{{ site.baseurl }}{{ member.image }}" {% endif %} width="150" height="150"
+                    alt="{{ mamber.name }}" title="{{member.name}}" typeof="foaf:Image"
+                    class="image-style-medium-cropped" style="margin-left:auto;margin-right:auto" />
+                  </div>
+                  <div class="col-12 field__items">
+                    <p class="paragraph-small text-align-center">
+                      {{ member.position }}
+                    </p>
+                  </div>
+                  <div class="row field__items">
+                    {% for item in member.social%}
+                    <div class="col-3 field__items text-align-center">
+                      <a class="field__news_teaser" href="{{item.url}}">
+                        <img loading="lazy" {% if item.image contains 'http' %} src="{{ item.title }}" {% else %}
+                        src="{{ site.baseurl }}/assets/media/img/socials/{{ item.title }}.svg" {% endif %} width="30" height="30"
+                        alt="{{ item.name }}" title="{{item.name}}" typeof="foaf:Image" />
+                      </a>
+                    </div>
+                    {% endfor %}
+                    <div class="col-3 field__items text-align-center">
+                      <a class="field__news_teaser" href="{{member.id}}">
+                        <img loading="lazy" {% if item.image contains 'http' %} src="{{ item.title }}" {% else %}
+                        src="{{ site.baseurl }}/assets/media/img/socials/orcid.svg" {% endif %} width="30" height="30"
+                        alt="{{ item.name }}" title="{{item.name}}" typeof="foaf:Image" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          {% endfor %}
+        </div>
+        {% endif %}
+        {% endfor %}
       </div>
     </div>
   </div>
 </div>
+
 <div class="col-12 field__item">
   <div
-      class="background-white container-full-width pb-6 pt-6 paragraph paragraph--type--container paragraph--view-mode--default">
-      <div
-          class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
-          <div class="row field__items">
-              <div class="col-12 field__item">
-                  <div class="paragraph paragraph--type--block paragraph--view-mode--default">
-                      <div
-                          class="field field--name-field-block field--type-block-field field--label-hidden field__items">
-                          <div class="views-element-container block block-views block-views-blockevents-events-upcoming-block"
-                              id="block-views-block-events-events-upcoming-block">
-                              <h5>The legacy team
-                              </h5>
-                              <div>
-                                  <div
-                                      class="events-ticker view view-events view-id-events view-display-id-events_upcoming_block js-view-dom-id-e191d37c185b818cd5a6c279ebcc6dfdf564c0f46c280e772a63f13439f29bd0">
-                                      <div class="view-header-wrapper">
-                                          <div class="view-header">
-                                          </div>
-                                      </div>
-                                      <div class="view-content">
-                                        {% for member in data %}
-                                        <p>{{ member.name }}</p>
-                                        {% endfor %}
-                                      </div>
-                                      {% if data.clickthrough_button_text %}
-                                      <div class="more-link">
-                                          <a href="{{ data.clickthrough_button_url }}">{{ data.clickthrough_button_text }}</a>
-                                      </div>
-                                      {% endif %}
-                                  </div>
-                              </div>
-                          </div>
+    class="background-light-2 container-full-width pb-6 pt-6 paragraph paragraph--type--container paragraph--view-mode--default">
+    <div
+      class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+      <div class="row field__items">
+        <div class="col-12 field__item">
+          <div class="paragraph paragraph--type--block paragraph--view-mode--default">
+            <div class="field field--name-field-block field--type-block-field field--label-hidden field__items">
+              <div class="views-element-container block block-views block-views-blockevents-events-upcoming-block"
+                id="block-views-block-events-events-upcoming-block">
+                <h5>The legacy team
+                </h5>
+                <div>
+                  <div
+                    class="events-ticker view view-events view-id-events view-display-id-events_upcoming_block js-view-dom-id-e191d37c185b818cd5a6c279ebcc6dfdf564c0f46c280e772a63f13439f29bd0">
+                    <div class="view-header-wrapper">
+                      <div class="view-header">
                       </div>
+                    </div>
+                    <div class="view-content">
+                      {% for member in data %}
+                      {% if member.legacy %}
+                      <div
+                        class="background-white pb-4 pt-4 px-4 text-add-box-shadow paragraph paragraph--type--basic-text paragraph--view-mode--default">
+                        <div
+                          class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+                          <h5 class="highlighted-heading text-align-center">
+                            {{ member.name }}
+                          </h5>
+                          <img loading="lazy" {% if member.image contains 'http' %} src="{{ member.image }}" {% else %}
+                            src="{{ site.baseurl }}{{ member.image }}" {% endif %} width="150" height="150"
+                            alt="{{ mamber.name }}" title="{{member.name}}" typeof="foaf:Image"
+                            class="image-style-medium-cropped" />
+                          <p class="paragraph-small text-align-center">
+                            {{ item.description }}
+                          </p>
+                          {% if item.item.clickthrough_url %}
+                          <p class="paragraph-brand-color text-align-center">
+                            <a class="more-link-colored" href="{{ item.clickthrough_url }}">{{
+                              item.clickthrough_button_text }}</a>
+                          </p>
+                          {% endif %}
+                        </div>
+                      </div>
+                      {% endif %}
+                      {% endfor %}
+                    </div>
+                    {% if data.clickthrough_button_text %}
+                    <div class="more-link">
+                      <a href="{{ data.clickthrough_button_url }}">{{ data.clickthrough_button_text }}</a>
+                    </div>
+                    {% endif %}
                   </div>
+                </div>
               </div>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
   </div>
 </div>
-

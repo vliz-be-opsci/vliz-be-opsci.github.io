@@ -4,7 +4,7 @@
   image: /assets/media/img/team/marc_portier.jpg
   position: Team lead
   social:
-    - title: envelope
+    - title: mail
       url: mailto:marc.portier@vliz.be
     - title: linkedin
       url: https://www.linkedin.com/in/marcportier
@@ -16,7 +16,7 @@
   image: /assets/media/img/team/katrina_exter.jpg
   position: Scientific data expert
   social:
-    - title: envelope
+    - title: mail
       url: mailto:katrina.exter@vliz.be
     - title: linkedin
       url: https://www.linkedin.com/in/katrina-exter-32868369
@@ -29,7 +29,7 @@
   legacy: true
   position: Data science architect
   social:
-    - title: envelope
+    - title: mail
       url: mailto:rory.meyer@vliz.be
     - title: linkedin
       url: https://www.linkedin.com/in/rory-meyer
@@ -41,7 +41,7 @@
   image: /assets/media/img/team/cedric_decruw.jpg
   position: Developer
   social:
-    - title: envelope
+    - title: mail
       url: mailto:cedric.decruw@vliz.be
     - title: linkedin
       url: https://www.linkedin.com/in/cedric-decruw-974793180
@@ -53,7 +53,7 @@
   image: /assets/media/img/team/laurian_van_maldeghem.jpg
   position: Science officer
   social:
-    - title: envelope
+    - title: mail
       url: mailto:laurian.van.maldeghem@vliz.be
     - title: linkedin
       url: https://www.linkedin.com/in/laurianvanmaldeghem
@@ -65,7 +65,7 @@
   image: /assets/media/img/team/joanna_goley.jpg
   position: Project manager
   social:
-    - title: envelope
+    - title: mail
       url: mailto:joanna.goley@vliz.be
     - title: linkedin
       url: https://www.linkedin.com/in/joannagoley
@@ -77,7 +77,7 @@
   image: /assets/media/img/team/bram_ulrichts.jpg
   position: Open Science Developer
   social:
-    - title: envelope
+    - title: mail
       url: mailto:bram.ulrichts@vliz.be
     - title: linkedin
       url: https://www.linkedin.com/in/ulrichtsblr
@@ -89,7 +89,7 @@
   image: /assets/media/img/team/joao_dos_santos.jpg
   position: Open Science Officer
   social:
-    - title: envelope
+    - title: mail
       url: mailto:joao.dos.santos@vliz.be
     - title: linkedin
       url: https://www.linkedin.com/in/jo%C3%A3o-dos-santos-45a66312b/
