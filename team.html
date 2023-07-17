@@ -6,12 +6,11 @@ permalink: /open-science-team/
 {% assign data= site.data.open-science-team.team-intro%}
 {% include image_w_descr_curly/main.html data=data %}
 {% assign data= site.data.open-science-team.members %}
+
 <div class="col-12 field__item">
   <div class="row field__items">
-    <div class="col-12 field__item">
-      <h2 
-      class="paragraph-small text-align-center" 
-      style="margin-bottom:15px;">
+    <div class="col-12 field__item" id="team-members">
+      <h2 class="paragraph-small text-align-center" style="margin-bottom:15px;">
         The dream team
       </h2>
       <div class="row field__items">
@@ -28,11 +27,11 @@ permalink: /open-science-team/
                   {{ member.name }}
                 </h5>
                 <div class="row field__items">
-                  <div class="col-12 field__items">
+                  <div class="col-12 field__items ">
                     <img loading="lazy" {% if member.image contains 'http' %} src="{{ member.image }}" {% else %}
-                    src="{{ site.baseurl }}{{ member.image }}" {% endif %} width="150" height="150"
-                    alt="{{ mamber.name }}" title="{{member.name}}" typeof="foaf:Image"
-                    class="image-style-medium-cropped" style="margin-left:auto;margin-right:auto" />
+                      src="{{ site.baseurl }}{{ member.image }}" {% endif %} width="150" height="150"
+                      alt="{{ mamber.name }}" title="{{member.name}}" typeof="foaf:Image"
+                      class="image-style-medium-cropped" style="margin-left:auto;margin-right:auto" />
                   </div>
                   <div class="col-12 field__items">
                     <p class="paragraph-small text-align-center">
@@ -44,16 +43,16 @@ permalink: /open-science-team/
                     <div class="col-3 field__items text-align-center">
                       <a class="field__news_teaser" href="{{item.url}}">
                         <img loading="lazy" {% if item.image contains 'http' %} src="{{ item.title }}" {% else %}
-                        src="{{ site.baseurl }}/assets/media/img/socials/{{ item.title }}.svg" {% endif %} width="30" height="30"
-                        alt="{{ item.name }}" title="{{item.name}}" typeof="foaf:Image" />
+                          src="{{ site.baseurl }}/assets/media/img/socials/{{ item.title }}.svg" {% endif %} width="30"
+                          height="30" alt="{{ item.name }}" title="{{item.name}}" typeof="foaf:Image" />
                       </a>
                     </div>
                     {% endfor %}
                     <div class="col-3 field__items text-align-center">
                       <a class="field__news_teaser" href="{{member.id}}">
                         <img loading="lazy" {% if item.image contains 'http' %} src="{{ item.title }}" {% else %}
-                        src="{{ site.baseurl }}/assets/media/img/socials/orcid.svg" {% endif %} width="30" height="30"
-                        alt="{{ item.name }}" title="{{item.name}}" typeof="foaf:Image" />
+                          src="{{ site.baseurl }}/assets/media/img/socials/orcid.svg" {% endif %} width="30" height="30"
+                          alt="{{ item.name }}" title="{{item.name}}" typeof="foaf:Image" />
                       </a>
                     </div>
                   </div>
@@ -130,5 +129,61 @@ permalink: /open-science-team/
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div
+  class="staff-grouped view view-staff view-id-staff view-display-id-page_1 js-view-dom-id-80a2a06d5cc00ad507925fe66c304445b4b52c49105f30be1e2e652ab57c5157">
+
+
+
+
+
+  <div class="view-content">
+    <h3>The Dream Team</h3>
+    {% for member in data %}
+    {% if member.legacy %}
+    {% else %}
+    <div class="views-row">
+      <div class="views-field views-field-rendered-entity"><span class="field-content">
+          <article role="article"
+            class="node node--type-staff node--promoted node--view-mode-teaser">
+            <div class="field field--name-field-staff-picture field--type-image field--label-hidden field__items"> <img
+                loading="lazy"
+                src="{{ site.baseurl }}{{ member.image }}"
+                alt="An Vanhoorne" title="{{member.name}}" typeof="foaf:Image" class="image-style-medium-portrait-cropped"
+                width="200" height="300">
+            </div>
+            <div class="node__content">
+
+              <h4><span class="field field--name-title field--type-string field--label-hidden">{{member.name}}</span>
+              </h4>
+              <div class="field field--name-field-staff-function field--type-string field--label-hidden field__items">
+                {{member.position}}
+              </div>
+              <div class="row field__items">
+                {% for item in member.social%}
+                <div class="col-3 field__items text-align-center">
+                  <a class="field__news_teaser" href="{{item.url}}">
+                    <img loading="lazy" {% if item.image contains 'http' %} src="{{ item.title }}" {% else %}
+                      src="{{ site.baseurl }}/assets/media/img/socials/{{ item.title }}.svg" {% endif %} width="15"
+                      height="15" alt="{{ item.name }}" title="{{item.name}}" typeof="foaf:Image" />
+                  </a>
+                </div>
+                {% endfor %}
+                <div class="col-3 field__items text-align-center">
+                  <a class="field__news_teaser" href="{{member.id}}">
+                    <img loading="lazy" {% if item.image contains 'http' %} src="{{ item.title }}" {% else %}
+                      src="{{ site.baseurl }}/assets/media/img/socials/orcid.svg" {% endif %} width="15" height="15"
+                      alt="{{ item.name }}" title="{{item.name}}" typeof="foaf:Image" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </span></div>
+    </div>
+    {% endif %}
+    {% endfor %}
   </div>
 </div>
