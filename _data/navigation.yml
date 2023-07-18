@@ -41,7 +41,7 @@
         - title: "database 2"
           url: "/databases/#database-2"
     - title: "Tools"
-      url: "#tools"
+      url: "/tools/"
       items:
         - title: "DMBON"
           url: "/tools/dmbon/"

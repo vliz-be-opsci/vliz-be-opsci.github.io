@@ -2,3 +2,12 @@ base_uri: "" # Base URI for your site, e.g. http://example.com/test-repo/ => for
 title: "Open Science @ VLIZ"
 gems:
   - jekyll-mermaid
+plugins:
+  - jekyll-datapage-generator
+
+page_gen:
+  - data: 'tools'
+    template: 'remote_md'
+    dir: 'tools'
+    name: 'title'
+    extension: '.html'
