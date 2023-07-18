@@ -1,5 +1,8 @@
 ---
-layout: conventions
+title: Conventions
+author: "João Pinto"
+layout: default
+permalink: /documents/conventions/
 ---
 
 # Github Convention

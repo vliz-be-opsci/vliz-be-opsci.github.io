@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<h1>Scientific Papers</h1>
+{% assign data=site.data.publications %}
+<table style="background-color: #fff7d010;">
+<thead style="background-color: #f7c97c;">
+<tr>
+<th>Title</th>
+<th>Authors</th>
+<th>Abstract</th>
+<th>Date</th>
+<th>Journal</th>
+<th>Access</th>
+</tr>
+</thead>
+<tbody>
+
+{% for pub in data.scientificPapers %}
+
+<tr style="border-bottom: #f7c97c solid 2px;">
+<td><a href="{{pub.url}}" target="_blank">{{ pub.title }}</a></td>
+<td>{{ pub.authors }}</td>
+<td>{{ pub.abstract }}</td>
+<td>{{ pub.date }}</td>
+<td>{{ pub.journal }}</td>
+<td>{{ pub.access }}</td>
+
+{% endfor %}
+
+</tbody>
+</table>
+
+<h1>Conference Proceedings</h1> 
+
+Same here for the conference proceedings ?
+{% for pub in data.conferenceProceedings %}
+<p>{{pub.title}}</p>
+{% endfor %}
