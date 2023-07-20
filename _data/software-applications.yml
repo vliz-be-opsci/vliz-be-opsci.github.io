@@ -1,0 +1,29 @@
+title: "Applications & tools"
+
+items:
+  - title: "DMBON Assistant"
+    description: "DMBON is a tool to assist in the creation of a Data Management Plan (DMP). It is a web application that guides the user through the process of creating a DMP. It is based on the DCC DMPonline tool, but has been adapted to the needs of the Belgian marine research community. The tool is available in English."
+    clickthrough_url: "https://github.com/vliz-be-opsci/dmbon-assistant"
+    clickthrough_button_text: "Example button text here"
+    image: "/assets/media/img/SquidRNA.webp"
+    tags:
+      - open data
+      - data management
+
+  - title: "Open AIS"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    clickthrough_url: "https://github.com/vliz-be-opsci/open-ais"
+    clickthrough_button_text: "Example button text here"
+    image: "/assets/media/img/SquidRNA.webp"
+    tags:
+      - open data
+      - vessels
+
+  - title: "Vocab server"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    clickthrough_url: "https://www.vliz.be/nl/wie-we-zijn/over-vliz"
+    clickthrough_button_text: "Example button text here"
+    image: "/assets/media/img/SquidRNA.webp"
+    tags:
+      - vocabularies
+      - linked data

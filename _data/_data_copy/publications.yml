@@ -1,5 +1,4 @@
-title: "Scientific papers"
-items:
+scientificPapers:
   - url: http://ceur-ws.org/Vol-2969/paper8-s4biodiv.pdf
     title: Publishing Marine Regions Gazetteer as a linked data event stream
     authors: Britt Lonneville, Harm Delva, Marc Portier, Laurian Van Maldeghem, Lennert Schepers, Dias Bakeev, Bart Vanhoorne, Lennert Tyberghein, Pieter Colpaert
@@ -58,3 +57,4 @@ conferenceProceedings:
     journal:
     access:
     display: main-3
+# please provide all authors - these will be displayed in a hidden manner

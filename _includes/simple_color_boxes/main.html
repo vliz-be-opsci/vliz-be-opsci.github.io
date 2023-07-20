@@ -1,11 +1,13 @@
 <div class="col-12 field__item">
   <div class="pb-4 pt-4 paragraph paragraph--type--container paragraph--view-mode--default">
-    <div class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+    <div
+      class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
       <div class="row field__items">
         <div class="col-12 field__item">
           <div class="paragraph paragraph--type--block paragraph--view-mode--default">
             <div class="field field--name-field-block field--type-block-field field--label-hidden field__items">
-              <div class="views-element-container block block-views block-views-blockfaq-faq-promoted-block" id="block-views-block-faq-faq-promoted-block">
+              <div class="views-element-container block block-views block-views-blockfaq-faq-promoted-block"
+                id="block-views-block-faq-faq-promoted-block">
                 <h2>{{ data.title }}</h2>
                 <div>
                   <div class="faq-promoted view view-faq view-id-faq view-display-id-faq_promoted_block">
@@ -14,9 +16,11 @@
                       {% include simple_color_boxes/item.html item=item %}
                       {% endfor %}
                     </div>
+                    {% if data.clickthrough_url and data.clickthrough_button_text %}
                     <div class="more-link">
                       <a href="{{ data.clickthrough_url }}">{{ data.clickthrough_button_text }}</a>
                     </div>
+                    {% endif %}
                   </div>
                 </div>
               </div>
