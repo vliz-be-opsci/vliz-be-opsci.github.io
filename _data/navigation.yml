@@ -1,60 +1,98 @@
-- title: Who are we
-  url: /who-are-we/
+- title: Open Science
+  url: /
   items:
-    - title: "VLIZ"
-      url: "https://www.vliz.be/en/wie-we-zijn/about-vliz"
+    - title: Open science @ VLIZ
+      url: /open-science-at-vliz
+    - title: Technical approach
+      url: /technical-approach/
       items:
-        - title: "mission & vision"
-          url: "https://www.vliz.be/en/who-we-are/about-vliz/mission-vision"
-        
-    - title: "Data Center"
-      url: "https://www.vliz.be/en/what-we-do/data-information/data"
+        - title: Semantic web technologies
+          url: /technical-approach/#semweb
+        - title: Ontologies
+          url: /technical-approach/#ontologies
+    - title: Departments
+      url: /departments/
       items:
-        - title: "How do we work"
-          url: "https://www.vliz.be/en/wie-we-zijn/over-vliz/our-operation"
-    - title: "Open Science Team"
-      url: "/open-science-team/"
-      items:
-        - title: "About us"
-          url: "/open-science-team/#about-us"
-        - title: "Domains of expertise" 
-          url: "/open-science-team/#domains-of-expertise"
-        - title: "team members"
-          url: "/open-science-team/#team-members"
-- title: What we do
-  url: /what-we-do/
+        - title: VMDC
+          url: /departments/#VMDC
+          items:
+            - title: Open Science team
+              url: /departments/#open-science
+              #link to open science team at VMDC site
+            - title: Geospatial data & products team
+              url: /departments/#geospatial-data-and-products
+              #link to geospatial team on VMDC site
+            - title: MarineLife+ team
+              url: /departments/#marinelife
+              #link to marinelife+ team on VMDC site
+        - title: Library
+          url: /departments/#Library
+        - title: Policy and valorization
+          url: /departments/#Policy-Valorization
+
+- title: Community
+  url: /community/
   items:
-    - title: "Projects"
-      url: "#projects"
+    - title: Collaborations/Projects
+      url: /#collaborations
       items:
-        - title: "project 1"
-          url: "/projects/project-1/"
-        - title: "project 2"
-          url: "/projects/project-2/"
-        - title: "project 3"
-          url: "/projects/project-3/"
-    - title: "Databases"
-      url: "#databases"
+        - title: EOSC related projects
+          url: /#
+        - title: VOSB
+          url: /#
+    - title: Partners
+      url: /#partners
       items:
-        - title: "database 1"
-          url: "/databases/#database-1"
-        - title: "database 2"
-          url: "/databases/#database-2"
-    - title: "Tools"
-      url: "/tools/"
+        - title: EOSC
+          url: /#
+        - title: Flemish Research Data Network
+          url: /#
+    - title: Initiatives
+      url: /#initiatives
       items:
-        - title: "DMBON"
-          url: "/tools/dmbon/"
-        - title: "Open AIS"
-          url: "/tools/open-ais/"
-        - title: "NS"
-          url: "/tools/ns/"
-- title: Collaboration
-  url: /collaboration/
+        - title: Read the LOD
+          url: https://readthelod.org/
+
+- title: Achievements
+  url: /achievements/
   items:
-    - title: "Meet our partners"
-      url: "/collaboration/placeholder-title-7/"
-    - title: "Read the LOD"
-      url: "https://readthelod.org/"
-- title: Publications
-  url: /publications/
+    - title: Linked data
+      url: /linked-data/
+      items:
+        - title: marineinfo.org
+          url: https://marineinfo.org/
+        - title: marineregions.org
+          url: https://www.marineregions.org/gazetteer.php?p=webservices
+        - title: marinespecies.org "coming soon!"
+          url: https://www.maregraph.eu/ #url to maregraph project for now?
+    - title: Applications & tools
+      url: /applications-tools
+      items:
+        - title: DMBON Assistant
+          url: /dmbon-assistant
+        - title: Open AIS
+          url: /open-ais
+        - title: Software packages
+          url: /
+    - title: Ontologies
+      url: /ontologies/
+      items:
+        - title: NS stuff -> opt to move to technical approach?
+    - title: Publications
+      url: /publications
+- title: Documents
+  url: /documents/
+  items:
+    - title: Conventions
+      url: /conventions
+      items:
+        - title: Version management
+          url: /conventions/version-management
+        - title: Python
+          url: /conventions/python
+    - title: Publications
+      url: /publications
+    - title: Policy documents
+      url: /policy-docs
+    - title: Zenodo.org
+      url: https://zenodo.org/communities/vliz-openscience/

@@ -1,0 +1,18 @@
+title: "Software packages"
+
+items:
+  - title: "PySUByT"
+    description: "Example description 1"
+    clickthrough_url: https://github.com/vliz-be-opsci/pysubyt#readme
+    image: "/assets/media/img/GitHub-Mark.png"
+    tags:
+      - templating
+      - semantic uplifting
+
+  - title: "pykg2tbl"
+    description: "Example description 1"
+    clickthrough_url: https://github.com/vliz-be-opsci/pykg2tbl#readme
+    image: "/assets/media/img/GitHub-Mark.png"
+    tags:
+      - tables
+      - knowledge graph
