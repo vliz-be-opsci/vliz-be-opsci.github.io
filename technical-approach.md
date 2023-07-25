@@ -1,6 +1,17 @@
 ---
 layout: default
-permalink: /technical-approach
+permalink: /open-science-at-vliz/technical-approach
 ---
 
-# This page is to contain information on the used technical approach
+# Our technical Approach
+
+- ### Linked Data
+
+  ...
+
+- ### Semantic Web technologies
+
+  ...
+
+- ### Ontologies
+  ...

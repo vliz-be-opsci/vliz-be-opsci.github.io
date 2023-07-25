@@ -1,0 +1,20 @@
+title: "Projects"
+
+items:
+  - title: "EOSC related projects"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    clickthrough_url: "..."
+    clickthrough_button_text: "Example button text here"
+    image: "/assets/media/img/SquidRNA.webp"
+    tags:
+      - EOSC
+      - ...
+
+  - title: "VOSB"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    clickthrough_url: "https://github.com/vliz-be-opsci/open-ais"
+    clickthrough_button_text: "Example button text here"
+    image: "/assets/media/img/SquidRNA.webp"
+    tags:
+      - VOSB
+      - ...

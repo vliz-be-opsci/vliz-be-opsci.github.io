@@ -3,6 +3,18 @@ layout: default
 permalink: /open-science-at-vliz
 ---
 
-# This page is to contain the components of Open Science in general
+# Open Science @ VLIZ
 
-# What Open Science entails at VLIZ
+### What Open Science means at VLIZ
+
+...
+
+### Why it is important for VLIZ
+
+...
+
+### Citizen science
+
+...
+
+(this page might be a good location to also link to the involved departments)

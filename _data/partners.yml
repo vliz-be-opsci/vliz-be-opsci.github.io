@@ -1,0 +1,18 @@
+title: "Partners"
+
+items:
+  - title: "EOSC"
+    description: "Example description 1"
+    clickthrough_url:
+    image: "/assets/media/img/placeholder.png"
+    tags:
+      - templating
+      - semantic uplifting
+
+  - title: "Flemish Research Data Network"
+    description: "Example description 1"
+    clickthrough_url:
+    image: "/assets/media/img/placeholder.png"
+    tags:
+      - tables
+      - knowledge graph
