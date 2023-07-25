@@ -3,7 +3,14 @@ layout: default
 permalink: /publications/
 ---
 
-<h1>Scientific Papers</h1>
+<h1> Open Science publications </h1>
+(side-note: this page doesn't work with includes from the theme --> would opt to this)
+<h4>Zenodo community</h4>
+Check out our collection of open science publications on <a
+    href="https://zenodo.org/communities/vliz-openscience/">zenodo.org/communities/vliz-openscience</a>
+
+
+<h4>Scientific Papers</h4>
 {% assign data=site.data.publications %}
 <table style="background-color: #fff7d010;">
     <thead style="background-color: #f7c97c;">
@@ -33,8 +40,8 @@ permalink: /publications/
     </tbody>
 </table>
 <p></p>
-<h1>Conference Proceedings</h1>
 
+<h4>Conference Proceedings</h4>
 Same here for the conference proceedings ?
 {% for pub in data.conferenceProceedings %}
 <p>{{pub.title}}</p>
