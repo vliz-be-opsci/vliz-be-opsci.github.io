@@ -19,6 +19,15 @@ items:
       - open data
       - vessels
 
+  - title: "RO-Crate demo"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    clickthrough_url: "https://github.com/vliz-be-opsci/rocrate-to-pages"
+    clickthrough_button_text: "Example button text here"
+    image: "/assets/media/img/SquidRNA.webp"
+    tags:
+      - ro-crate
+      - demo
+
   - title: "Vocab server"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
     clickthrough_url: "https://www.vliz.be/nl/wie-we-zijn/over-vliz"

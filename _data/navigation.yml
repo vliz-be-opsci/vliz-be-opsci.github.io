@@ -81,11 +81,13 @@
       url: /applications-tools
       items:
         - title: DMBON Assistant
-          url: /dmbon-assistant
+          url: /applications-tools/dmbon-assistant
         - title: Open AIS
-          url: /open-ais
+          url: /applications-tools/open-ais
+        - title: RO-Crate demo
+          url: /applications-tools/ro-crate-demo
         - title: Software packages
-          url: /
+          url: /applications-tools/#Software packages
     - title: Ontologies
       url: /ontologies/
       items:
