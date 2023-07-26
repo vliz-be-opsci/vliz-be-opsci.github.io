@@ -5,60 +5,55 @@
       url: /open-science
       items:
         - title: Goals & aims
-          url: /open-science/#goals
+          url: /open-science
         - title: Components
-          url: /open-science/#components
-        - title: Open policies?
-          url: /open-science/#openpolicies
+          url: /open-science
+        - title: Open policies
+          url: /open-science
     - title: Open science @ VLIZ
       url: /open-science-at-vliz
       items:
         - title: Our vision/goals
-          url: /open-science-at-vliz/
+          url: /open-science-at-vliz
         - title: Technical approach
           url: /open-science-at-vliz/technical-approach
-          items:
-            - title: Semantic web technologies
-              url: /open-science-at-vliz/technical-approach/#semweb
-            - title: Ontologies
-              url: /open-science-at-vliz/technical-approach/#ontologies
     - title: Departments
-      url: /departments/
+      url: /departments
       items:
         - title: VMDC
-          url: /departments/#VMDC
+          url: /departments
           items:
             - title: Open Science team
-              url: /departments/#open-science
+              url: /departments
               #link to open science team at VMDC site
             - title: Geospatial data & products team
-              url: /departments/#geospatial-data-and-products
+              url: /departments
               #link to geospatial team on VMDC site
             - title: MarineLife+ team
-              url: /departments/#marinelife
+              url: /departments
               #link to marinelife+ team on VMDC site
         - title: Library
-          url: /departments/#Library
+          url: /departments
         - title: Policy and valorization
-          url: /departments/#Policy-Valorization
+          url: /departments
 
 - title: Community
-  url: /community/
+  url: /community
   items:
     - title: Projects
-      url: /community/#projects
+      url: /projects
       items:
         - title: EOSC related projects
-          url: /community/#EOSC-projects
+          url: /projects
         - title: VOSB
-          url: /community/#VOSB-projects
+          url: /projects
     - title: Partners
-      url: /community/#partners
+      url: /partners
       items:
         - title: EOSC
-          url: /community/#EOSC
+          url: /partners
         - title: Flemish Research Data Network
-          url: /community/#FRDN
+          url: /partners
     - title: Initiatives
       #to do: remove link when no link-key is defined in the yml-file
       items:
@@ -66,17 +61,17 @@
           url: https://readthelod.org/
 
 - title: Achievements
-  url: /achievements/
+  url: /achievements
   items:
     - title: Linked data
-      url: /linked-data/
+      url: /linked-data
       items:
         - title: marineinfo.org
           url: https://marineinfo.org/
         - title: marineregions.org
           url: https://www.marineregions.org/gazetteer.php?p=webservices
-        - title: marinespecies.org "coming soon!"
-          url: https://www.maregraph.eu/ #url to maregraph project for now?
+        - title: marinespecies.org
+          url: https://www.maregraph.eu/
     - title: Applications & tools
       url: /applications-tools
       items:
@@ -87,7 +82,7 @@
         - title: RO-Crate demo
           url: /applications-tools/ro-crate-demo
         - title: Software packages
-          url: /applications-tools/#Software packages
+          url: /applications-tools/software-packages
     - title: Ontologies
       url: /ontologies/
       items:
@@ -104,7 +99,5 @@
           url: /conventions/version-management
         - title: Python
           url: /conventions/python
-    - title: Publications
-      url: /publications
     - title: Policy documents
       url: /policy-docs

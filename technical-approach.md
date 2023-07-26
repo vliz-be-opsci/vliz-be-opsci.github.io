@@ -3,7 +3,9 @@ layout: default
 permalink: /open-science-at-vliz/technical-approach
 ---
 
-# Our technical Approach
+# Open Science @VLIZ
+
+## Our technical Approach
 
 - ### Linked Data
 
