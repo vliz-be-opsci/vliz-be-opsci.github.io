@@ -81,6 +81,8 @@
           url: /applications-tools/open-ais
         - title: RO-Crate demo
           url: /applications-tools/ro-crate-demo
+        - title: Vocab server
+          url: /applications-tools/vocab-server
         - title: Software packages
           url: /applications-tools/software-packages
     - title: Ontologies
