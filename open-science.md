@@ -9,7 +9,7 @@ permalink: /open-science
 
 ### The components (~ how it tries to achieve this)
 
-### Open Science policies
+### Open Science principles
 
 - open acess
 - open source
