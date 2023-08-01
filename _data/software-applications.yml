@@ -10,29 +10,28 @@ items:
       - open data
       - data management
 
-  - title: "Open AIS"
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    clickthrough_url: "https://github.com/vliz-be-opsci/open-ais"
-    clickthrough_button_text: "Example button text here"
-    image: "/assets/media/img/SquidRNA.webp"
+  - title: "Open-AIS.org"
+    description: "VLIZ Open-Science has a historic affiliation and vetted interest into the development of open-ais.org: a set of tools and solutions for exploring captured vessel trafic data in a research context."
+    link: "/applications-tools/open-ais"
+    image: "/assets/media/img/open-ais-logo.svg"
     tags:
       - open data
       - vessels
 
   - title: "RO-Crate demo"
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    clickthrough_url: "https://github.com/vliz-be-opsci/rocrate-to-pages"
-    clickthrough_button_text: "Example button text here"
-    image: "/assets/media/img/SquidRNA.webp"
+    description: "Applying RO-Crates is a practical way to achieve an elegant a FAIR and open linked data publication of your research data.  We have created a number of tools to exploit that in combination with using git."
+    link: "/applications-tools/rocrate-demo"
+    image: "/assets/media/img/ro-crate.svg"
     tags:
       - ro-crate
       - demo
 
-  - title: "Vocab server"
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    clickthrough_url: "https://www.vliz.be/nl/wie-we-zijn/over-vliz"
-    clickthrough_button_text: "Example button text here"
-    image: "/assets/media/img/SquidRNA.webp"
+  - title: "Vocab Term Lookup Server and Widget"
+    description: "VLIZ commisioned to develop and deploy an open source system to let end-users easily find selected vocabulary terms by full-text-search into label and description. Operational since 2023."
+    link: "/applications-tools/vocab-term-lookup"
+    #clickthrough_button_text: "Check it out"
+    image: "/assets/media/img/rdf-logo.svg"
     tags:
       - vocabularies
       - linked data
+      - rdf
