@@ -1,6 +1,21 @@
-{%if include.document_id %}
-<iframe 
-  src="https://docs.google.com/presentation/d/e/{{ include.document_id }}/embed?start=false&loop=true&delayms=3000" 
-  frameborder="0" width="480" height="299" 
+{%- comment %}
+Usage:
+    {% include presentation/google-slides.html
+        document_id="«lengty google document identifier from URL»"  
+        width="«optional: width in px»"
+        height="«optional: height in px»"
+        delayms="«optional: slide transition in milliseconds»"
+    %}
+------------------------------------------------------------------------------
+{% endcomment -%}
+
+{%- assign w=include.width  | default: 480 %}
+{%- assign h=include.height | default: 299 %}
+{%- assign d=include.delayms| default: 3000 %}
+
+{%- if include.document_id %}
+<iframe style="width: {{w}}px" 
+  src="https://docs.google.com/presentation/d/e/{{ include.document_id }}/embed?start=false&loop=true&delayms={{d}}" 
+  frameborder="0" width="{{w}}" height="{{h}}" 
   allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-{%endif%}
+{%- endif %}
