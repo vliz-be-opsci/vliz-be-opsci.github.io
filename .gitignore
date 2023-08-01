@@ -7,3 +7,6 @@ _site/*
 # Cache & metadata
 .jekyll-cache/
 .jekyll-metadata
+
+# venv python 
+venv/
