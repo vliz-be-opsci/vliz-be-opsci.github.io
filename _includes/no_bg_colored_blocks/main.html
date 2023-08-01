@@ -13,13 +13,11 @@
                                 <div>
                                     <div
                                         class="promoted-jobs view view-jobs view-id-jobs view-display-id-block_jobs_promoted ">
-
-                                        {% for item in data.items %}
                                         <div class="view-content">
-                                            {% include no_bg_colored_blocks/item.html item=item %}
-                                        </div>
+                                        {% for item in data.items %}
+                                        {% include no_bg_colored_blocks/item.html item=item %}
                                         {% endfor %}
-
+                                        </div>
                                         {% if data.clickthrough_button_url %}
                                         <div class="more-link">
                                             <a

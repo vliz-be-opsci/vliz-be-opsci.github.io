@@ -1,0 +1,39 @@
+#github workflow to run as cronjob every week
+
+name: Weekly Update of publications
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+
+    # This uses a python script to update the publications
+    # The script is located in ./publication_scraper/scraper.py
+    # The script will update the publications and push the changes to the repository
+    update_publications:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Set up Python 3.8
+              uses: actions/setup-python@v2
+              with:
+                python-version: 3.8
+            - name: Install dependencies
+              run: |
+                python -m pip install --upgrade pip
+                pip install -r requirements.txt
+            - name: Run the scraper
+              run: |
+                python ./publication_scraper/scraper.py
+            - name: Commit changes
+              run: |
+                git config --local user.email "
+                git config --local user.name "
+                git add .
+                git commit -m "Update publications"
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                branch: main
