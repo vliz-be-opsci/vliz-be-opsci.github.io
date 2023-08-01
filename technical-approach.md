@@ -7,13 +7,18 @@ permalink: /open-science-at-vliz/technical-approach
 
 ## Our technical Approach
 
-- ### Linked Data
+### LD Publication
+* conneg
+* templating
+* convenience details (file-save-as + vary) 
+
+
+### LDES 
 
   ...
 
-- ### Semantic Web technologies
+### RO-Crates
 
-  ...
-
-- ### Ontologies
-  ...
+* authority
+* mini website
+* github combo
