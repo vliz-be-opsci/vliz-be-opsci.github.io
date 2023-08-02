@@ -15,7 +15,7 @@ With this overview we want to give a general sense of the available linked open 
 
 ## marineinfo.org
 
-[MarineInfo.org](https://marineinfo.org/) exposes the various entities from the VLIZ internal IMIS (Integrated Marine Information System) as linked-open-data.  This catalog effectively includes datasets, publications, people, institutes and projects.
+[MarineInfo.org](https://marineinfo.org/) exposes the various entities from the VLIZ IMIS (Integrated Marine Information System) as linked-open-data.  This catalog effectively includes datasets, publications, people, institutes and projects.
 
 {% include presentation/google-slides.html
    document_id="2PACX-1vS8k78KZfJxVWUMB7jZR0FVzMOZaNk7Ek_Oe7YEWwyfchwqdotfbaqWrLeoE5eKGNS7U9b_V9u0tnYu"
