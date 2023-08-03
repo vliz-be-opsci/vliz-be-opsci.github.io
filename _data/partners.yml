@@ -17,7 +17,7 @@ items:
       - tables
       - knowledge graph
 
-  - title: "European Marine Biological Resource Centre - Belgium"
+  - title: "European Marine Biological Resource Centre - Belgium (EMBRC)"
     description: "The European Marine Biological Resource Centre (EMBRC) aims to advance fundamental and applied marine biology and ecology research, while promoting the development of blue biotechnology. This is achieved by facilitating access to marine organisms and ecosystems, experimental facilities, technological platforms, and relevant services in its 32 marine stations and research institutes in 10 European countries including Belgium in support of robust and efficient research."
     clickthrough_url: https://www.embrc.be/
     image: "/assets/media/img/placeholder.png"
