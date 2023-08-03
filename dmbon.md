@@ -1,10 +1,16 @@
 ---
-layout: dmbon
+layout: default
+permalink: /applications-tools/dmbon-assistant
 ---
+
+
+<!-- todo revive this statement if we know where that larger ecosysten gets published
 
 :earth_africa: **[This project is part of a larger open science and open data ecosystem. Find out more information here!](https://open-science.vliz.be/#projects)**
 
 ---
+
+--> 
 
 # Data management assistant
 

@@ -4,6 +4,7 @@ gems:
   - jekyll-mermaid
 plugins:
   - jekyll-datapage-generator
+  - jemoji
 
 page_gen:
   - data: 'tools'
