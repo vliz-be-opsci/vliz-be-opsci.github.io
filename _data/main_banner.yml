@@ -1,5 +1,9 @@
 title: "Open Science"
 description: "VLIZ is committed to Open Science. We believe that sharing data, software, publications and other research outputs is essential to advance science."
-button_text: "More About The Open Science Team"
-button_url: "/open-science-team/"
+button_text: "More About The VLIZ approach to Open Science"
+button_url: "/open-science"
 banner_media: "/assets/media/img/cover.webp"
+#topics:
+#  - title: test1
+#    image: https://starboardyacht.com/wp-content/uploads/2022/10/starbust2022.jpg 
+#    clickthrough_url: https://www.maregraph.eu

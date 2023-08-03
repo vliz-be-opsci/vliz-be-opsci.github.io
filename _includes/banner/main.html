@@ -1,7 +1,8 @@
 <div class="col-12 field__item">
     <div
       class="paragraph paragraph--type--from-library paragraph--view-mode--default">
-      {% include banner/banner.html banner=banner %}
+      {% include banner/banner.html banner=include.banner %}
+
       <div
         class="field field--name-paragraphs field--type-entity-reference-revisions field--label-hidden">
         <div>
@@ -10,26 +11,24 @@
               <div
                 class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
                 <div class="row field__items">
-                    {% assign counter = 0 %}
-                    {% assign numtopics = banner.topics | size %}
-                    {% assign mdl = numtopics | modulo: 3 %}
-                    {% assign lmz = numtopics | minus: mdl %}
-                    {% for topic in banner.topics %}
-                    {% assign counter = counter | plus: 1 %}
-                    {% assign mlnz = lmz | minus: 3 %}
-                    {% assign colw = '4' %}
-                    {% if numtopics | modulo: 3 == 0  %}
-                        {% assign colw = '4' %}
-                    {% endif %}
-                    {% include banner/topic.html colw=colw topic=topic  %}
+                    {% comment %} Group in rows of 3 columns, distribute remaining over last row {% endcomment %} 
+                    {% assign cols = 3 %}
+                    {% assign total=include.banner.topics | size %}
+                    {% assign remaininglast=total | minus:1 | modulo: cols | plus: 1 %}
+                    {% for topic in include.banner.topics %}
+                      {% assign inlastrow=total | minus: forloop.index | minus: remaininglast %}
+                      {% if inlastrow < 0 %}
+                        {% assign cols = remaininglast %}
+                      {% endif %}
+                      {% assign colw = 12 | divided_by: cols %}
+                      <!-- {{forloop.index}}, {{remaininglast}}, {{total}}, {{colw}}-->
+                      {% include banner/topic.html colw=colw topic=topic  %}
                     {% endfor %}
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
   </div>

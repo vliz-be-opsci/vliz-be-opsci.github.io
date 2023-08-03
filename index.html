@@ -3,8 +3,7 @@ layout: default
 ---
 
 {% if site.data.main_banner %}
-{% assign banner = site.data.main_banner %}
-{% include banner/main.html banner=banner %}
+{% include banner/main.html banner=site.data.main_banner %}
 {% endif %}
 {% assign data=site.data.opsci_mission_values %}
 {% include image_w_descr_curly/main.html data=data %}
