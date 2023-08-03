@@ -1,9 +1,9 @@
-title: "Projects"
+title: "Open Science Projects"
 
 items:
   - title: "Marco-Bolo"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    link: 
+    clickthrough_url: 
     image: "/assets/media/img/projects/MARCO-BOLO_logo_col.png"
     tags:
       - EOSC-Association
@@ -11,7 +11,7 @@ items:
 
   - title: "FAIR-EASE"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    link: 
+    clickthrough_url: 
     image: "/assets/media/img/projects/fairease-logo.svg"
     tags:
       - EOSC-Association
@@ -19,7 +19,7 @@ items:
 
   - title: "MareGraph"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    link: https://www.maregraph.eu 
+    clickthrough_url: https://www.maregraph.eu 
     image: "/assets/media/img/projects/maregraph-logo.svg"
     tags:
       - EU
@@ -27,26 +27,19 @@ items:
 
   - title: "George"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    link: 
+    clickthrough_url: 
     image: "/assets/media/img/placeholder.png"
     tags:
       - EU
 
   - title: "Bluecloud-2026"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    link: 
+    clickthrough_url: 
     image: "/assets/media/img/placeholder.png"
     tags:
       - EOSC-Association
       - EU
 
-  - title: "Bluecloud-2026"
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    link: 
-    image: "/assets/media/img/placeholder.png"
-    tags:
-      - EOSC-Association
-      - EU
 
 # coming soon:
 #- AQUASERV
