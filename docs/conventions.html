@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Open Science Team</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    <link rel="canonical" href="https://vliz-be-opsci.github.io/docs/conventions.html">
+    <link rel="shortcut icon" type="image/png" href="img/vliz-opsci-logo.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">            
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top"><img src="img/open-science-logo-small.png" alt="">Home</a> -->
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href=https://vliz-be-opsci.github.io/#expertise>Expertise</a> 
+                    </li>
+                    <li>
+                        <a class="page-scroll" href=https://vliz-be-opsci.github.io/#events>Events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href=https://vliz-be-opsci.github.io/#publications>Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href=https://vliz-be-opsci.github.io/#tools>Tools</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href=https://vliz-be-opsci.github.io/#contact>Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href=https://vliz-be-opsci.github.io/#team>Team</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <body id="page-top" class="index">
+
+        <section id="conventions">
+            <div class="container">
+                <h1 id="github-convention">Github Convention</h1>
+
+<h2 id="naming-and-messages">Naming and Messages</h2>
+
+<h3 id="repositories">Repositories</h3>
+
+<ul>
+  <li>Names should use dashes and lower case. (<a href="[http://example.com](https://en.wikipedia.org/wiki/Letter_case#Kebab_case)">kebab case</a> -&gt; name-of-repo</li>
+  <li>They should be accompanied by topics in the about section (e.g. python, docker-compose, react, …), these topics can be filtered on when looking for a repo.</li>
+  <li>Releases should make use of git tag and conform to semantic versioning (<code class="language-plaintext highlighter-rouge">major.minor.patch</code>, not prefixed with v)</li>
+  <li>each repo should contain a LICENSE:
+    <ul>
+      <li>MIT for source code</li>
+      <li>CC-BY for datasets</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Specific Rules for naming:</p>
+<ul>
+  <li>python packages: short names without any delimiter (e.g. pyhello), longer names delimited by dashes (e.g. py-hello-world)</li>
+  <li>github actions: *-action</li>
+  <li>github pages actions: *-to-pages</li>
+  <li>ro-crates: *-crate</li>
+  <li>web components: *-widget</li>
+</ul>
+
+<h3 id="branches">Branches</h3>
+
+<p>There should be two default branchs on each repo:</p>
+<ul>
+  <li>main (release ready code)</li>
+  <li>gh-pages (documentation) -&gt; this branch is maintained automatically by a documentation workflow</li>
+</ul>
+
+<p>Other branches should be open whenever a change is required and the name should fit the change.</p>
+
+<p>{category}/{description}  -&gt; example:  fix/connection_bug</p>
+
+<p>The description should be a short summary of the branch intent using <a href="https://en.wikipedia.org/wiki/Letter_case#Snake_case">snake case</a>
+The category should fall into:</p>
+<ul>
+  <li>fix</li>
+  <li>feature</li>
+  <li>refactor</li>
+  <li>chore</li>
+  <li>docs</li>
+  <li>(add more if needed)</li>
+</ul>
+
+<h3 id="commits">Commits</h3>
+
+<p>Commits messages should follow <a href="https://www.conventionalcommits.org/en/v1.0.0/">these convention rules</a></p>
+
+<p>The commit message should follow:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"&lt;type&gt;: {action} {what} {where} {why} "
+ex: refactor: change args in funcA to allow tipehinting
+</code></pre></div></div>
+
+<p>The allowed types are:</p>
+<ul>
+  <li>build</li>
+  <li>chore</li>
+  <li>ci</li>
+  <li>docs</li>
+  <li>feat</li>
+  <li>fix</li>
+  <li>perf</li>
+  <li>refactor</li>
+  <li>revert</li>
+  <li>style</li>
+  <li>test</li>
+</ul>
+
+<p>You can check more option on the allowed convention on the website, it also allows for a body and a footer in the message.</p>
+
+<h2 id="rules">Rules</h2>
+
+<h3 id="pull-request">Pull Request</h3>
+
+<p>A new PR from a new branch should be made on every code change.</p>
+<ul>
+  <li>There is not direct push to main</li>
+</ul>
+
+<p>When opening a PR a name should be given (Can be like the branch name), and a description explaining the goal of the PR, and also using <a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests#linking-a-pull-request-to-an-issue">GitHub keywords</a> if available.</p>
+
+<p>To be able to merge a PR it needs to:</p>
+<ul>
+  <li>Have at least one approval</li>
+  <li>Passed checker actions
+    <ul>
+      <li>Linting</li>
+      <li>Testing</li>
+      <li>Test Coverage</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The commits inside the PR should follow a story driven history, modulated and simple and straight-forward for the action at hands.</p>
+
+<h3 id="python-projects">Python Projects</h3>
+
+<p>For a coockiecutter/template on python projects you can go <a href="https://gitlab.vliz.be/datac/templating/cookiecutter-py-module">here</a> # Change this to github</p>
+
+<p>Projects should use <a href="https://python-poetry.org/docs/">poetry</a> as the dependency manager</p>
+
+<p>The linting will follow the default <a href="https://github.com/PyCQA/flake8">flake8</a> settings.
+The checker will test for the usage of <a href="https://github.com/psf/black">black</a> and <a href="https://github.com/PyCQA/isort">isort</a>, only change from default is the line-lenght set to 79.</p>
+
+<p>The checker will also run pytest, and check for test coverage. The default setting is 85% coverage on single files and 90% for the porject.</p>
+
+<p>If you are using the cookiecutter there is a command to do the linting:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make lint-fix
+</code></pre></div></div>
+
+<p>Otherwise you can run the commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>black .
+isort .
+flake8
+</code></pre></div></div>
+
+<p>Documentation is build using <a href="https://www.sphinx-doc.org/en/master/">Sphinx</a> and docstrings should follow the <a href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#python-signatures">Sphinx Markup</a></p>
+
+            </div>
+        </section>
+      <footer>
+        <div class="container">
+            <div class="row"> 
+                <span class="copyright">&copy; Open Science Team 2023 - All licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">cc by 4.0</a> </span>
+            </div>
+            <div class="row">
+                        <ul class="list-inline quicklinks">
+                            <li><a href="https://www.vliz.be/en/" target="_blank"><img src="img/VLIZ_logo.png" alt="" width="40px"></a></li>
+                            <li><p>Flanders Marine Institute | InnovOcean Campus | Jacobsenstraat 1, 8400 Ostend, Belgium | <a href="http://www.vliz.be/privacy" target="_blank">Privacy and cookie policy</a></p></li>
+                        </ul>
+            </div>
+        </div>
+    </footer>
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+    <script src="/js/scroll_button.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </body>
+</html>
