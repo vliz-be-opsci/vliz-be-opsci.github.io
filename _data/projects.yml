@@ -1,20 +1,59 @@
 title: "Projects"
 
 items:
-  - title: "EOSC related projects"
+  - title: "Marco-Bolo"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    clickthrough_url: "..."
-    clickthrough_button_text: "Example button text here"
-    image: "/assets/media/img/SquidRNA.webp"
+    link: 
+    image: "/assets/media/img/projects/MARCO-BOLO_logo_col.png"
     tags:
-      - EOSC
-      - ...
+      - EOSC-Association
+      - EU
 
-  - title: "VOSB"
+  - title: "FAIR-EASE"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    clickthrough_url: "https://github.com/vliz-be-opsci/open-ais"
-    clickthrough_button_text: "Example button text here"
-    image: "/assets/media/img/SquidRNA.webp"
+    link: 
+    image: "/assets/media/img/projects/fairease-logo.svg"
     tags:
-      - VOSB
-      - ...
+      - EOSC-Association
+      - EU
+
+  - title: "MareGraph"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    link: https://www.maregraph.eu 
+    image: "/assets/media/img/projects/maregraph-logo.svg"
+    tags:
+      - EU
+      - RDF
+
+  - title: "George"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    link: 
+    image: "/assets/media/img/placeholder.png"
+    tags:
+      - EU
+
+  - title: "Bluecloud-2026"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    link: 
+    image: "/assets/media/img/placeholder.png"
+    tags:
+      - EOSC-Association
+      - EU
+
+  - title: "Bluecloud-2026"
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    link: 
+    image: "/assets/media/img/placeholder.png"
+    tags:
+      - EOSC-Association
+      - EU
+
+# coming soon:
+#- AQUASERV
+#- BioDT
+#- EDNAAqua Plan
+
+# passed ones:
+#- ENVRI-FAIR
+#- EOSC Future
+#- EOSC-Life
