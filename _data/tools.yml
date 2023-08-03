@@ -1,12 +1,12 @@
 - title: DMBON
-  url: "https://github.com/vliz-be-opsci/dmbon-assistant"
+  clickthrough_url: "https://github.com/vliz-be-opsci/dmbon-assistant"
   short-description: "DMBON is a tool to assist in the creation of a Data Management Plan (DMP)."
   long-description: "DMBON is a tool to assist in the creation of a Data Management Plan (DMP). It is a web application that guides the user through the process of creating a DMP. It is based on the DCC DMPonline tool, but has been adapted to the needs of the Belgian marine research community. The tool is available in English." 
 - title: Open AIS
-  url: "https://github.com/vliz-be-opsci/open-ais"
+  clickthrough_url: "https://github.com/vliz-be-opsci/open-ais"
   short-description: "Open AIS is a tool lorem ipsum"
   long-description: "Open AIS is a tool lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
 - title: NS
-  url: "https://github.com/vliz-be-opsci/ns"
+  clickthrough_url: "https://github.com/vliz-be-opsci/ns"
   short-description: "NS is a tool lorem ipsum"
   long-description: "NS is a tool lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
