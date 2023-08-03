@@ -1,5 +1,5 @@
 title: "Open Science"
 description: "VLIZ is committed to Open Science. We believe that sharing data, software, publications and other research outputs is essential to advance science."
-button_text: "More About The Open Science Team"
+clickthrough_url: "More About The Open Science Team"
 button_url: "/open-science-team/"
 banner_media: "/assets/media/img/cover.webp"

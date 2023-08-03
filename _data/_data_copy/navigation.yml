@@ -1,60 +1,60 @@
 - title: Who are we
-  url: /who-are-we/
+  clickthrough_url: /who-are-we/
   items:
     - title: "VLIZ"
-      url: "https://www.vliz.be/en/wie-we-zijn/about-vliz"
+      clickthrough_url: "https://www.vliz.be/en/wie-we-zijn/about-vliz"
       items:
         - title: "mission & vision"
-          url: "https://www.vliz.be/en/who-we-are/about-vliz/mission-vision"
+          clickthrough_url: "https://www.vliz.be/en/who-we-are/about-vliz/mission-vision"
         
     - title: "Data Center"
-      url: "https://www.vliz.be/en/what-we-do/data-information/data"
+      clickthrough_url: "https://www.vliz.be/en/what-we-do/data-information/data"
       items:
         - title: "How do we work"
-          url: "https://www.vliz.be/en/wie-we-zijn/over-vliz/our-operation"
+          clickthrough_url: "https://www.vliz.be/en/wie-we-zijn/over-vliz/our-operation"
     - title: "Open Science Team"
-      url: "/open-science-team/"
+      clickthrough_url: "/open-science-team/"
       items:
         - title: "About us"
-          url: "/open-science-team/#about-us"
+          clickthrough_url: "/open-science-team/#about-us"
         - title: "Domains of expertise" 
-          url: "/open-science-team/#domains-of-expertise"
+          clickthrough_url: "/open-science-team/#domains-of-expertise"
         - title: "team members"
-          url: "/open-science-team/#team-members"
+          clickthrough_url: "/open-science-team/#team-members"
 - title: What we do
-  url: /what-we-do/
+  clickthrough_url: /what-we-do/
   items:
     - title: "Projects"
-      url: "#projects"
+      clickthrough_url: "#projects"
       items:
         - title: "project 1"
-          url: "/projects/project-1/"
+          clickthrough_url: "/projects/project-1/"
         - title: "project 2"
-          url: "/projects/project-2/"
+          clickthrough_url: "/projects/project-2/"
         - title: "project 3"
-          url: "/projects/project-3/"
+          clickthrough_url: "/projects/project-3/"
     - title: "Databases"
-      url: "#databases"
+      clickthrough_url: "#databases"
       items:
         - title: "database 1"
-          url: "/databases/#database-1"
+          clickthrough_url: "/databases/#database-1"
         - title: "database 2"
-          url: "/databases/#database-2"
+          clickthrough_url: "/databases/#database-2"
     - title: "Tools"
-      url: "/tools/"
+      clickthrough_url: "/tools/"
       items:
         - title: "DMBON"
-          url: "/tools/dmbon/"
+          clickthrough_url: "/tools/dmbon/"
         - title: "Open AIS"
-          url: "/tools/open-ais/"
+          clickthrough_url: "/tools/open-ais/"
         - title: "NS"
-          url: "/tools/ns/"
+          clickthrough_url: "/tools/ns/"
 - title: Collaboration
-  url: /collaboration/
+  clickthrough_url: /collaboration/
   items:
     - title: "Meet our partners"
-      url: "/collaboration/placeholder-title-7/"
+      clickthrough_url: "/collaboration/placeholder-title-7/"
     - title: "Read the LOD"
-      url: "https://readthelod.org/"
+      clickthrough_url: "https://readthelod.org/"
 - title: Publications
-  url: /publications/
+  clickthrough_url: /publications/

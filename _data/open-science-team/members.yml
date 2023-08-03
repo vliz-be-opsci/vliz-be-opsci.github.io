@@ -5,11 +5,11 @@
   position: Team lead
   social:
     - title: mail
-      url: mailto:marc.portier@vliz.be
+      clickthrough_url: mailto:marc.portier@vliz.be
     - title: linkedin
-      url: https://www.linkedin.com/in/marcportier
+      clickthrough_url: https://www.linkedin.com/in/marcportier
     - title: github
-      url: https://github.com/marc-portier
+      clickthrough_url: https://github.com/marc-portier
 
 - id: https://orcid.org/0000-0002-5911-1536
   name: Katrina Exter
@@ -17,11 +17,11 @@
   position: Scientific data expert
   social:
     - title: mail
-      url: mailto:katrina.exter@vliz.be
+      clickthrough_url: mailto:katrina.exter@vliz.be
     - title: linkedin
-      url: https://www.linkedin.com/in/katrina-exter-32868369
+      clickthrough_url: https://www.linkedin.com/in/katrina-exter-32868369
     - title: github
-      url: https://github.com/kmexter
+      clickthrough_url: https://github.com/kmexter
 
 - id: https://orcid.org/0000-0002-0440-215X
   name: Rory Meyer
@@ -30,11 +30,11 @@
   position: Data science architect
   social:
     - title: mail
-      url: mailto:rory.meyer@vliz.be
+      clickthrough_url: mailto:rory.meyer@vliz.be
     - title: linkedin
-      url: https://www.linkedin.com/in/rory-meyer
+      clickthrough_url: https://www.linkedin.com/in/rory-meyer
     - title: github
-      url: https://github.com/RoryMMMM
+      clickthrough_url: https://github.com/RoryMMMM
 
 - id: https://orcid.org/0000-0001-6387-5988
   name: Cedric Decruw
@@ -42,11 +42,11 @@
   position: Developer
   social:
     - title: mail
-      url: mailto:cedric.decruw@vliz.be
+      clickthrough_url: mailto:cedric.decruw@vliz.be
     - title: linkedin
-      url: https://www.linkedin.com/in/cedric-decruw-974793180
+      clickthrough_url: https://www.linkedin.com/in/cedric-decruw-974793180
     - title: github
-      url: https://github.com/cedricdcc
+      clickthrough_url: https://github.com/cedricdcc
 
 - id: https://orcid.org/0000-0003-0663-5907
   name: Laurian Van Maldeghem
@@ -54,11 +54,11 @@
   position: Science officer
   social:
     - title: mail
-      url: mailto:laurian.van.maldeghem@vliz.be
+      clickthrough_url: mailto:laurian.van.maldeghem@vliz.be
     - title: linkedin
-      url: https://www.linkedin.com/in/laurianvanmaldeghem
+      clickthrough_url: https://www.linkedin.com/in/laurianvanmaldeghem
     - title: github
-      url: https://github.com/laurianvm
+      clickthrough_url: https://github.com/laurianvm
       
 - id: https://orcid.org/0000-0002-5859-2729
   name: Joanna Goley
@@ -66,11 +66,11 @@
   position: Project manager
   social:
     - title: mail
-      url: mailto:joanna.goley@vliz.be
+      clickthrough_url: mailto:joanna.goley@vliz.be
     - title: linkedin
-      url: https://www.linkedin.com/in/joannagoley
+      clickthrough_url: https://www.linkedin.com/in/joannagoley
     - title: github
-      url: https://github.com/joannagoley
+      clickthrough_url: https://github.com/joannagoley
 
 - id: https://orcid.org/0000-0002-5934-8998
   name: Bram Ulrichts
@@ -78,11 +78,11 @@
   position: Open Science Developer
   social:
     - title: mail
-      url: mailto:bram.ulrichts@vliz.be
+      clickthrough_url: mailto:bram.ulrichts@vliz.be
     - title: linkedin
-      url: https://www.linkedin.com/in/ulrichtsblr
+      clickthrough_url: https://www.linkedin.com/in/ulrichtsblr
     - title: github
-      url: https://github.com/bulricht
+      clickthrough_url: https://github.com/bulricht
 
 - id: https://orcid.org/0009-0007-5995-8060
   name: João dos Santos
@@ -90,8 +90,8 @@
   position: Open Science Officer
   social:
     - title: mail
-      url: mailto:joao.dos.santos@vliz.be
+      clickthrough_url: mailto:joao.dos.santos@vliz.be
     - title: linkedin
-      url: https://www.linkedin.com/in/jo%C3%A3o-dos-santos-45a66312b/
+      clickthrough_url: https://www.linkedin.com/in/jo%C3%A3o-dos-santos-45a66312b/
     - title: github
-      url: https://github.com/JotaFan
+      clickthrough_url: https://github.com/JotaFan

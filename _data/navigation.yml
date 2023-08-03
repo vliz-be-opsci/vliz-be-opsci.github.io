@@ -1,95 +1,95 @@
 - title: About
-  url: /
+  clickthrough_url: /
   items:
     - title: Open Science
-      url: /open-science
+      clickthrough_url: /open-science
       items:
         - title: Goals & aims
-          url: /open-science#goals
+          clickthrough_url: /open-science#goals
         - title: Components
-          url: /open-science#components
+          clickthrough_url: /open-science#components
         - title: Open principles
-          url: /open-science#principles
+          clickthrough_url: /open-science#principles
     - title: Accross Departments
-      url: /open-science-at-departments
+      clickthrough_url: /open-science-at-departments
       items:
         - title: Research
-          url: /open-science-at-departments#research
+          clickthrough_url: /open-science-at-departments#research
         - title: Data Centre
-          url: /open-science-at-departments#vmdc
+          clickthrough_url: /open-science-at-departments#vmdc
         - title: Library
-          url: /open-science-at-departments#lib
+          clickthrough_url: /open-science-at-departments#lib
         - title: Policy and valorization
-          url: /open-science-at-departments#valinno
+          clickthrough_url: /open-science-at-departments#valinno
         - title: Science Communication
-          url: /open-science-at-departments#scicom
+          clickthrough_url: /open-science-at-departments#scicom
     - title: In Practice
-      url: /open-science-practice
+      clickthrough_url: /open-science-practice
       items:
         - title: Mission and Vision 
-          url: /open-science-practice#mission
+          clickthrough_url: /open-science-practice#mission
         - title: Technical approach
-          url: /open-science-practice#technical
+          clickthrough_url: /open-science-practice#technical
 
 - title: Community
-  url: /community
+  clickthrough_url: /community
   items:
     - title: Partners
-      url: /partners
+      clickthrough_url: /partners
       items:
         - title: EOSC
-          url: /partners
+          clickthrough_url: /partners
         - title: Flemish Research Data Network
-          url: /partners
+          clickthrough_url: /partners
     - title: Projects
-      url: /projects
+      clickthrough_url: /projects
     - title: Initiatives
       items:
         - title: Read the LOD
-          url: https://readthelod.org/
+          clickthrough_url: https://readthelod.org/
 
 - title: Achievements
-  url: /achievements
+  clickthrough_url: /achievements
   items:
     - title: Linked data
-      url: /linked-data
+      clickthrough_url: /linked-data
       items:
         - title: marineinfo.org
-          url: https://marineinfo.org/
+          clickthrough_url: https://marineinfo.org/
         - title: marineregions.org
-          url: https://www.marineregions.org/gazetteer.php?p=webservices
+          clickthrough_url: https://www.marineregions.org/gazetteer.php?p=webservices
         - title: marinespecies.org
-          url: https://www.marinespecies.org/
+          clickthrough_url: https://www.marinespecies.org/
     - title: Applications & tools
-      url: /applications-tools
+      clickthrough_url: /applications-tools
       items:
         - title: DMBON Assistant
-          url: /applications-tools/dmbon-assistant
+          clickthrough_url: /applications-tools/dmbon-assistant
         - title: Open AIS
-          url: /applications-tools/open-ais
+          clickthrough_url: /applications-tools/open-ais
         - title: RO-Crate demo
-          url: /applications-tools/ro-crate-demo
+          clickthrough_url: /applications-tools/ro-crate-demo
         - title: Vocab Term Lookup
-          url: /applications-tools/vocab-term-lookup
+          clickthrough_url: /applications-tools/vocab-term-lookup
         - title: Software packages
-          url: /applications-tools/software-packages
+          clickthrough_url: /applications-tools/software-packages
     - title: Ontologies
-      url: /ontologies/
+      clickthrough_url: /ontologies/
       items:
         - title: NS stuff -> opt to move to technical approach?
     - title: Publications
-      url: /publications
+      clickthrough_url: /publications
     - title: Events
-      url: /events
+      clickthrough_url: /events
 - title: Documents
-  url: /documents/
+  clickthrough_url: /documents/
   items:
     - title: Conventions
-      url: /conventions
+      clickthrough_url: /conventions
       items:
         - title: Version management
-          url: /conventions/version-management
+          clickthrough_url: /conventions/version-management
         - title: Python
-          url: /conventions/python
+          clickthrough_url: /conventions/python
     - title: Policy documents
-      url: /policy-docs
+      clickthrough_url: /policy-docs

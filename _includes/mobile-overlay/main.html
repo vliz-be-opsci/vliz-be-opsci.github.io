@@ -13,7 +13,7 @@
                 <ul class="menu">
                 {% for subsubitem in subitem.items %}
                 <li class="menu-item menu-item--expanded">
-                    <a href="{{subsubitem.url}}">{{subsubitem.title}}</a>
+                    <a href="{{subsubitem.clickthrough_url}}">{{subsubitem.title}}</a>
                 </li>
                 {% endfor %}
                 </ul>

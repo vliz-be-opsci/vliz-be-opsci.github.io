@@ -62,13 +62,13 @@
                 {% for item in site.data.navigation %}
                 {% if item.items %}
                 <li class="menu-item menu-item--collapsed">
-                  <a {% if item.highlight %}class="highlight" {% endif %} href="{{ item.url }}"
+                  <a {% if item.highlight %}class="highlight" {% endif %} href="{{ item.clickthrough_url }}"
                     data-doormat-target="doormat-block-hoofdnavigatie{% if forloop.index != 1 %}-{{ forloop.index }}{% endif %}">{{
                     item.title }}</a>
                 </li>
                 {% else %}
                 <li class="menu-item">
-                  <a {% if item.highlight %}class="highlight" {% endif %} href="{{ item.url }}">{{ item.title }}</a>
+                  <a {% if item.highlight %}class="highlight" {% endif %} href="{{ item.clickthrough_url }}">{{ item.title }}</a>
                 </li>
                 {% endif %}
                 {% endfor %}
@@ -91,12 +91,12 @@
         <ul class="menu">
           {% for subitem in item.items %}
           <li class="menu-item menu-item--expanded">
-            <a href="{{subitem.url}}">{{subitem.title}}</a>
+            <a href="{{subitem.clickthrough_url}}">{{subitem.title}}</a>
             {% if subitem.items %}
             <ul class="menu">
               {% for subsubitem in subitem.items %}
               <li class="menu-item">
-                <a href="{{subsubitem.url}}">{{subsubitem.title}}</a>
+                <a href="{{subsubitem.clickthrough_url}}">{{subsubitem.title}}</a>
               </li>
               {% endfor %}
             </ul>

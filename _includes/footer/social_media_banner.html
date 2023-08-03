@@ -13,7 +13,7 @@
                 <ul class="social-icons">
                     {% for item in site.social_media %}
                     <li>
-                        <a href="{{item.url}}" target="_blank"
+                        <a href="{{item.clickthrough_url}}" target="_blank"
                         rel="noopener noreferrer">
                         {% if item.name == "facebook" %}
                         <svg class="svg-inline--fa fa-facebook-f fa-2x"
