@@ -5,48 +5,35 @@
       url: /open-science
       items:
         - title: Goals & aims
-          url: /open-science
+          url: /open-science#goals
         - title: Components
-          url: /open-science
+          url: /open-science#components
         - title: Open principles
-          url: /open-science
-    - title: Open science @ VLIZ
-      url: /open-science-at-vliz
+          url: /open-science#principles
+    - title: Accross Departments
+      url: /open-science-at-departments
       items:
-        - title: Our vision/goals
-          url: /open-science-at-vliz
-        - title: Technical approach
-          url: /open-science-at-vliz/technical-approach
-    - title: Departments
-      url: /departments
-      items:
-        - title: VMDC
-          url: /departments
-          items:
-            - title: Open Science team
-              url: /departments
-              #link to open science team at VMDC site
-            - title: Geospatial data & products team
-              url: /departments
-              #link to geospatial team on VMDC site
-            - title: MarineLife+ team
-              url: /departments
-              #link to marinelife+ team on VMDC site
+        - title: Research
+          url: /open-science-at-departments#research
+        - title: Data Centre
+          url: /open-science-at-departments#vmdc
         - title: Library
-          url: /departments
+          url: /open-science-at-departments#lib
         - title: Policy and valorization
-          url: /departments
+          url: /open-science-at-departments#valinno
+        - title: Science Communication
+          url: /open-science-at-departments#scicom
+    - title: In Practice
+      url: /open-science-practice
+      items:
+        - title: Mission and Vision 
+          url: /open-science-practice#mission
+        - title: Technical approach
+          url: /open-science-practice#technical
 
 - title: Community
   url: /community
   items:
-    - title: Projects
-      url: /projects
-      items:
-        - title: EOSC related projects
-          url: /projects
-        - title: VOSB
-          url: /projects
     - title: Partners
       url: /partners
       items:
@@ -54,8 +41,9 @@
           url: /partners
         - title: Flemish Research Data Network
           url: /partners
+    - title: Projects
+      url: /projects
     - title: Initiatives
-      #to do: remove link when no link-key is defined in the yml-file
       items:
         - title: Read the LOD
           url: https://readthelod.org/
