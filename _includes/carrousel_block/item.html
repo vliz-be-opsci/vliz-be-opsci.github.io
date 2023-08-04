@@ -5,16 +5,16 @@
       <div
         class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
         <h4 class="highlighted-heading text-align-center">
-          {{ item.title }}
+          {{ include.item.title }}
         </h4>
 
         <p class="paragraph-small text-align-center">
-          {{ item.description }}
+          {{ include.item.description }}
         </p>
-        {% if item.item.clickthrough_url %}
+        {% if include.item.clickthrough_url %}
         <p class="paragraph-brand-color text-align-center">
           <a class="more-link-colored"
-            href="{{ item.clickthrough_url }}">{{ item.clickthrough_button_text }}</a>
+            href="{{ include.item.clickthrough_url }}">{{ include.item.clickthrough_text }}</a>
         </p>
         {% endif %}
       </div>
