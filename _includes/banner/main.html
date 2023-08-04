@@ -21,7 +21,6 @@
                         {% assign cols = remaininglast %}
                       {% endif %}
                       {% assign colw = 12 | divided_by: cols %}
-                      <!-- {{forloop.index}}, {{remaininglast}}, {{total}}, {{colw}}-->
                       {% include banner/topic.html colw=colw topic=topic  %}
                     {% endfor %}
                 </div>
