@@ -23,8 +23,11 @@
           <div class="field__item">
             <h2>{{ include.banner.title}}</h2>
             <p>{{ include.banner.description }} </p>
-            <p><a class="more-link" href="{{ include.banner.button_url}}">{{ include.banner.button_text }}</a>
+            {% if include.banner.clickthrough_url and include.banner.clickthrough_text %}
+            <p><a class="more-link" href="{{ include.banner.clickthrough_url}}"
+              >{{ include.banner.clickthrough_text }}</a>
             </p>
+            {%  endif %}
           </div>
         </div>
       </div>
