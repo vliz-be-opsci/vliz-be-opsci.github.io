@@ -3,11 +3,7 @@
         <div class="node__content">
             <div class="before">
                 <a href="{{ include.card.clickthrough_url }}" hreflang="nl" target="_blank"> 
-                    {% assign img_url=include.card.image | prepend: site.baseurl %}
-                    {% if include.card.image contains 'http' %}
-                        {% assign img_url=include.card.image %}
-                    {% endif %}
-                    <img loading="lazy" src="{{ img_url }}"
+                    <img loading="lazy" src="{{ include.card.image | relative_url }}"
                         width="600" height="450" alt="{{ include.card.title }}" title="{{include.card.title}}"
                         typeof="foaf:Image" class="image-style-medium-cropped" />
                 </a>
