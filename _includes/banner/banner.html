@@ -5,16 +5,12 @@
           class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
           <article class="media media--type-video media--view-mode-hero">
             {% assign media_object = include.banner.banner_media | default:"/assets/media/video/Homepage_website_SimonStevin.mp4" %}
-            {% assign media_object_url = media_object| prepend: site.baseurl %}
-              {% if media_object contains 'http' %}
-                {% assign media_object_url = media_object %}
-              {% endif %}
             {% if media_object contains '.mp4' %}
                 <video autoplay="autoplay" loop="loop" muted="muted" width="640" height="480">
-                    <source src="{{ media_object_url }}" type="video/mp4" />
+                    <source src="{{ media_object | relative_url }}" type="video/mp4" />
                 </video>
             {% else %}
-                <img loading="lazy" src="{{ media_object_url }}"
+                <img loading="lazy" src="{{ media_object | relative_url }}"
                     width="640" height="480" alt="{{ include.banner.title}}"
                     title="{{ include.banner.title}}" typeof="foaf:Image"
                     class="image-style-medium-cropped"
