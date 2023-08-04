@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /applications-tools/ro-crate-demo
+permalink: /applications-tools/rocrate-demo
 ---
 
 # RO-CRATE demo page
