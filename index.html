@@ -3,10 +3,10 @@ layout: default
 ---
 
 {% if site.data.main_banner %}
-{% include banner/main.html banner=site.data.main_banner %}
+  {% include banner/main.html banner=site.data.main_banner %}
 {% endif %}
-{% assign data=site.data.opsci_mission_values %}
-{% include image_w_descr_curly/main.html data=data %}
+
+{% include image_w_descr_curly/main.html data=site.data.opsci_mission_values %}
 
 <h3>What are the components???</h3>
 

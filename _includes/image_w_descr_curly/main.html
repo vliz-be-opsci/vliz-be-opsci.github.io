@@ -10,14 +10,8 @@
                         <div
                             class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
                             <article class="media media--type-image media--view-mode-large">
-                                <div
-                                    class="field field--name-field-media-image field--type-image field--label-hidden field__items">
-                                    <img loading="lazy"
-                                        {% if data.image contains 'http' %}
-                                        src="{{data.image}}"
-                                        {% else %}
-                                        src="{{site.base_uri}}{{data.image}}"
-                                        {% endif %}
+                                <div class="field field--name-field-media-image field--type-image field--label-hidden field__items">
+                                    <img loading="lazy" src="{{ include.data.image | relative_url }}"
                                         width="1000" height="666" alt="{{data.title}}" typeof="foaf:Image"
                                         class="image-style-large-1000" />
                                 </div>
@@ -30,13 +24,16 @@
                         <div
                             class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
                             <h2 class="highlighted-heading">
-                                {{data.title}}
+                                {{ include.data.title }}
                             </h2>
 
-                            <p>{{data.description}}</p>
+                            <p>{{ include.data.description }}</p>
                             </p>
-                            <p><a class="more-link" href="{{data.clickthrough_button_url}}">{{data.clickthrough_button_text}}</a>
+                            {% if include.data.clickthrough_text and include.data.clickthrough_url %}
+                            <p><a class="more-link" href="{{ include.data.clickthrough_url }}"
+                                >{{ include.data.clickthrough_text }}</a>
                             </p>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
