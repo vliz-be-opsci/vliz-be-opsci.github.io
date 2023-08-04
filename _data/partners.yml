@@ -23,3 +23,9 @@ items:
     image: "/assets/media/img/placeholder.png"
     tags:
       - 
+
+  - title: "LifeWatch - Eric"
+    description: "Regional Lifewatch Node - Marine and terrestrial observatories, models and data systems."
+    clickthrough_url: https://www.lifewatch.eu/
+    image: "/assets/media/img/placeholder.png"
+    tags:
