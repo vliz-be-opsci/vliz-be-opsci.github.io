@@ -1,9 +1,9 @@
 <div class="views-row">
-  <article role="article" about="{{ item.clickthrough_url }}"
+  <article role="article" about="{{ include.item.clickthrough_url }}"
     class="node node--type-faq-question node--promoted node--view-mode-teaser">
     <h2>
-      <a href="{{ item.clickthrough_url }}" rel="bookmark">
-        <span class="field field--name-title field--type-string field--label-hidden">{{ item.title }}</span>
+      <a href="{{ include.item.clickthrough_url }}" rel="bookmark">
+        <span class="field field--name-title field--type-string field--label-hidden">{{ include.item.title }}</span>
       </a>
     </h2>
     <div class="node__content">
