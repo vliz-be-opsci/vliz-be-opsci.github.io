@@ -47,7 +47,14 @@ items:
     tags:
       - EOSC-Association
       - EU
-
+      
+  - title: "EDITO Infra"
+    description: "The main aim of EDITO-Infra, the “EU Public Infrastructure for the European Digital Twin”, is to build the EU Public Infrastructure backbone for the European Digital Twin of the Ocean (DTO) by upgrading, combining and integrating key service components of the existing EU ocean observing, monitoring and data programmes Copernicus Marine Service (Copernicus Marine Service) and the European Marine Observation and Data Network (EMODnet) into a single digital framework."
+    clickthrough_url: https://edito-infra.eu/
+    image: "/assets/media/img/placeholder.png"
+    tags:
+      - EOSC-Association
+      - EU
 
 # coming soon:
 #- AQUASERV
