@@ -4,16 +4,13 @@
         class="node node--type-events node--view-mode-teaser">
         <div class="node__content">
             <div class="event-date-wrapper">
-                <div
-                    class="field field--name-field-event-begindate field--type-datetime field--label-hidden field__items">
-                    {{ item.title }}
+                <div class="field field--name-field-event-begindate field--type-datetime field--label-hidden field__items">
+                    {{ include.item.title }}
                 </div>
             </div>
-            <h4>
-                <a
-                    href="{{ item.clickthrough_url }}"><span
-                        class="field field--name-title field--type-string field--label-hidden">{{ item.description }}</span>
-                </a>
+            <h4> <a href="{{ include.item.clickthrough_url }}"><span
+                class="field field--name-title field--type-string field--label-hidden"
+                >{{ include.item.description }}</span></a>
             </h4>
         </div>
         <svg class="wave" xmlns="http://www.w3.org/2000/svg"
