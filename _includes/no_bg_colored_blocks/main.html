@@ -1,36 +1,33 @@
 <div class="col-12 field__item">
-    <div class="pb-6 pt-4 paragraph paragraph--type--container paragraph--view-mode--default">
-        <div
-            class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
-            <div class="row field__items">
-                <div class="col-12 field__item">
-                    <div class="paragraph paragraph--type--block paragraph--view-mode--default">
-                        <div
-                            class="field field--name-field-block field--type-block-field field--label-hidden field__items">
-                            <div class="views-element-container block block-views block-views-blockjobs-block-jobs-promoted"
-                                id="block-views-block-jobs-block-jobs-promoted">
-                                <h2>{{data.title}}</h2>
-                                <div>
-                                    <div
-                                        class="promoted-jobs view view-jobs view-id-jobs view-display-id-block_jobs_promoted ">
-                                        <div class="view-content">
-                                        {% for item in data.items %}
-                                        {% include no_bg_colored_blocks/item.html item=item %}
-                                        {% endfor %}
-                                        </div>
-                                        {% if data.clickthrough_button_url %}
-                                        <div class="more-link">
-                                            <a
-                                                href="{{data.clickthrough_button_url}}">{{data.clickthrough_button_text}}</a>
-                                        </div>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+  <div class="pb-6 pt-4 paragraph paragraph--type--container paragraph--view-mode--default">
+    <div class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+      <div class="row field__items">
+        <div class="col-12 field__item">
+          <div class="paragraph paragraph--type--block paragraph--view-mode--default">
+            <div class="field field--name-field-block field--type-block-field field--label-hidden field__items">
+              <div class="views-element-container block block-views block-views-blockjobs-block-jobs-promoted"
+                   id="block-views-block-jobs-block-jobs-promoted">
+                <h2>{{ include.data.title }}</h2>
+                <div>
+                  <div class="promoted-jobs view view-jobs view-id-jobs view-display-id-block_jobs_promoted ">
+                    <div class="view-content">
+                      {% for item in include.data.items %}
+                        {% include no_bg_colored_blocks/item.html item=item %}
+                      {% endfor %}
                     </div>
+                    {% if include.data.clickthrough_url and include.data.clickthrough_text %}
+                    <div class="more-link">
+                      <a href="{{ include.data.clickthrough_url }}"
+                      >{{ include.data.clickthrough_text}}</a>
+                    </div>
+                    {% endif %}
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>

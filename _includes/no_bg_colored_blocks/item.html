@@ -1,17 +1,15 @@
 <div class="views-row">
-    <article role="article" about="{{item.clickthrough_url}}"
+    <article role="article" about="{{ include.item.clickthrough_url }}"
         class="node node--type-jobs node--promoted node--view-mode-teaser">
         <h2>
-            {% if item.clickthrough_url contains 'http' %}
-            <a href="{{item.clickthrough_url}}" {% else %} <a href="{{site.baseurl}}{{item.clickthrough_url}}" {% endif
-                %} rel="bookmark"><span
-                    class="field field--name-title field--type-string field--label-hidden">{{item.title}}</span>
+            <a href="{{ include.item.clickthrough_url | relative_url }}" rel="bookmark"><span
+                class="field field--name-title field--type-string field--label-hidden">{{ include.item.title }}</span>
             </a>
         </h2>
         <div class="node__content">
             <div class="field field--name-field-teaser field--type-string-long field--label-hidden field__items">
                 <p>
-                    {{item.description}}
+                    {{ include.item.description }}
                 </p>
             </div>
         </div>
