@@ -12,3 +12,5 @@ gem "jekyll", "~> 4.3.0"
 gem "jekyll-datapage-generator"
 gem 'vliz-be-theme'
 gem "jemoji"
+gem 'rake'
+gem 'html-proofer'

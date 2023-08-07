@@ -1,0 +1,25 @@
+#this workflow will run the following steps:
+    # 1. make the _site data via bundle exec jekyll build command
+    # 2. run html proover on the _site data to check for broken links
+
+name: Jekyll Build and HTML Proofer
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the site
+        run: bundle exec jekyll build
+      - name: Run HTML Proofer
+        run: bundle exec htmlproofer --allow-hash-href ./_site
+        id: htmlproofer
+        continue-on-error: true
+      - name: Check HTML Proofer Results
+        run: echo "${{ steps.htmlproofer.outputs.exitcode }}" | grep -q "0" || exit 1
