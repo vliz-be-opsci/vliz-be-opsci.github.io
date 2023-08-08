@@ -1,44 +1,41 @@
 ---
 title: version-management
-author: "João Pinto"
+author: "João dos Santos"
 layout: default
 permalink: /conventions/version-management
 ---
 
 # Conventions relating to _version management_
 
+This document outlines the conventions for version management, repository naming, branch naming, commit messages, and pull requests.
+
 ## Naming and Messages
 
 ### Repositories
 
-- Names should use dashes and lower case. ([kebab case](<[http://example.com](https://en.wikipedia.org/wiki/Letter_case#Kebab_case)>) -> name-of-repo
-- They should be accompanied by topics in the about section (e.g. python, docker-compose, react, ...), these topics can be filtered on when looking for a repo.
-- Releases should make use of git tag and conform to semantic versioning (`major.minor.patch`, not prefixed with v)
-- each repo should contain a LICENSE:
-  - MIT for source code
-  - CC-BY for datasets
+- Repository names should use kebab-case, which consists of all lowercase letters and dashes. For example, `name-of-repo`. Refer to [Kebab case](https://en.wikipedia.org/wiki/Letter_case#Kebab_case) for more details.
+- Repositories should be tagged with appropriate topics in the about section (e.g., python, docker-compose, react, etc.). These topics can be used to filter repositories.
+- Releases should use git tags and conform to Semantic Versioning, using the format `major.minor.patch` without a 'v' prefix.
+- Each repository should include a LICENSE file. For source code, use the MIT license. For datasets, use the CC-BY license.
 
-Specific Rules for naming:
+Specific rules for naming:
 
-- python packages: short names without any delimiter (e.g. pyhello), longer names delimited by dashes (e.g. py-hello-world)
-- github actions: \*-action
-- github pages actions: \*-to-pages
-- ro-crates: \*-crate
-- web components: \*-widget
+- Python packages: Use short, undelimited names for short package names (e.g., `pyhello`). For longer names, use dashes as delimiters (e.g., `py-hello-world`)
+- GitHub Actions: Append `\*-action` to the name.
+- GitHub Pages Actions: Append  `\*-to-pages` to the name.
+- RO-Crates: Append `\*-crate` to the name.
+- Web components: Append `\*-widget` to the name.
 
 ### Branches
 
-There should be two default branchs on each repo:
+Each repository should have two default branches:
 
-- main (release ready code)
-- gh-pages (documentation) -> this branch is maintained automatically by a documentation workflow
+- `main`: For release-ready code.
+- `gh-pages`: For documentation. This branch is automatically maintained by a documentation workflow.
 
-Other branches should be open whenever a change is required and the name should fit the change.
+Additional branches should be created for each change. The branch name should reflect the change, using the format `{category}/{description}`. For example, `fix/connection_bug`. The description should be a short summary of the change, using [snake case](https://en.wikipedia.org/wiki/Letter_case#Snake_case)
 
-{category}/{description} -> example: fix/connection_bug
-
-The description should be a short summary of the branch intent using [snake case](https://en.wikipedia.org/wiki/Letter_case#Snake_case)
-The category should fall into:
+The category should be one of the following:
 
 - fix
 - feature
@@ -49,9 +46,8 @@ The category should fall into:
 
 ### Commits
 
-Commits messages should follow [these convention rules](https://www.conventionalcommits.org/en/v1.0.0/)
-
-The commit message should follow:
+Commit messages should follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
+The commit message should follow this format:
 
     "<type>: {action} {what} {where} {why} "
     ex: refactor: change args in funcA to allow tipehinting
@@ -70,47 +66,23 @@ The allowed types are:
 - style
 - test
 
-You can check more option on the allowed convention on the website, it also allows for a body and a footer in the message.
-
+The Conventional Commits specification allows for additional information in the body and footer of the commit message.
 ## Rules
 
 ### Pull Request
 
-A new PR from a new branch should be made on every code change.
+Every code change should be made on a new branch and submitted as a pull request (PR). Direct pushes to the `main` branch are not allowed.
 
-- There is not direct push to main
+When opening a PR, provide a descriptive name (which can be similar to the branch name) and a description explaining the purpose of the PR. Use [GitHub keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests#linking-a-pull-request-to-an-issue) if applicable.
 
-When opening a PR a name should be given (Can be like the branch name), and a description explaining the goal of the PR, and also using [GitHub keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests#linking-a-pull-request-to-an-issue) if available.
-
-To be able to merge a PR it needs to:
-
-- Have at least one approval
-- Passed checker actions
+Before a PR can be merged, it must:
+- Receive at least one approval.
+- Pass all checks, including:
   - Linting
   - Testing
   - Test Coverage
 
-The commits inside the PR should follow a story driven history, modulated and simple and straight-forward for the action at hands.
+The commits within the PR should tell a cohesive story. Each commit should be clear, concise, and focused on a single change.
+### Language-Specifics
 
-### Python Projects
-
-For a coockiecutter/template on python projects you can go [here](https://gitlab.vliz.be/datac/templating/cookiecutter-py-module) # Change this to github
-
-Projects should use [poetry](https://python-poetry.org/docs/) as the dependency manager
-
-The linting will follow the default [flake8](https://github.com/PyCQA/flake8) settings.
-The checker will test for the usage of [black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort), only change from default is the line-lenght set to 79.
-
-The checker will also run pytest, and check for test coverage. The default setting is 85% coverage on single files and 90% for the porject.
-
-If you are using the cookiecutter there is a command to do the linting:
-
-    make lint-fix
-
-Otherwise you can run the commands:
-
-    black .
-    isort .
-    flake8
-
-Documentation is build using [Sphinx](https://www.sphinx-doc.org/en/master/) and docstrings should follow the [Sphinx Markup](https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#python-signatures)
+#### [Python Projects](python.md)  
