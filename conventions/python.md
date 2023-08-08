@@ -1,29 +1,75 @@
 ---
 title: python
-author: "João Pinto"
+author: "João dos Santos"
 layout: default
 permalink: /conventions/python
 ---
 
 # Conventions relating to _Python Projects_
 
-For a coockiecutter/template on python projects you can go [here](https://gitlab.vliz.be/datac/templating/cookiecutter-py-module) # Change this to github
+## Creating a project
 
-Projects should use [poetry](https://python-poetry.org/docs/) as the dependency manager
 
-The linting will follow the default [flake8](https://github.com/PyCQA/flake8) settings.
-The checker will test for the usage of [black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort), only change from default is the line-lenght set to 79.
+### Dependency Manager
 
-The checker will also run pytest, and check for test coverage. The default setting is 85% coverage on single files and 90% for the porject.
+We recommend using [poetry](https://python-poetry.org/docs/) as the dependency manager for Python projects. Poetry helps to manage project dependencies and environments effectively, which can improve productivity and reduce conflicts between dependencies.
 
-If you are using the cookiecutter there is a command to do the linting:
+### Linting Rules
+
+Our projects adhere to the default settings provided by [Flake8](https://github.com/PyCQA/flake8).
+We also use [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) for code formatting.
+The only deviation from the default settings is that we set the maximum line length to 79 characters. These tools help maintain code quality and consistency across the project.
+### Testing
+
+Maintaining a high test coverage is crucial for ensuring code quality and catching bugs early. We aim for an overall test coverage of at least 90% and a minimum of 85% test coverage for each file. Test coverage reports can help identify areas of the code that are not adequately tested and need more attention.
+
+### Project Template
+
+We provide a cookiecutter/template for new Python projects, available [here](https://github.com/vliz-be-opsci/cookiecutter-py-module).
+This template helps to set up new projects quickly and ensures they follow our conventions.
+
+
+### Committing and Adhering to Standards
+
+Our project template includes a Makefile that helps developers adhere to these conventions. The Makefile provides commands for setting up the development environment, applying and checking linting rules, and running tests and checking test coverage.
+
+To start using the project (as a developer), run:
+
+    make init-dev
+
+This command installs all necessary tools for working on the project and sets up a pre-commit hook.
+The pre-commit hook ensures that you can't commit changes that do not adhere to these conventions.
+
+To apply the linting rules, run:
 
     make lint-fix
 
-Otherwise you can run the commands:
 
+To check the linting rules, run:
+
+    make lint-check
+
+To run the tests and check test coverage, run:
+
+    make test-coverage
+
+
+
+If you are not using the cookiecutter, you can run the linting commands manually:
     black .
     isort .
     flake8
 
-Documentation is build using [Sphinx](https://www.sphinx-doc.org/en/master/) and docstrings should follow the [Sphinx Markup](https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#python-signatures)
+### Documentation
+
+We use [Sphinx](https://www.sphinx-doc.org/en/master/) to build project documentation. Docstrings should follow the [Sphinx Markup](https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#python-signatures) conventions. Good documentation is crucial for maintaining and understanding the codebase, especially as projects grow and more developers contribute.
+
+Remember, these conventions are in place to help maintain high-quality, consistent code across all our Python projects. They are not meant to be restrictive, but rather to provide a guide for best practices and consistency.
+
+Sources:
+- docs.python-guide.org
+-    realpython.com
+-    blog.pronus.io
+-    sourcery.ai
+-    about.gitlab.com
+-    conventionalcommits.org/en/v1.0.0/
