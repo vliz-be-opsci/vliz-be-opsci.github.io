@@ -16,9 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
+          ruby-version: 3.1
       - name: Install Bundler
         run: gem install bundler
       - name: Install dependencies
