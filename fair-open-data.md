@@ -1,14 +1,19 @@
 ---
 layout: default
-permalink: /open-science-practice
+permalink: /fair-open-data
+title: F.A.I.R and Open data
 ---
 
-# Open Science Practice
+
+ref to this that and the other - the vliz view, the popular statements on fair and open
 
   ... scoping this about translating the content from [general approach](/open-science) and [departmental statements](/open-science-at-departments) to actual tasks and deliverables
   ...
 
-## Mission & Vision <a name="mission"></a>
+## Vision <a name="vision"></a>
+
+Felicity Jones ! 
+
   ...
 
 List of particular goals we have - the main ones at least. e.g. to published our DBs as LOD, to have LOD change feeds as a normal, to have faceted searches (or whatever) as a norm, to accommodate dutch and english (others?), to have semantics embedded....probably need to discuss these as a group

@@ -23,13 +23,13 @@
           url: /open-science-at-departments#valinno
         - title: Science Communication
           url: /open-science-at-departments#scicom
-    - title: In Practice
-      url: /open-science-practice
+    - title: F.A.I.R and open Data
+      url: /fair-open-data
       items:
-        - title: Mission and Vision 
-          url: /open-science-practice#mission
+        - title: Vision
+          url: /fair-open-data#vision
         - title: Technical approach
-          url: /open-science-practice#technical
+          url: /fair-open-data#technical
 
 - title: Community
   items:
