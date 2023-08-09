@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /applications-tools/software-packages
+title: Software Packages
 ---
 
 {% assign data = site.data.software-packages %}

@@ -1,13 +1,13 @@
 ---
 layout: default
 permalink: /publications/
+title: Open Science publications
 ---
 
-<h1> Open Science publications </h1>
 (side-note: this page doesn't work with includes from the theme --> would opt to this)
-<h4>Zenodo community</h4>
-Check out our collection of open science publications on <a
-    href="https://zenodo.org/communities/vliz-openscience/">zenodo.org/communities/vliz-openscience</a>
+## Zenodo community
+
+Check out our collection of open science publications on [zenodo](https://zenodo.org/communities/vliz-openscience/)
 
 <div hx-ext="client-side-templates">
     <div 
@@ -27,8 +27,7 @@ Check out our collection of open science publications on <a
     </div>
   </div>
 
-<h4>Scientific Papers</h4>
-{% assign data=site.data.publications %}
+## Scientific Papers
 <table style="background-color: #fff7d010;">
     <thead style="background-color: #f7c97c;">
         <tr>
@@ -42,25 +41,28 @@ Check out our collection of open science publications on <a
     </thead>
     <tbody>
 
-        {% for pub in data.scientificPapers %}
+    {% for pub in site.data.publications.scientificPapers %}
 
-        <tr style="border-bottom: #f7c97c solid 2px;">
-            <td><a href="{{pub.url}}" target="_blank">{{ pub.title }}</a></td>
-            <td>{{ pub.authors }}</td>
-            <td>{{ pub.abstract }}</td>
-            <td>{{ pub.date }}</td>
-            <td>{{ pub.journal }}</td>
-            <td>{{ pub.access }}</td>
+    <tr style="border-bottom: #f7c97c solid 2px;">
+        <td><a href="{{pub.url}}" target="_blank">{{ pub.title }}</a></td>
+        <td>{{ pub.authors }}</td>
+        <td>{{ pub.abstract }}</td>
+        <td>{{ pub.date }}</td>
+        <td>{{ pub.journal }}</td>
+        <td>{{ pub.access }}</td>
+    </tr>
 
-            {% endfor %}
+    {% endfor %}
 
     </tbody>
 </table>
 <p></p>
 
-<h4>Conference Proceedings</h4>
+## Conference Proceedings
+
 Same here for the conference proceedings ?
-{% for pub in data.conferenceProceedings %}
+
+{% for pub in site.data..publications.conferenceProceedings %}
 <p>{{pub.title}}</p>
 {% endfor %}
 
