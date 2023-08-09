@@ -4,6 +4,8 @@
     --vliz-color-background-light-1: #f7c97c;
     --vliz-color-background-light-2: #fff7d0;
     --vliz-color-background-light-3: #65c9cd;
+    --vliz-color-text-brand: #354D9B;
+    --vliz-color-text-brand-hover: #283a75;
 }
 
 .grayoverlay {
@@ -32,4 +34,18 @@
 
 img.emoji {
     display: inline;
+}
+
+/* indent ul and ol items more to the left */
+ul, ol {
+    padding-left: 2rem !important;
+}
+
+/* change colors of h1 , h2, h3, h4 to color text brand*/
+h1, h2, h3, h4 {
+    color: var(--vliz-color-text-brand) !important;
+}
+
+.white {
+    color: #fff !important;
 }
