@@ -26,7 +26,7 @@
     - title: In Practice
       url: /open-science-practice
       items:
-        - title: Mission and Vision 
+        - title: Mission and Vision
           url: /open-science-practice#mission
         - title: Technical approach
           url: /open-science-practice#technical
@@ -36,12 +36,30 @@
     - title: Partners
       url: /partners
       items:
-        - title: EOSC
-          url: /partners
-        - title: Flemish Research Data Network
-          url: /partners
+        - title: FRDN
+          url: https://www.frdn.be/
+        - title: EMBRC
+          url: https://www.embrc.be/
+        - title: LifeWatch
+          url: https://www.lifewatch.eu/
     - title: Projects
       url: /projects
+      items:
+        - title: Marco-Bolo
+          url: https://marcobolo-project.eu/
+        - title: FAIR-EASE
+          url: https://fairease.eu/
+        - title: MareGraph
+          url: https://www.maregraph.eu
+        - title: George
+          url: https://george-project.eu/
+        - title: Bluecloud-2026
+          url: https://blue-cloud.org/
+        - title: Mission Atlantic
+          url: https://missionatlantic.eu/
+        - title: EDITO Infra
+          url: https://edito-infra.eu/
+
     - title: Initiatives
       items:
         - title: Read the LOD

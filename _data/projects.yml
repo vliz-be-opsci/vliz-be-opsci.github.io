@@ -3,7 +3,7 @@ title: "Open Science Projects"
 items:
   - title: "Marco-Bolo"
     description: "MARCO-BOLO aims to structure and strengthen European coastal and marine biodiversity observation capabilities, linking them to global efforts to understand and restore ocean health, hence ensuring that outputs respond to explicit stakeholder needs from policy, planning and industry. MBO will establish and engage with a Community of Practice to determine enduser needs with the aim of optimising marine data flows, knowledge uptake, and improving governance based on biodiversity observations."
-    clickthrough_url: 
+    clickthrough_url:
     image: "/assets/media/img/projects/MARCO-BOLO_logo_col.png"
     tags:
       - EOSC-Association
@@ -19,7 +19,7 @@ items:
 
   - title: "MareGraph"
     description: "The MAREGRAPH project will provide an open linked data production and publication of three high impact datasets in the marine domain (the World Register of Marine Species (WoRMS), Marine Regions and EurOBIS (the European Node of the international Ocean Biodiversity Information System) using state of the art technologies."
-    clickthrough_url: https://www.maregraph.eu 
+    clickthrough_url: https://www.maregraph.eu
     image: "/assets/media/img/projects/maregraph-logo.svg"
     tags:
       - EU
@@ -27,15 +27,15 @@ items:
 
   - title: "George"
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    clickthrough_url: 
-    image: "/assets/media/img/placeholder.png"
+    clickthrough_url: https://george-project.eu/
+    image: "/assets/media/img/projects/george-logo.png"
     tags:
       - EU
 
   - title: "Bluecloud-2026"
     description: "The European H2020 Blue-Cloud project aims to achieve a range of innovative services through a practical approach, demonstrating the potential of how the European Open Science Cloud (EOSC) can serve marine research and the blue economy. VLIZ is the initiator and partner in two 'Plankton demonstrators' and is also involved in this project as a data infrastructure (EurOBIS)."
     clickthrough_url: https://blue-cloud.org/
-    image: "/assets/media/img/placeholder.png"
+    image: "/assets/media/img/projects/bluecloud2026-logo.png"
     tags:
       - EOSC-Association
       - EU
@@ -43,19 +43,18 @@ items:
   - title: "Mission Atlantic"
     description: "The “mission” of Mission Atlantic is to investigate how multiple pressures within and across important sub-areas affect the resilience of the Atlantic Ocean to future climate and societal changes. The project will tackle this question by advancing knowledge on ecosystem processes as well as applying new observation technology and state-of-the-art predictive capacity to develop an operational regional and basin-scale Integrated Ecosystem Assessment (IEA)."
     clickthrough_url: https://missionatlantic.eu/
-    image: "/assets/media/img/placeholder.png"
-    tags:
-      - EOSC-Association
-      - EU
-      
-  - title: "EDITO Infra"
-    description: "The main aim of EDITO-Infra, the “EU Public Infrastructure for the European Digital Twin”, is to build the EU Public Infrastructure backbone for the European Digital Twin of the Ocean (DTO) by upgrading, combining and integrating key service components of the existing EU ocean observing, monitoring and data programmes Copernicus Marine Service (Copernicus Marine Service) and the European Marine Observation and Data Network (EMODnet) into a single digital framework."
-    clickthrough_url: https://edito-infra.eu/
-    image: "/assets/media/img/placeholder.png"
+    image: "/assets/media/img/projects/missionatlantic-logo.png"
     tags:
       - EOSC-Association
       - EU
 
+  - title: "EDITO Infra"
+    description: "The main aim of EDITO-Infra, the “EU Public Infrastructure for the European Digital Twin”, is to build the EU Public Infrastructure backbone for the European Digital Twin of the Ocean (DTO) by upgrading, combining and integrating key service components of the existing EU ocean observing, monitoring and data programmes Copernicus Marine Service (Copernicus Marine Service) and the European Marine Observation and Data Network (EMODnet) into a single digital framework."
+    clickthrough_url: https://edito-infra.eu/
+    image: "/assets/media/img/projects/edito-logo.png"
+    tags:
+      - EOSC-Association
+      - EU
 # coming soon:
 #- AQUASERV
 #- BioDT
