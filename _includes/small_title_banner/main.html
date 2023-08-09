@@ -3,12 +3,12 @@
         <div id="block-vlizdynamicherotitle" class="block block-vliz-helpers block-vliz-dynamic-hero-title-block">
             <div class="page-title-hero-container">
                 <div class="field field--name-field-hero-title field--type-string field--label-hidden field__items">
-                    {{ page.title }}
+                    {{ include.title }}
                 </div>
-                {%- if page.image -%}
+                {%- if include.image -%}
                 <div
                     class="hero-media field field--name-field-hero-background field--type-entity-reference field--label-hidden field__items">
-                    <img src="{{page.image}}" alt="{{page.title}}" loading="lazy"
+                    <img src="{{ include.image }}" alt="{{ include.title }}" loading="lazy"
                         typeof="foaf:Image" width="2736" height="572">
                 </div>
                 {%- endif -%}
