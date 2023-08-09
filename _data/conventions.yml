@@ -1,7 +1,7 @@
 title: "Our conventions"
 items:
-  - title: "version-management"
-    clickthrough_url: "/conventions/version-management"
+  - title: "github-management"
+    clickthrough_url: "/conventions/github-management"
     clickthrough_button_text: "Example button text here"
   - title: "python"
     clickthrough_url: "/conventions/python"

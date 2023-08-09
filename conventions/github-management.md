@@ -1,13 +1,13 @@
 ---
-title: version-management
+title: github-management
 author: "João dos Santos"
 layout: default
-permalink: /conventions/version-management
+permalink: /conventions/github-management
 ---
 
-# Conventions relating to _version management_
+# Conventions relating to _github management_
 
-This document outlines the conventions for version management, repository naming, branch naming, commit messages, and pull requests.
+This document outlines the conventions for github management, repository naming, branch naming, commit messages, and pull requests.
 
 ## Naming and Messages
 
