@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /linked-data
+title: Linked Open Data @VLIZ
+image: /assets/media/img/covers/Wikidata_in_the_Linked_Open_Data_cloud_2020-08-20.svg
 ---
-
-# Linked data @ VLIZ 
 
 Since 2020 the VLIZ Marine Data Centre, in its pursuit of FAIR and Open Data, has been gradually implementing Semantic Web Technology [techniques, libraries and frameworks](/technical-approach) to help grow the «Research Knowledge Graph». 
 
