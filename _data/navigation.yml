@@ -4,12 +4,12 @@
     - title: Open Science
       url: /open-science
       items:
-        - title: Goals & aims
-          url: /open-science#goals
-        - title: Components
-          url: /open-science#components
         - title: Open principles
           url: /open-science#principles
+        - title: Ambitions
+          url: /open-science#ambitions
+        - title: Components
+          url: /open-science#components
     - title: Accross Departments
       url: /open-science-at-departments
       items:
