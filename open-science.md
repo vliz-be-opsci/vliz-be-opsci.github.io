@@ -6,7 +6,7 @@ permalink: /open-science
 # Open Science 
 
 
-<h3 id="principles">Open science principles</h3>
+## Open science principles <a name="principles"></a>
 Open science is a set of principles and practices that aim to make scientific research accessible to everyone. This benefits not only the scientific community, but also society as a whole. Science is part of almost everything that happens in our modern world, and at VLIZ we aim to contribute towards the increased understanding of, use of, and trust in science by society.  
 
 Open Science@VLIZ is about  
@@ -18,10 +18,10 @@ Open Science@VLIZ is about
 
 Open science is also about embracing principles of accessibility, transparency, inclusivity, and sustainability. We fully support the [UNESCO recommendations on Open Science](https://www.unesco.org/en/open-science/about). 
 
-<h3 id="goals">Ambitions</h3>
+## Ambitions <a name="ambitions"></a>
 At VLIZ we believe that embracing Open Science will increase the quality, efficiency, and impact of science. We have already taken important steps in the fields of Open Access and Open Data. Unfortunately Open Science practices are not yet the norm, and at VLIZ we aim to use the expertise we have built up within the Data Centre and the Library to help smooth the way to the adoption of Open Sciences practices and technologies in the domain of marine science. We participate in numerous regional and EU projects that aim to make Science more Open, and crucially that actually help embed the practices of Open Science in a practical, workable way with the scientists and organisations that create the science. 
 
-<h3 id="components">Components</h3>
+## Components <a name="components"></a>
 
 There are a number of components that we are focussing on in our Open Science journey
 - *Open Science Campaigning* To spread the word about Open Science and about how to *do* Open Science. To engage with our fellow travellers - through blogs, talks, reviews, talking groups, events, news feeds - in Flanders, Belgium, Europe, and beyond. To reach out to existing and new connections in industry, citizen scientists, and researchers in marine science and in other domains. 
