@@ -32,7 +32,6 @@
           url: /open-science-practice#technical
 
 - title: Community
-  url: /community
   items:
     - title: Partners
       url: /partners
@@ -49,7 +48,6 @@
           url: https://readthelod.org/
 
 - title: Achievements
-  url: /achievements
   items:
     - title: Linked data
       url: /linked-data
@@ -82,7 +80,6 @@
     - title: Events
       url: /events
 - title: Documents
-  url: /documents/
   items:
     - title: Conventions
       url: /conventions

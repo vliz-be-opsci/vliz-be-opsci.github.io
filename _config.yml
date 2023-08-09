@@ -1,4 +1,4 @@
-base_uri: "" # Base URI for your site, e.g. http://example.com/test-repo/ => for development leave empty for gh-pages fill in the name of the repo of not the main gh-pages repo
+base_url: "" # Base URI for your site, e.g. http://example.com/test-repo/ => for development leave empty for gh-pages fill in the name of the repo of not the main gh-pages repo
 title: "Open Science @ VLIZ"
 gems:
   - jekyll-mermaid

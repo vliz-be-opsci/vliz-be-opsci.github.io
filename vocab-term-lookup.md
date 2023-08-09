@@ -47,7 +47,7 @@ As you can read in the documentation over there, the system is build as a collec
 By running your own instance one is in full control to configure their own list of available vocabularies.
 
 The VLIZ instance is setup to service the marine research domain. Therefore the available vocabularise consist off:
-* a selection of important skos collections from [NERC Vocab Server(NVS)](http://vocab.nerc.ac.uk/collection/) maintained by the [British Oceanographic Data Centre (BODC)](https://www.bodc.ac.uk/)
+* a selection of important skos collections from [NERC Vocab Server(NVS)](https://vocab.nerc.ac.uk/collection) maintained by the [British Oceanographic Data Centre (BODC)](https://www.bodc.ac.uk/)
 * the maintained lists of [Marine Species](https://marinespecies.org/) and [Marine Regions](https://marineregions.org)   
 * relevant additional concepts (projects, people, organizations, ...) from [MarineInfo.org](https://marineinfo.org) 
 

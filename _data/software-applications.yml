@@ -19,7 +19,7 @@ items:
 
   - title: "RO-Crate demo"
     description: "Applying RO-Crates is a practical way to achieve an elegant a FAIR and open linked data publication of your research data.  We have created a number of tools to exploit that in combination with using git."
-    clickthrough_url: "/applications-tools/rocrate-demo"
+    clickthrough_url: "/applications-tools/ro-crate-demo"
     image: "/assets/media/img/ro-crate.svg"
     tags:
       - ro-crate

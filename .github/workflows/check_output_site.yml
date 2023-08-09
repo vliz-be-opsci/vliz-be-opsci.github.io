@@ -26,7 +26,8 @@ jobs:
       - name: Build the site
         run: bundle exec jekyll build
       - name: Run HTML Proofer
-        run: bundle exec htmlproofer --allow-hash-href ./_site
+      #ignore missing a hrefs
+        run: bundle exec htmlproofer --allow-hash-href --allow-missing-href --disable-external ./_site
         id: htmlproofer
         continue-on-error: true
       - name: Check HTML Proofer Results

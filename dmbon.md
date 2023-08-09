@@ -71,7 +71,7 @@ On the other end, losing access to data (and, importantly, their [metadata](#met
 Therefore, automated streamlining of data management plans (DMPs) is necessary for improving data preservation and accesibility.
 DMBON-assistant is an open source webtop application designed to provide this automisation, thereby enabling consistent and streamlined data management.
 
-##### Metadata: the overlooked critical component
+<h5 id="metadata">Metadata: the overlooked critical component</h5>
 One critical, but often overlooked, feature that greatly increases the longevity of datasets is [metadata](https://en.wikipedia.org/wiki/Metadata) (Leipzig et al. [2021](https://doi.org/10.1016/j.patter.2021.100322)), i.e. 'data that provides information about other data'. 
 Metadata often encodes how to interpret the actual data, e.g. descriptions of meaning of columns in a table, and is thus often necessary for meta-analyses.
 While sharing primary data is becoming increasingly more common (even though the process is not streamlined, see, e.g. Alsheikh-Ali et al., [2011](https://doi.org/10.1371/journal.pone.0024357) and Baker, [2015](https://doi.org/10.1038/533452a)), extensive efforts are often needed to gain access to metadata even when data is openly available (Tedersoo et al., [2021](https://doi.org/10.1038/s41597-021-00981-0)).
@@ -83,7 +83,6 @@ Furthermore, we also cannot discover and fix all bugs and we can never cover all
 We are additionally huge advocates for open science and thus open source projects, such as this one. 
 Therefore, we lay our hopes and trust with you, the community, to improve and further extend DMBON-assistant's functionality.
 We welcome any and all suggestions, feedback, bug reports and general discussion on DMBON-assistant. \
-If you are interested, please find the section on [contributing](#contributing) below!
 
 ---
 
