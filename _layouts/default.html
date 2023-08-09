@@ -11,14 +11,14 @@
         </style>
     </noscript>
     <script>var _paq = _paq || []; (function () { var u = (("https:" == document.location.protocol) ? "https://piwik.vliz.be/" : "http://piwik.vliz.be/"); _paq.push(["setSiteId", "1"]); _paq.push(["setTrackerUrl", u + "matomo.php"]); _paq.push(["setDoNotTrack", 1]); if (!window.matomo_search_results_active) { _paq.push(["trackPageView"]); } _paq.push(["setIgnoreClasses", ["no-tracking", "colorbox"]]); _paq.push(["enableLinkTracking"]); var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0]; g.type = "text/javascript"; g.defer = true; g.async = true; g.src = u + "matomo.js"; s.parentNode.insertBefore(g, s); })();</script>
-    <link rel="canonical" href="https://vliz.be/nl" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
     <meta http-equiv="content-language" content="nl" />
-    <link rel="shortlink" href="https://vliz.be/nl" />
+    <link rel="shortlink" href="{{ page.url | absolute_url }}" />
     <link rel="image_src" href="https://www.vliz.be/sites/vliz.be/files/VLIZ_LOGO_OG_TWITTER_1200x630.png" />
     <meta property="og:site_name" content="Vlaams Instituut voor de Zee" />
     <meta property="og:type" content="Pagina" />
-    <meta property="og:url" content="https://vliz.be/nl/homepage" />
-    <meta property="og:title" content="Homepage" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:title" content="{{ page.title | default: page.url }}" />
     <meta property="og:image" content="https://www.vliz.be/sites/vliz.be/files/VLIZ_LOGO_OG_TWITTER_1200x630.png" />
     <link rel="icon" type="image/svg+xml" href="/assets/core/favicon/favicon.svg">
     <link rel="icon" type="image/png" href="/assets/core/favicon/favicon.png">
@@ -88,11 +88,7 @@
         <div class="layout-container">
             {%- include navigation/main.html -%}
             {% if page.title %}
-            {% if page.image %}
-            {%- include small_title_banner/main.html title=page.title image=page.image -%}
-            {% else %}
-            {%- include small_title_banner/main.html title=page.title -%}
-            {% endif %}
+              {%- include small_title_banner/main.html title=page.title image=page.image -%}
             {% endif %}
             <main role="main">
                 <div class="main-container">
