@@ -8,5 +8,9 @@ _site/*
 .jekyll-cache/
 .jekyll-metadata
 
+# local settings for bundle isolation:  <-- mkdir .gems && bundle config set --local path .gems
+.bundle
+.gems
+
 # venv python 
 venv/
