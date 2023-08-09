@@ -3,7 +3,7 @@ layout: default
 permalink: /linked-data
 ---
 
-# Linked data @ VLIZ
+# Linked data @ VLIZ 
 
 Since 2020 the VLIZ Marine Data Centre, in its pursuit of FAIR and Open Data, has been gradually implementing Semantic Web Technology [techniques, libraries and frameworks](/technical-approach) to help grow the «Research Knowledge Graph». 
 
@@ -13,7 +13,7 @@ Through these additions we provide important linkable references that can help c
 
 With this overview we want to give a general sense of the available linked open data we help produce.
 
-## marineinfo.org
+## marineinfo.org <a name="marineinfo"></a>
 
 [MarineInfo.org](https://marineinfo.org/) exposes the various entities from the VLIZ IMIS (Integrated Marine Information System) as linked-open-data.  This catalog effectively includes datasets, publications, people, institutes and projects.
 
@@ -23,7 +23,7 @@ With this overview we want to give a general sense of the available linked open 
  
 More information can be found in their [service description](https://marineinfo.org/products-and-services)
 
-## marineregions.org
+## marineregions.org <a name="marineregions"></a>
 
 The Gazetteer [MarineRegions.org](https://marineregions.org/) maintains the list of named and identified geographical regions for a practical usage in Scientific Research. These so called GeoObjects are exposed linked-open-data, including the relations between them and their geometries.
 
@@ -32,7 +32,7 @@ A thorough description and motivation of its development and workings can be fou
 A practical description of the available uritemplates for the individual GeoObject representations as well as the [LDES fragmentation](https://marineregions.org/feed) of the full dataset can be find under their [webservices description](https://marineregions.org/gazetteer.php?p=webservices) 
 
 
-## marinespecies.org (coming soon!)
+## marinespecies.org (coming soon!) <a name="marinespecies"></a>
 
 The (World Register of Marine Species (WoRMS)](https://marinespecies.org/) is a taxonomic database that aims to provide an authoritative and comprehensive list of names of marine organisms.
 
