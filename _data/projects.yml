@@ -20,7 +20,7 @@ items:
   - title: "MareGraph"
     description: "The MAREGRAPH project will provide an open linked data production and publication of three high impact datasets in the marine domain (the World Register of Marine Species (WoRMS), Marine Regions and EurOBIS (the European Node of the international Ocean Biodiversity Information System) using state of the art technologies."
     clickthrough_url: https://www.maregraph.eu 
-    image: "/assets/media/img/projects/maregraph-logo.svg"
+    image: "/assets/media/img/projects/maregraph-text-horizontal-600x200.svg"
     tags:
       - EU
       - RDF
