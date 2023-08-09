@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /applications-tools/vocab-term-lookup
+curly: false
 ---
 
 # Vocab Term Lookup

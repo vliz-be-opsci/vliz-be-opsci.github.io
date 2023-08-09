@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl" dir="ltr"
     prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
-
 <head>
     <meta charset="utf-8" />
     <noscript>
@@ -81,17 +80,24 @@
 </head>
 
 <body
-    class="node9293 node--type-page role-anonymous vliz-disable-page-title vliz-disable-breadcrumb vliz-enable-background-waves layout-no-sidebars path-frontpage page-node-type-page">
+    class="node9293 node--type-page role-anonymous vliz-disable-page-title vliz-disable-breadcrumb {% if page.curly %}vliz-enable-background-waves{% endif %} layout-no-sidebars path-frontpage page-node-type-page">
     <a href="#main-content" class="visually-hidden focusable skip-link">
         Skip and go to main content
     </a>
     <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
         <div class="layout-container">
             {%- include navigation/main.html -%}
+            {% if page.title %}
+            {% if page.image %}
+            {%- include small_title_banner/main.html title=page.title image=page.image -%}
+            {% else %}
+            {%- include small_title_banner/main.html title=page.title -%}
+            {% endif %}
+            {% endif %}
             <main role="main">
                 <div class="main-container">
                     <a id="main-content" tabindex="-1"></a>
-                    <div class="layout-content">
+                    <div class="layout-content ">
                         <div class="region region-content">
                             <div class="region-content-inner">
                                 <div id="block-vlizbase-page-title" class="block block-core block-page-title-block">
