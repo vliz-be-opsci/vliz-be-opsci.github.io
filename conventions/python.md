@@ -10,26 +10,26 @@ permalink: /conventions/python
 ## Creating a project
 
 
-### Dependency Manager
+### Dependency Manager <a name="dependency-manager"></a>
 
 We recommend using [poetry](https://python-poetry.org/docs/) as the dependency manager for Python projects. Poetry helps to manage project dependencies and environments effectively, which can improve productivity and reduce conflicts between dependencies.
 
-### Linting Rules
+### Linting Rules <a name="linting-rules"></a>
 
 Our projects adhere to the default settings provided by [Flake8](https://github.com/PyCQA/flake8).
 We also use [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) for code formatting.
 The only deviation from the default settings is that we set the maximum line length to 79 characters. These tools help maintain code quality and consistency across the project.
-### Testing
+### Testing <a name="testing"></a>
 
 Maintaining a high test coverage is crucial for ensuring code quality and catching bugs early. We aim for an overall test coverage of at least 90% and a minimum of 85% test coverage for each file. Test coverage reports can help identify areas of the code that are not adequately tested and need more attention.
 
-### Project Template
+### Project Template <a name="project-template"></a>
 
 We provide a cookiecutter/template for new Python projects, available [here](https://github.com/vliz-be-opsci/cookiecutter-py-module).
 This template helps to set up new projects quickly and ensures they follow our conventions.
 
 
-### Committing and Adhering to Standards
+### Committing and Adhering to Standards <a name="contribuiting"></a>
 
 Our project template includes a Makefile that helps developers adhere to these conventions. The Makefile provides commands for setting up the development environment, applying and checking linting rules, and running tests and checking test coverage.
 
@@ -60,7 +60,7 @@ If you are not using the cookiecutter, you can run the linting commands manually
     isort .
     flake8
 
-### Documentation
+### Documentation <a name="documentation"></a>
 
 We use [Sphinx](https://www.sphinx-doc.org/en/master/) to build project documentation. Docstrings should follow the [Sphinx Markup](https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#python-signatures) conventions. Good documentation is crucial for maintaining and understanding the codebase, especially as projects grow and more developers contribute.
 

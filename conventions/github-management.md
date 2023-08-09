@@ -9,9 +9,9 @@ permalink: /conventions/github-management
 
 This document outlines the conventions for github management, repository naming, branch naming, commit messages, and pull requests.
 
-## Naming and Messages
+## Naming and Messages <a name="naming-messages"></a>
 
-### Repositories
+### Repositories <a name="repositories"></a>
 
 - Repository names should use kebab-case, which consists of all lowercase letters and dashes. For example, `name-of-repo`. Refer to [Kebab case](https://en.wikipedia.org/wiki/Letter_case#Kebab_case) for more details.
 - Repositories should be tagged with appropriate topics in the about section (e.g., python, docker-compose, react, etc.). These topics can be used to filter repositories.
@@ -26,7 +26,7 @@ Specific rules for naming:
 - RO-Crates: Append `\*-crate` to the name.
 - Web components: Append `\*-widget` to the name.
 
-### Branches
+### Branches <a name="branches"></a>
 
 Each repository should have two default branches:
 
@@ -44,7 +44,7 @@ The category should be one of the following:
 - docs
 - (add more if needed)
 
-### Commits
+### Commits <a name="commits"></a>
 
 Commit messages should follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
 The commit message should follow this format:
@@ -67,9 +67,9 @@ The allowed types are:
 - test
 
 The Conventional Commits specification allows for additional information in the body and footer of the commit message.
-## Rules
+## Rules <a name="rules"></a>
 
-### Pull Request
+### Pull Request <a name="pull-request"></a>
 
 Every code change should be made on a new branch and submitted as a pull request (PR). Direct pushes to the `main` branch are not allowed.
 
@@ -83,6 +83,6 @@ Before a PR can be merged, it must:
   - Test Coverage
 
 The commits within the PR should tell a cohesive story. Each commit should be clear, concise, and focused on a single change.
-### Language-Specifics
+### Language-Specifics 
 
-#### [Python Projects](python.md)  
+#### [Python Projects](python)  <a name="python-projects"></a>
