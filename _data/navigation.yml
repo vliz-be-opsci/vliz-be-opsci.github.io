@@ -61,9 +61,12 @@
           url: https://edito-infra.eu/
 
     - title: Initiatives
+      url: /initiatives
       items:
         - title: Read the LOD
           url: https://readthelod.org/
+        - title: RO-Crate community
+          url: https://www.researchobject.org/ro-crate/community.html
 
 - title: Achievements
   items:

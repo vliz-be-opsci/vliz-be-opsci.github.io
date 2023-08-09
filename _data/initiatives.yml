@@ -1,0 +1,12 @@
+title: "Initiatives"
+
+items:
+  - title: "Read the LOD"
+    description: ""
+    clickthrough_url: https://readthelod.org/
+    image: "/assets/media/img/rtlp_logo.svg"
+
+  - title: "RO-Crate community"
+    description: ""
+    clickthrough_url: https://www.researchobject.org/ro-crate/community.html
+    image: "/assets/media/img/ro-crate.svg"
