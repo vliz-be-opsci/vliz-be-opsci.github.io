@@ -71,9 +71,6 @@
     <script src="{{ site.base_url }}/assets/js/regular.js" defer crossorigin="anonymous"></script>
     <script src="{{ site.base_url }}/assets/js/brands.js" defer crossorigin="anonymous"></script>
     <script src="{{ site.base_url }}/assets/js/fontawesome-icons.js" defer crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/htmx.org@1.9.4" integrity="sha384-zUfuhFKKZCbHTY6aRR46gxiqszMk5tcHjsVFxnUo8VMus4kHGVdIYVbOYYNlKmHV" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/htmx.org/dist/ext/client-side-templates.js"></script>
-    <script src="https://mozilla.github.io/nunjucks/files/nunjucks.min.js"></script>
     <script>
         mermaid.initialize({startOnLoad:true});
     </script>
@@ -117,11 +114,14 @@
                                 </div>
                             </div>
                         </div>
+                        {% if site.share_enabled %}
+                        <!-- The following code is to generate buttons to linkedin, facebook, twitter, ... -->
                         <div class="region region-content-below">
                             <div id="block-share42" class="block block-vlizshare42">
                                 <div class="share42init"></div>
                             </div>
                         </div>
+                        {% endif %}
                     </div>
                 </div>
             </main>
