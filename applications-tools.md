@@ -40,7 +40,7 @@ items:
       - linked data
       - rdf
     more_url: 
-      gith: https://github.com/vlizBE/vocabserver-app
+      github: https://github.com/vlizBE/vocabserver-app
       
 
 ---

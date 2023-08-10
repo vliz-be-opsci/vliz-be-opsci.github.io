@@ -44,11 +44,15 @@
 </div>
 <div class="col-lg-2 field__item">
     {% if item.more_url %}
-    todo style links:<ul>
-    {% if item.clickthrough_url %}<li>web: {{ item.clickthrough_url }}</li>{% endif %}
+    {% if item.clickthrough_url %}
+    <a class="basic-button" href="{{ item.clickthrough_url }}" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;">
+        <span class="fa fa-globe"></span>
+    </a>
+    {% endif %}
     {% for lnk in item.more_url %}
-      <li> fa-{{ lnk[0] }}: {{ lnk[1] }} </li>
+        <a class="basic-button" href="{{ lnk[1] }}" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;">
+            <span class="fa fa-{{lnk[0]}}"></span>
+        </a>
     {% endfor %}
-    </ul>
     {% endif %}
 </div>
