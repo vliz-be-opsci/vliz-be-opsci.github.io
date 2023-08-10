@@ -7,27 +7,27 @@ title: F.A.I.R and Open data
 
 ## Vision <a name="vision"></a>
 
-![Fair Data Principles](/assets/media/img/content/FAIR_data_principles.jpg){:class="image-style-content-embed"}  A focal point in our strategy towards open science is focussing on making the research data F.A.I.R and open.  And as we like to believe: interlinked. \
+![Fair Data Principles](/assets/media/img/content/FAIR_data_principles.jpg){:class="image-style-content-embed"}  A focal point in our strategy on open science is making research data FAIR and open.  And as we like to believe: interlinked. \
 \
-The [F.A.I.R principles](https://www.go-fair.org/fair-principles/) as put down in [Wilkinson et al.](https://doi.org/10.1038/sdata.2016.18) guide the enterprise of Research Data Management to be: **F**indable, **A**ccesible, **I**nteroperable and **R**eusable.
+The [FAIR principles](https://www.go-fair.org/fair-principles/) outlined in [Wilkinson et al.](https://doi.org/10.1038/sdata.2016.18) guide the enterprise of research data management towards making data: **F**indable, **A**ccesible, **I**nteroperable and **R**eusable.
 
 
-![5star open data](assets/media/img/content/5-star_deployment_scheme_for_Open_Data.png){:.image-style-content-embed} In a broader scope (i.e. outside the more strict research domain) there is also the additional [principles of linked-open-data](https://www.w3.org/wiki/LinkedData) and the semantic web to consider. \
+![5star open data](assets/media/img/content/5-star_deployment_scheme_for_Open_Data.png){:.image-style-content-embed} In a broader scope (i.e. outside the more strict research domain) there are the additional [principles of linked-open-data](https://www.w3.org/wiki/LinkedData) and the semantic web to consider. \
 \
-We very much see these go hand in hand: the one set of guidelines naturally extends and completes the other; and the ubiquitous web-stack provides the methodology, the technology and the practical platform for reliable and interoperable information exchange on a global scale.
+We very much see these as going hand in hand: the one set of guidelines naturally extends and completes the other; and the ubiquitous web-stack provides the methodology, the technology, and the practical platform for reliable and interoperable information exchange on a global scale.
 
 
 > ##### There is no separate web for research and science.
-> The daring goal for #openscience is to let to let quality research data play its educational role by entering the same arena now populated by lolcatz, fake news and antivax-conspiracies.
+> The daring goal for #openscience is to let to let quality research data play its educational role by entering the same arena now populated by lolcatz, fake news, and antivax-conspiracies.
 {:.block-warning}
 
 
-In conclusion these guiding principles urges general research data management to take an outside ignorant view on the data they are intimately familiar with.  The challenge is to asssess and expose rather then casually assume any preconceptions or inside knoweldge the domain experts typically have.  The goal is to make sure the information content of the produced data becomes more and more readily readable to these new audiences:
+In conclusion, these guiding principles urge research data management to take an outside ignorant view on the data they are intimately familiar with. The challenge is to *assess and expose*, and not to assume that end users have the inside knowledge of domain experts or have the familiar use-cases.  The goal is to make sure that the information content of the data becomes more and more readily readable to these new audiences:
 1. research experts from different domains
-2. stakeholders from outside research: citizen-scientitst, policy makers and the general public
-3. automated processes in an emerging field of computer-assisted-research
+2. stakeholders from outside research: citizen-scientist, policy makers, and the general public
+3. automated processes in an emerging field of computer-assisted research
 
-Packaged in a compelling story we motivate the above in the so called «Felicity Jones effect»
+Packaged in a compelling story, we motivate the above goals in the so called «Felicity Jones effect»
 {% include presentation/google-youtube.html key="XQAZYzR7jLc" %}
 
 
@@ -36,11 +36,11 @@ Packaged in a compelling story we motivate the above in the so called «Felicity
 To achieve that vision we have selected a number of objectives to focus on:
 
 * apply [RDF](https://www.w3.org/RDF/) to expose the data we have as linked-open-data publications  
-* provide harvestable change-feeds on our data and dataset-catalogues using standards like [OAI-PMH](https://www.openarchives.org/pmh/) and [LDES](https://www.researchobject.org/ro-crate/)
+* provide harvestable change-feeds on our data catalogues using standards such as [OAI-PMH](https://www.openarchives.org/pmh/) and [LDES](https://www.researchobject.org/ro-crate/)
 * apply [RO-Crate](https://www.researchobject.org/ro-crate/) 
 * provide multilingual support to reference vocabularies
 * promote an open (platform-neutral) web-intergration approach through proper [REST APIs](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) and open [WebComponents](https://www.w3.org/TR/components-intro/)
-* provide tracable provenance data using the [EOSC-LIFE Common Provenance Model](https://doi.org/10.5281/zenodo.4705074)
+* provide tracable provenance data following the [EOSC-LIFE Common Provenance Model](https://doi.org/10.5281/zenodo.4705074)
 
 
 ## Practical Examples <a name="examples"></a>
