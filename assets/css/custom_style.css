@@ -28,28 +28,25 @@
     --vliz-color-background-dark-2: #354d9b;
 }
 
-.grayoverlay {
-    background: rgba(0, 0, 0, 0.3);
+.grayoverlay,
+.light-one-box,
+.light-two-box,
+.light-three-box {
     padding: 2rem;
     border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .light-one-box  {
     background-color: var(--vliz-color-background-light-1) !important;
-    padding: 2rem;
-    border-radius: 15px;
 }
 
 .light-two-box {
-    background: var(--vliz-color-background-light-2) !important;
-    padding: 2rem;
-    border-radius: 15px;
+    background-color: var(--vliz-color-background-light-2) !important;
 }
 
 .light-three-box {
-    background: var(--vliz-color-background-light-3) !important;
-    padding: 2rem;
-    border-radius: 15px;
+    background-color: var(--vliz-color-background-light-3) !important;
 }
 
 img.emoji {
@@ -71,7 +68,9 @@ h1, h2, h3, h4 {
 }
 
 /* support images embeded inline in the content of articles */
-article img.image-style-content-embed, article img.image-style-content-center, article .presentation-content {
+article img.image-style-content-embed, 
+article img.image-style-content-center, 
+article .presentation-content {
     margin: 1em;
     padding: 5px;
     border: 1px solid rgba(0,0,0,0.2);
@@ -85,35 +84,34 @@ article img.image-style-content-embed {
 article img.image-style-content-center {
     margin: auto;
 }
-article blockquote.block-warning {
+
+
+/* style blockquotes making variations of blockquote being block-info block-warning block-danger*/
+article blockquote {
     margin: 0;
     margin-bottom: 0.85em;
     padding: 0 15px;
+}
+article blockquote h5 {
+    size: 1em;
+}
+article blockquote.block-warning {
     background-color: var(--vliz-color-background-light-2);
     border-left: 4px solid var(--vliz-color-background-light-1);
 }
-
-/*make variations of blockquote being block-info block-warning block-danger*/
+article blockquote.block-warning {
+    background-color: var(--vliz-color-background-light-2);
+    border-left: 4px solid var(--vliz-color-background-light-1);
+}
 article blockquote.block-tip {
-    margin: 0;
-    margin-bottom: 0.85em;
-    padding: 0 15px;
     background-color: var(--vliz-color-background-light-3-opace);
     border-left: 4px solid var(--vliz-color-background-light-3);
 }
-
 article blockquote.block-info {
-    margin: 0;
-    margin-bottom: 0.85em;
-    padding: 0 15px;
     background-color: var(--vliz-color-background-light-4-opace);
     border-left: 4px solid var(--vliz-color-background-light-4);
 }
-
 article blockquote.block-danger {
-    margin: 0;
-    margin-bottom: 0.85em;
-    padding: 0 15px;
     color: var(--vliz-color-text-invert);
     /*give text black edge*/
     text-shadow: 0 0 1px #000;
@@ -121,10 +119,7 @@ article blockquote.block-danger {
     border-left: 4px solid var(--vliz-color-background-light-5);
 }
 
-article blockquote h5 {
-    size: 1em;
-}
-
+/* make titles on cover stand out even if the background is white-ish*/
 .page-title-hero-container div.field--name-field-hero-title {
     text-shadow: rgba(0, 0, 0, 1) 0 0 10px;
 }
