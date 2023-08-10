@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /open-science
-image: "/assets/media/img/covers/graph-nodes-blue-gradient.webp"
+cover: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"
 title: Open Science
 ---
 
