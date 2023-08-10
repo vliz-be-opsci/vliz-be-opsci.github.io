@@ -19,7 +19,7 @@ We very much see these as going hand in hand: the one set of guidelines naturall
 
 > ##### There is no separate web for research and science.
 > The daring goal for #openscience is to let to let quality research data play its educational role by entering the same arena now populated by lolcatz, fake news, and antivax-conspiracies.
-{:.block-tip}
+{:.block-warning}
 
 
 In conclusion, these guiding principles urge research data management to take an outside ignorant view on the data they are intimately familiar with. The challenge is to *assess and expose*, and not to assume that end users have the inside knowledge of domain experts or have the familiar use-cases.  The goal is to make sure that the information content of the data becomes more and more readily readable to these new audiences:
