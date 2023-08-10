@@ -9,11 +9,13 @@ items:
       It is a web application that guides the user through the process of creating a DMP. 
       It is based on the DCC DMPonline tool, but has been adapted to the needs of the Belgian marine research community. 
       The tool is available in English."
-    clickthrough_url: "https://github.com/vliz-be-opsci/dmbon-assistant"
+    clickthrough_url: "/applications-tools/dmbon-assistant"
     image: "/assets/media/img/app/dmbon-assistant-logo.svg"
     tags:
       - open data
       - data management
+    more_url: 
+      github: "https://github.com/vliz-be-opsci/dmbon-assistant"
 
   - title: "Open-AIS.org"
     description: "VLIZ Open-Science has a historic affiliation and vetted interest into the development of open-ais.org: a set of tools and solutions for exploring captured vessel trafic data in a research context."
