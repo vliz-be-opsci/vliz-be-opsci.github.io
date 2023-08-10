@@ -7,7 +7,7 @@
                 </div>
                 {%- if include.image -%}
                 <div
-                    class="hero-media field field--name-field-hero-background field--type-entity-reference field--label-hidden field__items">
+                    class="hero-media field field--name-field-hero-background field--type-entity-reference field--label-hidden field__items" {%if include.opacity %}style="opacity: {{include.opacity}}; " {% endif %}>
                     <img src="{{ include.image }}" alt="{{ include.title }}" loading="lazy"
                         typeof="foaf:Image" width="2736" height="572">
                 </div>
