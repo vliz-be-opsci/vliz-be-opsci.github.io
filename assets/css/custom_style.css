@@ -1,11 +1,31 @@
 
 /* make a few vars */
 :root {
+    --vliz-color-text-brand: #354D9B;
+    --vliz-color-text-brand-hover: #283a75;
+    --vliz-color-text: #2f2d2d;
+    --vliz-color-text-invert: #ffffff;
+    --vliz-color-text-invert-hover: #e6e6e6;
+    --vliz-color-text-light: #31b7bc;
+    --vliz-color-link: #707070;
+    --vliz-color-link-hover: shift-color(#707070, 20%);
+    --vliz-color-link-highlight: #6bbf76;
+    --vliz-color-link-highlight-hover: #59b766;
+    --vliz-color-text-brand: #354d9b;
+    --vliz-color-text-brand-hover: #283a75;
+    --vliz-color-text-gray: #707070;
+    --vliz-color-background-primary: white;
+    --vliz-color-background-box: white;
     --vliz-color-background-light-1: #f7c97c;
     --vliz-color-background-light-2: #fff7d0;
     --vliz-color-background-light-3: #65c9cd;
-    --vliz-color-text-brand: #354D9B;
-    --vliz-color-text-brand-hover: #283a75;
+    --vliz-color-background-light-4: #e2e2e2;
+    --vliz-color-background-light-5: #ff4444;
+    --vliz-color-background-light-3-opace: #65c9cd80;
+    --vliz-color-background-light-4-opace: #e2e2e280;
+    --vliz-color-background-light-5-opace: #ff444480;
+    --vliz-color-background-dark-1: #465daa;
+    --vliz-color-background-dark-2: #354d9b;
 }
 
 .grayoverlay {
@@ -65,13 +85,40 @@ article img.image-style-content-embed {
 article img.image-style-content-center {
     margin: auto;
 }
+article blockquote.block-warning {
+    margin: 0;
+    margin-bottom: 0.85em;
+    padding: 0 15px;
+    background-color: var(--vliz-color-background-light-2);
+    border-left: 4px solid var(--vliz-color-background-light-1);
+}
+
+/*make variations of blockquote being block-info block-warning block-danger*/
 article blockquote.block-tip {
     margin: 0;
     margin-bottom: 0.85em;
     padding: 0 15px;
-    color: #858585;
-    background-color: #f8f8f8;
-    border-left: 4px solid #e5e5e5;
+    background-color: var(--vliz-color-background-light-3-opace);
+    border-left: 4px solid var(--vliz-color-background-light-3);
+}
+
+article blockquote.block-info {
+    margin: 0;
+    margin-bottom: 0.85em;
+    padding: 0 15px;
+    background-color: var(--vliz-color-background-light-4-opace);
+    border-left: 4px solid var(--vliz-color-background-light-4);
+}
+
+article blockquote.block-danger {
+    margin: 0;
+    margin-bottom: 0.85em;
+    padding: 0 15px;
+    color: var(--vliz-color-text-invert);
+    /*give text black edge*/
+    text-shadow: 0 0 1px #000;
+    background-color: var(--vliz-color-background-light-5-opace);
+    border-left: 4px solid var(--vliz-color-background-light-5);
 }
 
 article blockquote h5 {
