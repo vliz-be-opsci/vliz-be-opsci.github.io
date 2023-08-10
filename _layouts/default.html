@@ -85,7 +85,7 @@
         <div class="layout-container">
             {%- include navigation/main.html -%}
             {% if page.title %}
-              {%- include small_title_banner/main.html title=page.title image=page.image opacity=page.opacity-%}
+              {%- include title_cover/main.html title=page.title cover=page.cover opacity=page.cover_opacity -%}
             {% endif %}
             <main role="main">
                 <div class="main-container">

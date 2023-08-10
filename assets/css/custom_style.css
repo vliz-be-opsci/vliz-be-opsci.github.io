@@ -49,3 +49,18 @@ h1, h2, h3, h4 {
 .white {
     color: #fff !important;
 }
+
+/* support images embeded inline in the content of articles */
+article img.image-style-content-embed {
+    display: inline;
+    max-width: 50%;
+    float: right;
+    margin: 1em;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.page-title-hero-container div.field--name-field-hero-title {
+    text-shadow: rgba(0, 0, 0, 1) 0 0 10px;
+}

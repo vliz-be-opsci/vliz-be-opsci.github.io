@@ -5,10 +5,11 @@
                 <div class="field field--name-field-hero-title field--type-string field--label-hidden field__items">
                     {{ include.title }}
                 </div>
-                {%- if include.image -%}
+                {%- if include.cover -%}
                 <div
-                    class="hero-media field field--name-field-hero-background field--type-entity-reference field--label-hidden field__items" {%if include.opacity %}style="opacity: {{include.opacity}}; " {% endif %}>
-                    <img src="{{ include.image }}" alt="{{ include.title }}" loading="lazy"
+                    class="hero-media field field--name-field-hero-background field--type-entity-reference field--label-hidden field__items" 
+                    {%if include.opacity %}style="opacity: {{include.opacity}}; " {% endif %}>
+                    <img src="{{ include.cover }}" alt="{{ include.title }}" loading="lazy"
                         typeof="foaf:Image" width="2736" height="572">
                 </div>
                 {%- endif -%}
