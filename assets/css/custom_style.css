@@ -51,14 +51,31 @@ h1, h2, h3, h4 {
 }
 
 /* support images embeded inline in the content of articles */
-article img.image-style-content-embed {
-    display: inline;
-    max-width: 50%;
-    float: right;
+article img.image-style-content-embed, article img.image-style-content-center, article .presentation-content {
     margin: 1em;
     padding: 5px;
     border: 1px solid rgba(0,0,0,0.2);
     border-radius: 5px;
+}
+article img.image-style-content-embed {
+    max-width: 33%;
+    float: right;
+    display: inline;
+}
+article img.image-style-content-center {
+    margin: auto;
+}
+article blockquote.block-tip {
+    margin: 0;
+    margin-bottom: 0.85em;
+    padding: 0 15px;
+    color: #858585;
+    background-color: #f8f8f8;
+    border-left: 4px solid #e5e5e5;
+}
+
+article blockquote h5 {
+    size: 1em;
 }
 
 .page-title-hero-container div.field--name-field-hero-title {

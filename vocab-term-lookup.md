@@ -19,7 +19,7 @@ To facilitate in this we have developed a vocab-term-lookup-server and -widget.
 
 Looking at the relevant life-cycle of this particular aspect of the data management we set out to build a system that covers the following distinct use cases:
 
-![UML UseCase Diagram for the vocab-term-lookup](/assets/media/img/content/vocab-term-lookup-uml-ucd.svg)
+![UML UseCase Diagram for the vocab-term-lookup](/assets/media/img/content/vocab-term-lookup-uml-ucd.svg){:.image-style-content-center} 
 
 | Who           | Does What                                    | To Achieve What                                       | 
 |---------------|----------------------------------------------|-------------------------------------------------------|
