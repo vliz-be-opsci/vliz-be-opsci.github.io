@@ -1,0 +1,41 @@
+<div class="col-lg-1 field__item">
+    <div class="paragraph paragraph--type--media paragraph--view-mode--default">
+        <div
+            class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+            <article class="media media--type-image media--view-mode-large">
+                <div
+                    class="field field--name-field-media-image field--type-image field--label-hidden field__items">
+                    <img loading="lazy"
+                        src="{{include.item.image | relative_url}}"
+                        alt="{{ include.item.title }}" typeof="foaf:Image" class="image-style-large-1000" width="594"
+                        height="126">
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+<div class="col-lg-9 field__item">
+    <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
+        <div
+            class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+            <h5>
+                <a href="{{include.item.clickthrough_url}}">
+                    {{include.item.title}} 
+                </a>
+            </h5>
+            <p>
+                {{include.item.description}}
+            </p>
+            <!-- These are here to have extra whitespace between element blocks, can be adjusted for more / less whitespace -->
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>
+<div class="col-lg-2 field__item">
+    {% for tag in include.item.tags %}
+        {% if tag %}
+            <a href="#" class="field__news_teaser">{{ tag }}</a>
+        {% endif %}
+    {% endfor %}
+</div>

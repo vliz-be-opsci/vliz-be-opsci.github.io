@@ -3,7 +3,7 @@ title: "Open Science @ VLIZ"
 social_media:
   - name: github
     url: https://github.com/vliz-be-opsci/
-share_enabled: true # Enables global share buttons to twitter (X), facebook, printer, email, linkedIn
+share_enabled: false # Enables global share buttons to twitter (X), facebook, printer, email, linkedIn | default true
 gems:
   - jekyll-mermaid
 plugins:
