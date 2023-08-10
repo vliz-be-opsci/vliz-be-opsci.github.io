@@ -19,9 +19,9 @@ Check out our collection of open science publications on [zenodo](https://zenodo
     >
     </div>
 <script id="gistlist" type="nunjucks">
-    {{data}}
-    {{.}}
-    <p>{{data}}</p>
+    \{\{data\}\}
+    \{\{.\}\}
+    <p>\{\{data\}\}</p>
   </script>
     <div id="zenodo">
     </div>
@@ -62,7 +62,7 @@ Check out our collection of open science publications on [zenodo](https://zenodo
 
 Same here for the conference proceedings ?
 
-{% for pub in site.data..publications.conferenceProceedings %}
+{% for pub in site.data.publications.conferenceProceedings %}
 <p>{{pub.title}}</p>
 {% endfor %}
 
