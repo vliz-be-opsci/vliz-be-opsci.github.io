@@ -19,7 +19,7 @@
         </div>
     </div>
 </div>
-<div class="col-lg-9 field__item">
+<div class="col-lg-10 field__item">
     <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
         <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
             <h5>
@@ -42,17 +42,23 @@
         </div>
     </div>
 </div>
-<div class="col-lg-2 field__item">
-    {% if item.more_url %}
-    {% if item.clickthrough_url %}
-    <a class="basic-button" href="{{ item.clickthrough_url }}" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;">
-        <span class="fa fa-globe"></span>
-    </a>
-    {% endif %}
-    {% for lnk in item.more_url %}
-        <a class="basic-button" href="{{ lnk[1] }}" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;">
-            <span class="fa fa-{{lnk[0]}}"></span>
+<div class="col-lg-1 field__item">
+    <div class="row">
+        {% if item.more_url %}
+        {% if item.clickthrough_url %}
+        <div class="col-lg-12 field__item gy-3">
+        <a class="basic-button" href="{{ item.clickthrough_url }}" target="_blank" rel="noopener noreferrer" >
+            <i class="fa fa-globe"></i>
         </a>
-    {% endfor %}
-    {% endif %}
+        </div>
+        {% endif %}
+        {% for lnk in item.more_url %}
+        <div class="col-lg-12 field__item gy-3">
+            <a class="basic-button" href="{{ lnk[1] }}" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;">
+                <span class="fa fa-{{lnk[0]}}"></span>
+            </a>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
 </div>
