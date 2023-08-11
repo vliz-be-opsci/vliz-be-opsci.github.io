@@ -5,8 +5,10 @@ These nested templates visualise so called 'items' in different ways
 ### for lists of items:
 
 #### item/list/block/colored
+#### item/list/card/colored
 Renders each item in a 1/3rd block with a prominent background color from the vliz-scheme.
 Only shows title and applies click-through.
+TODO: distinction between block/card is not clear - why do we have both?
 
 ### item/list/row/image_text_link
 Renders each item in a full row with 1-9-2 dsitributed cells.
