@@ -50,7 +50,7 @@ items:
       - «optional tag#2»
     icon_url:
       github: «github-url»
-      box: «packaging-url (like pypi)»
+      cube: «packaging-url (like pypi)»
       eye: «demo-url»
       book: «docs-link»
 

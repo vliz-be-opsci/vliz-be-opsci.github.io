@@ -2,6 +2,7 @@
 layout: default
 permalink: /applications-tools/
 title: Applications and tools
+cover: /assets/media/img/cover/cover-code-python.jpg
 
 items:
   - title: "DMBON Assistant"
