@@ -129,3 +129,17 @@ article blockquote.block-danger {
 .included-item .before img { 
     object-fit: contain !important;
 }
+
+
+/* make that social footer way more subtle */
+span.social-icons a {
+    display: inline-block;
+    /* background-color: white; */
+    color: var(--vliz-color-background-dark-1);
+    /* border-radius: 50%; */
+    width: 1.2em;
+    height: 1.2em;
+    /* line-height: 50px; */
+    /* overflow: hidden; */
+    /* text-align: center; */
+}
