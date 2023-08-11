@@ -10,7 +10,7 @@
                             class="field field--name-field-block field--type-block-field field--label-hidden field__items">
                             <div class="views-element-container block block-views block-views-blockevents-events-upcoming-block"
                                 id="block-views-block-events-events-upcoming-block">
-                                <h2>{{ include.data.title }}
+                                <h2>{{ include.title }}
                                 </h2>
                                 <div>
                                     <div
@@ -19,17 +19,11 @@
                                             <div class="view-header">
                                             </div>
                                         </div>
-                                        <div class="view-content">
-                                            {% for item in include.data.items %}
-                                                {% include carrousel_w_waves/item.html item=item %}
+                                        <div class="view-content included-item-list">
+                                            {% for item in include.items %}
+                                                {% include item/carrousel/waved/item.html item=item %}
                                             {% endfor %}
                                         </div>
-                                        {% if include.data.clickthrough_text and include.data.clickthrough_url %}
-                                        <div class="more-link">
-                                            <a href="{{ include.data.clickthrough_url }}"
-                                            >{{ include.data.clickthrough_text }}</a>
-                                        </div>
-                                        {% endif %}
                                     </div>
                                 </div>
                             </div>
