@@ -8,9 +8,13 @@ These nested templates visualise so called 'items' in different ways
 Renders each item in a 1/3rd block with a prominent background color from the vliz-scheme.
 Only shows title and applies click-through.
 
-### item/list/row/logo_text_link
+### item/list/row/image_text_link
 Renders each item in a full row with 1-9-2 dsitributed cells.
 These hold: image | title/tags + description | specific links
+
+### item/list/row/text_image
+Renders each item in a full row with 8-4 dsitributed cells.
+These hold: title/tags + description | image
 
 ### item/list/carrousel/block
 Renders each item as a block in a carrousel.
@@ -43,8 +47,8 @@ items:
       - «optional tag#1»
       - «optional tag#2»
     icon_url:
-      gith: «github-url»
-      box: «pypi-url»
+      github: «github-url»
+      box: «packaging-url (like pypi)»
       eye: «demo-url»
       book: «docs-link»
 

@@ -54,4 +54,4 @@ items:
 
 ---
 
-{% include item/list/row/logo_text_link/main.html items=page.items %}
+{% include item/list/row/image_text_link/main.html items=page.items %}

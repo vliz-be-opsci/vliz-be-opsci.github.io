@@ -9,6 +9,7 @@
                 </a>
                 {{include.item.description}}
             </p>
+            <!-- todo handle below spacing via css -->
             <p>&nbsp;</p>
             <p>&nbsp;</p>
         </div>
@@ -16,11 +17,9 @@
 </div>
 <div class="col-lg-4 field__item">
     <div class="paragraph paragraph--type--media paragraph--view-mode--default">
-        <div
-            class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+        <div class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
             <article class="media media--type-image media--view-mode-large">
-                <div
-                    class="field field--name-field-media-image field--type-image field--label-hidden field__items">
+                <div class="field field--name-field-media-image field--type-image field--label-hidden field__items">
                     <img loading="lazy"
                         src="{{include.item.image | relative_url}}"
                         alt="{{ include.item.title }}" typeof="foaf:Image" class="image-style-large-1000" width="594"
