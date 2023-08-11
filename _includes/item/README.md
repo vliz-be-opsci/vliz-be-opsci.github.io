@@ -10,8 +10,18 @@ Only shows title and applies click-through.
 Renders each item in a full row with 1-9-2 dsitributed cells.
 These hold: image | title/tags + description | specific links
 
+### item/carrousel/block
+Renders each item as a block in a carrousel.
+These blocks hold title and description.
+
+### item/carrousel/waved
+Renders each item as a block in a carrousel. Blocks-bottoms are wave-shaped.
+These blocks hold title and description.
+
 
 ## way to use them
+
+Some of these (see above) will take an additional title= 
 
 These all expect an attribute items=... to be passed into them that looks like this
 
@@ -31,4 +41,10 @@ items:
 
 ```
 
+## way to implement additional ones
 
+* documentation 
+  * add docs here
+* css pickup, make sure to
+  * introduce a div.included-item around the smallest group of tags that makes up one item
+  * introduce a div.included-item-list.«your-name-here» around the included items
