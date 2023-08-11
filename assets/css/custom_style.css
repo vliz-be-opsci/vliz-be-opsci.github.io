@@ -123,3 +123,9 @@ article blockquote.block-danger {
 .page-title-hero-container div.field--name-field-hero-title {
     text-shadow: rgba(0, 0, 0, 1) 0 0 10px;
 }
+
+
+/* make img inside item-lists not cover the space */
+.included-item .before img { 
+    object-fit: contain !important;
+}

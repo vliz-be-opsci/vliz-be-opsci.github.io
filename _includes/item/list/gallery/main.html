@@ -12,13 +12,13 @@
                   {{ include.data.title }}
                 </h2>
                 <div>
-                  <div class="view-news-promoted view view-news view-id-news view-display-id-news_promoted js-view-dom-id-7833dfaeee25c3f8b6282f714fe453ff553a6e540616d19c0fc830a81d0e4c44">
-                    {% for card in include.data.items %}
+                  <div class="view-news-promoted view view-news view-id-news view-display-id-news_promoted included-item-list">
+                    {% for item in include.items %}
                       {% if forloop.first %}
-                        {% include block_gallery_cards/first_card.html card=card %}
+                        {% include item/list/gallery/first_item.html item=item %}
                     <div class="view-content">
                       {% else %}
-                        {% include block_gallery_cards/card.html card=card %}
+                        {% include item/list/gallery/item.html item=item %}
                       {% endif %}
                     {% endfor %}
                     </div>
