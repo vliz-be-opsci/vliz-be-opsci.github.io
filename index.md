@@ -1,6 +1,8 @@
-title: "Core values and guiding principles"
+---
+layout: default
+curly: true
 
-items:
+core_principles:
   - title: Objectivity
     description: "Open science promotes an attitude of impartiality in research, 
       where researchers strive to approach their work without bias or personal interests."
@@ -26,3 +28,30 @@ items:
       enterprise. This involves taking care of the research process, resources, and relationships within 
       the scientific community. Researchers are encouraged to contribute to the development and improvement of 
       research practices and policies."
+---
+
+{% if site.data.main_banner %}
+  {% include banner/main.html banner=site.data.main_banner %}
+{% endif %}
+
+{% include image_w_descr_curly/main.html data=site.data.opsci_mission_values %}
+
+
+{% include item/carrousel/block/main.html 
+    title="Core values and guiding principles"
+    items=page.core_principles 
+%}
+
+{% include no_bg_colored_blocks/main.html data=site.data.priority_areas_action %}
+
+{% include light_bg.html content=
+"<h2>FAIR values</h2>
+<p>
+    The FAIR Guiding Principles for scientific data management and stewardship are intended to help improve the
+    Findability, Accessibility, Interoperability, and Reuse of digital assets. The FAIR Principles emphasize
+    machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data
+    with none or minimal human intervention) because humans increasingly rely on computational support to deal with
+    data as a result of the increase in volume, complexity, and creation speed of data.
+</p>
+"
+%}
