@@ -1,15 +1,27 @@
-base_url: "" # Base URI for your site, e.g. http://example.com/test-repo/ => for development leave empty for gh-pages fill in the name of the repo of not the main gh-pages repo
-title: "Open Science @ VLIZ"
+# Base URI for your site, e.g. http://example.com/test-repo/ => for development leave empty for gh-pages fill in the name of the repo of not the main gh-pages repo
+base_url: "" 
+
+# Main title for your site --> TODO investigate and document where this is actually used
+title: "VLIZ Open Science"
+
+# socila_media refs to be included in the footer
 social_media:
   - name: github
     url: https://github.com/vliz-be-opsci/
-share_enabled: false # Enables global share buttons to twitter (X), facebook, printer, email, linkedIn | default true
-gems:
-  - jekyll-mermaid
-plugins:
-  - jekyll-datapage-generator
-  - jemoji
 
+
+# Enables global share buttons to twitter (X), facebook, printer, email, linkedIn | default true
+share_enabled: false 
+
+# used ruby gems for building this jekyll based site
+gems:
+  - jekyll-mermaid              # allows mermaid diagrams included in ```mermaid blocks in md
+plugins:
+  - jekyll-datapage-generator   # TODO investigate and document why this is here
+  - jemoji                      # allows :emoji-name: inline images in markdown
+
+
+# TODO investigate and doument why this is here ?
 page_gen:
   - data: 'tools'
     template: 'remote_md'
