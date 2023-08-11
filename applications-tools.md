@@ -14,7 +14,7 @@ items:
     tags:
       - open data
       - data management
-    more_url: 
+    icon_url: 
       github: "https://github.com/vliz-be-opsci/dmbon-assistant"
 
   - title: "Open-AIS.org"
@@ -24,6 +24,9 @@ items:
     tags:
       - open data
       - vessels
+    icon_url:
+      github: https://gitlab.com/openais/
+      book: https://open-ais.org
 
   - title: "RO-Crate demo"
     description: "Applying RO-Crates is a practical way to achieve an elegant a FAIR and open linked data publication of your research data.  We have created a number of tools to exploit that in combination with using git."
@@ -32,6 +35,10 @@ items:
     tags:
       - ro-crate
       - demo
+    icon_url:
+      github: https://github.com/vliz-be-opsci/demo-rocrate
+      eye: /demo-rocrate/
+    
 
   - title: "Vocab Term Lookup Server and Widget"
     description: "VLIZ commisioned to develop and deploy an open source system to let end-users easily find selected vocabulary terms by full-text-search into label and description. Operational since 2023."
@@ -41,10 +48,10 @@ items:
       - vocabularies
       - linked data
       - rdf
-    more_url: 
+    icon_url: 
       github: https://github.com/vlizBE/vocabserver-app
       
 
 ---
 
-{% include item/row/logo_text_link/main.html items=page.items %}
+{% include item/list/row/logo_text_link/main.html items=page.items %}

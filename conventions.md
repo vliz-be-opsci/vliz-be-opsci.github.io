@@ -10,4 +10,4 @@ items:
     clickthrough_url: "/conventions/python"
 ---
 
-{% include item/block/colored/main.html items=page.items %}
+{% include item/list/block/colored/main.html items=page.items %}

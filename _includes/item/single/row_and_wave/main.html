@@ -11,7 +11,7 @@
                             class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
                             <article class="media media--type-image media--view-mode-large">
                                 <div class="field field--name-field-media-image field--type-image field--label-hidden field__items">
-                                    <img loading="lazy" src="{{ include.data.image | relative_url }}"
+                                    <img loading="lazy" src="{{ include.item.image | relative_url }}"
                                         width="1000" height="666" alt="{{data.title}}" typeof="foaf:Image"
                                         class="image-style-large-1000" />
                                 </div>
@@ -24,14 +24,13 @@
                         <div
                             class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
                             <h2 class="highlighted-heading">
-                                {{ include.data.title }}
+                                {{ include.item.title }}
                             </h2>
 
-                            <p>{{ include.data.description }}</p>
-                            </p>
-                            {% if include.data.clickthrough_text and include.data.clickthrough_url %}
-                            <p><a class="more-link" href="{{ include.data.clickthrough_url }}"
-                                >{{ include.data.clickthrough_text }}</a>
+                            <p>{{ include.item.description }}</p>
+                            {% if include.item.clickthrough_text and include.data.clickthrough_url %}
+                            <p><a class="more-link" href="{{ include.item.clickthrough_url }}"
+                                >{{ include.item.clickthrough_text }}</a>
                             </p>
                             {% endif %}
                         </div>

@@ -9,6 +9,12 @@ banner:
   clickthrough_url: "/open-science"
   media: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"
 
+mission_item:
+  title: "Open science mission and values"
+  image: "/assets/media/img/open-science-logo-flask.svg"
+  description: "VLIZ is committed to open science. We believe that open science is the best way to advance 
+      science and to make it more efficient, reliable and transparent. We are convinced that open science is the best way to make science more inclusive and to increase its societal impact. We are committed to open science because we believe that it is the best way to make science more fun."
+
 core_principles:
   - title: Objectivity
     description: "Open science promotes an attitude of impartiality in research, 
@@ -39,10 +45,10 @@ core_principles:
 
 {% include banner/main.html banner=page.banner %}
 
-{% include image_w_descr_curly/main.html data=site.data.opsci_mission_values %}
+{% include item/single/row_and_wave/main.html item=page.mission_item %}
 
 
-{% include item/carrousel/block/main.html 
+{% include item/list/carrousel/block/main.html 
     title="Core values and guiding principles"
     items=page.core_principles 
 %}
