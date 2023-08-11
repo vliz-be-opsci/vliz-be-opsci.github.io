@@ -2,6 +2,13 @@
 layout: default
 curly: true
 
+banner:
+  title: "Open Science"
+  description: "Todo -- one liner?"
+  clickthrough_text: "More About The VLIZ approach to Open Science"
+  clickthrough_url: "/open-science"
+  media: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"
+
 core_principles:
   - title: Objectivity
     description: "Open science promotes an attitude of impartiality in research, 
@@ -30,9 +37,7 @@ core_principles:
       research practices and policies."
 ---
 
-{% if site.data.main_banner %}
-  {% include banner/main.html banner=site.data.main_banner %}
-{% endif %}
+{% include banner/main.html banner=page.banner %}
 
 {% include image_w_descr_curly/main.html data=site.data.opsci_mission_values %}
 
