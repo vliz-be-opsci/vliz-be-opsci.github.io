@@ -4,65 +4,72 @@ permalink: /publications/
 title: Open Science publications
 ---
 
-(side-note: this page doesn't work with includes from the theme --> would opt to this)
-## Zenodo community
-
-Check out our collection of open science publications on [zenodo](https://zenodo.org/communities/vliz-openscience/)
-
-<div hx-ext="client-side-templates">
-    <div 
-    hx-get="https://zenodo.org/api/records/?page=1&size=1000&communities=vliz-openscience&sort=mostrecent"
-    hx-trigger="load"
-    hx-target="#zenodo"
-    nunjucks-template="gistlist"
-    hx-swap="innerHTML"
-    >
-    </div>
-<script id="gistlist" type="nunjucks">
-    \{\{data\}\}
-    \{\{.\}\}
-    <p>\{\{data\}\}</p>
-  </script>
-    <div id="zenodo">
-    </div>
-  </div>
-
 ## Scientific Papers
-<table style="background-color: #fff7d010;">
-    <thead style="background-color: #f7c97c;">
-        <tr>
-            <th>Title</th>
-            <th>Authors</th>
-            <th>Abstract</th>
-            <th>Date</th>
-            <th>Journal</th>
-            <th>Access</th>
-        </tr>
-    </thead>
-    <tbody>
 
-    {% for pub in site.data.publications.scientificPapers %}
-
-    <tr style="border-bottom: #f7c97c solid 2px;">
-        <td><a href="{{pub.url}}" target="_blank">{{ pub.title }}</a></td>
-        <td>{{ pub.authors }}</td>
-        <td>{{ pub.abstract }}</td>
-        <td>{{ pub.date }}</td>
-        <td>{{ pub.journal }}</td>
-        <td>{{ pub.access }}</td>
-    </tr>
-
-    {% endfor %}
-
-    </tbody>
-</table>
-<p></p>
+<div class="col-12 field__item">
+    <div class="pb-4 pt-4 paragraph paragraph--type--container paragraph--view-mode--default">
+        <div class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+            <div class="row field__items included-item-list">
+              {% for pub in site.data.vliz-openscience.hits.hits %}
+              <div class="col-lg-11 field__item">
+                  <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
+                      <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+                          <h5>
+                              <a href="{{pub.links.doi}}">
+                                  {{pub.metadata.title}} 
+                              </a>
+                          </h5>
+                          <p class="blue">
+                          <b>
+                              {% for author in pub.metadata.creators %}
+                                {% if forloop.last %}
+                                  {{author.name}} 
+                                {% else %}
+                                  {{author.name}};
+                                {% endif %}
+                              {% endfor %}
+                          </b>
+                          </p>
+                          {% for tag in pub.metadata.communities %}
+                              {% if tag %}
+                                  <a href="#" class="field__news_teaser">{{ tag.id }}</a>
+                              {% endif %}
+                          {% endfor %}
+                          <p>
+                              {{pub.metadata.description}}
+                          </p>
+                          <!-- These are here to have extra whitespace between element blocks, can be adjusted for more / less whitespace -->
+                          <!-- todo should be done through class + css -->
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-1 field__item">
+                  <div class="row">
+                      {% if pub.files %}
+                      {% for file in pub.files %}
+                      <div class="col-lg-12 field__item gy-3">
+                          <a class="basic-button" href="{{file.links.self}}" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;">
+                              <span class="fa fa-download"></span>
+                          </a>
+                      </div>
+                      {% endfor %}
+                      {% endif %}
+                  </div>
+              </div>
+              {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
 
 ## Conference Proceedings
 
 Same here for the conference proceedings ?
 
 {% for pub in site.data.publications.conferenceProceedings %}
+
 <p>{{pub.title}}</p>
 {% endfor %}
 

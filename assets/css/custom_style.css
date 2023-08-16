@@ -67,6 +67,10 @@ h1, h2, h3, h4 {
     color: #fff !important;
 }
 
+.blue {
+    color: var(--vliz-color-text-brand) !important;
+}
+
 /* support images embeded inline in the content of articles */
 article img.image-style-content-embed, 
 article img.image-style-content-center, 
