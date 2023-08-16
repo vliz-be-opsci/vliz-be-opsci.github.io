@@ -6,7 +6,7 @@ cover: /assets/media/img/cover/Wikidata_in_the_Linked_Open_Data_cloud_2020-08-20
 cover_opacity: 1
 ---
 
-Since 2020 the VLIZ Marine Data Centre, in its pursuit of FAIR and Open Data, has been gradually implementing Semantic Web Technology [techniques, libraries and frameworks](/technical-approach) to help grow the «Research Knowledge Graph». 
+Since 2020 the VLIZ Marine Data Centre, in its pursuit of FAIR and Open Data, has been gradually implementing Semantic Web Technology [techniques, libraries and frameworks](/fair-open-data#technical) to help grow the «Research Knowledge Graph». 
 
 In this we are working with our various reference systems, which we have been managing and providing to the marine community for decades. We are now exposing those reference systems using standard linked-data techniques, and this will open them up to a wider community of users, from single researchers to automated queries (e.g. web-searches, harvesters, etc).
 

@@ -38,7 +38,7 @@ This project aims to do exactly that: assist people in uploading their data (inc
 We believe that future projects, potentially built on top of this one, can then further support complex search queries on distributed datasets.
 
 <div style="text-align: center">
-<img src="img/diagrams/envisioned-ecosystem-black.svg" width="850"/>
+<img src="/assets/media/img/content/envisioned-ecosystem-black.svg" width="850" alt="envisioed-ecosystem"/>
 <figcaption> 
     <b>Fig. 1:</b>
     <i>A schematic overview of our vision: FAIR and distributed access to data and metadata using complex queries.
@@ -94,7 +94,7 @@ Our general envisioned flow is illustrated below:
 
 <!-- FIGURE -- Schematic overview of the DMBON assistant -->
 <div style="text-align: center">
-<img width=750 src="img/diagrams/dmbon-assistant-black.svg"/>
+<img width=750 src="/assets/media/img/content/dmbon-assistant-black.svg" alt="dmbon-assistant-diagram"/>
 <figcaption align="left"><b>Fig. 2:</b>
     <i>A schematic overview of what the DMBON assistant aims to accomplish: easy and uniform uploading of heterogeneous datasets.
     </i>
