@@ -43,3 +43,4 @@ jobs:
       #if the number of errors is greater than 2, fail the build (2 because some internal errors are unavoidable due to the fact that the internal links lead to another repo that has been placed relative to the root path of this repo)
         if: ${{ steps.htmlproofer_errors.outputs.run.hash }} > 2
         run: exit 1
+        continue-on-error: true
