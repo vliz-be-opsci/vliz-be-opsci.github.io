@@ -1,0 +1,517 @@
+{
+    "aggregations": {
+        "access_right": {
+            "buckets": [
+                {
+                    "doc_count": 4,
+                    "key": "open"
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        },
+        "file_type": {
+            "buckets": [
+                {
+                    "doc_count": 3,
+                    "key": "pdf"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "docx"
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        },
+        "keywords": {
+            "buckets": [],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        },
+        "type": {
+            "buckets": [
+                {
+                    "doc_count": 3,
+                    "key": "publication",
+                    "subtype": {
+                        "buckets": [
+                            {
+                                "doc_count": 3,
+                                "key": "deliverable"
+                            }
+                        ],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 1,
+                    "key": "poster",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        }
+    },
+    "hits": {
+        "hits": [
+            {
+                "conceptdoi": "10.5281/zenodo.8167392",
+                "conceptrecid": "8167392",
+                "created": "2023-07-20T08:29:36.856915+00:00",
+                "doi": "10.5281/zenodo.8167393",
+                "files": [
+                    {
+                        "bucket": "18592996-2147-4d6d-b219-92264bf8be3e",
+                        "checksum": "md5:b5d5004023ca2712d595c2695d8649b1",
+                        "key": "D4.1_MareGraph_Deliverable_Final (1).docx",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/18592996-2147-4d6d-b219-92264bf8be3e/D4.1_MareGraph_Deliverable_Final%20%281%29.docx"
+                        },
+                        "size": 2539449,
+                        "type": "docx"
+                    }
+                ],
+                "id": 8167393,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.8167393.svg",
+                    "bucket": "https://zenodo.org/api/files/18592996-2147-4d6d-b219-92264bf8be3e",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.8167392.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.8167392",
+                    "doi": "https://doi.org/10.5281/zenodo.8167393",
+                    "html": "https://zenodo.org/record/8167393",
+                    "latest": "https://zenodo.org/api/records/8167393",
+                    "latest_html": "https://zenodo.org/record/8167393",
+                    "self": "https://zenodo.org/api/records/8167393"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "maregraph"
+                        },
+                        {
+                            "id": "vliz-openscience"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "IMEC",
+                            "name": "Juli\u00e1n Rojas",
+                            "orcid": "0000-0002-6645-1264"
+                        },
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Marc Portier",
+                            "orcid": "0000-0002-9648-6484"
+                        },
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Bart Vanhoorne"
+                        },
+                        {
+                            "affiliation": "IMEC",
+                            "name": "Vidya Tarikere"
+                        }
+                    ],
+                    "description": "<p>This white paper provides a conceptual and technical background around the motivations for the conception of the MareGraph project. It also describes the rationale for the technical design choices made to support the proposed reference architecture that is detailed here. Finally, hints towards some open technical challenges.</p>",
+                    "doi": "10.5281/zenodo.8167393",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "publication_date": "2023-07-20",
+                    "related_identifiers": [
+                        {
+                            "identifier": "10.5281/zenodo.8167392",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "8167393"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "8167392"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "deliverable",
+                        "title": "Project deliverable",
+                        "type": "publication"
+                    },
+                    "title": "D4.1 - Architecture Whitepaper"
+                },
+                "owners": [
+                    578927
+                ],
+                "revision": 4,
+                "stats": {
+                    "downloads": 3.0,
+                    "unique_downloads": 3.0,
+                    "unique_views": 16.0,
+                    "version_downloads": 3.0,
+                    "version_unique_downloads": 3.0,
+                    "version_unique_views": 16.0,
+                    "version_views": 21.0,
+                    "version_volume": 7618347.0,
+                    "views": 21.0,
+                    "volume": 7618347.0
+                },
+                "updated": "2023-07-20T14:26:46.534675+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.8167306",
+                "conceptrecid": "8167306",
+                "created": "2023-07-20T07:56:01.135026+00:00",
+                "doi": "10.5281/zenodo.8167307",
+                "files": [
+                    {
+                        "bucket": "6a96c31f-9df9-4da0-a197-b1be458423fe",
+                        "checksum": "md5:1826b909fd8ef2a383ddcee868bd90e6",
+                        "key": "D1.2_MareGraph_Deliverable.Final.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/6a96c31f-9df9-4da0-a197-b1be458423fe/D1.2_MareGraph_Deliverable.Final.pdf"
+                        },
+                        "size": 378391,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 8167307,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.8167307.svg",
+                    "bucket": "https://zenodo.org/api/files/6a96c31f-9df9-4da0-a197-b1be458423fe",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.8167306.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.8167306",
+                    "doi": "https://doi.org/10.5281/zenodo.8167307",
+                    "html": "https://zenodo.org/record/8167307",
+                    "latest": "https://zenodo.org/api/records/8167307",
+                    "latest_html": "https://zenodo.org/record/8167307",
+                    "self": "https://zenodo.org/api/records/8167307"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "maregraph"
+                        },
+                        {
+                            "id": "vliz-openscience"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Joanna Goley",
+                            "orcid": "0000-0002-4242-8553"
+                        },
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Marc Portier",
+                            "orcid": "0000-0002-9648-6484"
+                        },
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Lennert Tyberghein",
+                            "orcid": "0000-0003-0577-1691"
+                        },
+                        {
+                            "affiliation": "CNR",
+                            "name": "Alessandro Russo",
+                            "orcid": "0009-0006-9437-0249"
+                        }
+                    ],
+                    "description": "<p>The Quality assurance and risk management plan is a comprehensive document that outlines the guidelines on project management and coordination activities that will be used by the members of the MareGraph consortium. The purpose of this plan is to provide a framework for identifying potential risks, mitigating those risks, and ensuring that quality standards are maintained throughout the organization. The plan also outlines the processes and procedures that will be used to ensure that quality standards are maintained throughout the organization. This includes setting quality goals and objectives, establishing metrics for measuring performance, and implementing continuous improvement processes.</p>\n\n<p>What is defined in deliverable D1.1 also contributes to this quality assurance plan. We will outline how the quality and risk management program will be monitored and evaluated, including the types of data that will be collected, the frequency of reporting, and the methods of communication that will be used. By following the processes and procedures outlined in the plan, the organization can identify and mitigate potential risks, ensure that quality standards are maintained, and continuously improve its performance.</p>",
+                    "doi": "10.5281/zenodo.8167307",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "publication_date": "2023-07-20",
+                    "related_identifiers": [
+                        {
+                            "identifier": "10.5281/zenodo.8167306",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "8167307"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "8167306"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "deliverable",
+                        "title": "Project deliverable",
+                        "type": "publication"
+                    },
+                    "title": "D1.2 - Quality assurance and risk management"
+                },
+                "owners": [
+                    578927
+                ],
+                "revision": 5,
+                "stats": {
+                    "downloads": 15.0,
+                    "unique_downloads": 13.0,
+                    "unique_views": 16.0,
+                    "version_downloads": 15.0,
+                    "version_unique_downloads": 13.0,
+                    "version_unique_views": 16.0,
+                    "version_views": 19.0,
+                    "version_volume": 5675865.0,
+                    "views": 19.0,
+                    "volume": 5675865.0
+                },
+                "updated": "2023-07-27T08:58:49.433594+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.8162789",
+                "conceptrecid": "8162789",
+                "created": "2023-07-19T07:56:56.553506+00:00",
+                "doi": "10.5281/zenodo.8162790",
+                "files": [
+                    {
+                        "bucket": "111fc1c0-9026-45c0-a390-d5dd1a1cf424",
+                        "checksum": "md5:be151527f6c7fed594fdee8d503fd8b3",
+                        "key": "D1.1_MareGraph_Deliverable_Final.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/111fc1c0-9026-45c0-a390-d5dd1a1cf424/D1.1_MareGraph_Deliverable_Final.pdf"
+                        },
+                        "size": 441072,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 8162790,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.8162790.svg",
+                    "bucket": "https://zenodo.org/api/files/111fc1c0-9026-45c0-a390-d5dd1a1cf424",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.8162789.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.8162789",
+                    "doi": "https://doi.org/10.5281/zenodo.8162790",
+                    "html": "https://zenodo.org/record/8162790",
+                    "latest": "https://zenodo.org/api/records/8162790",
+                    "latest_html": "https://zenodo.org/record/8162790",
+                    "self": "https://zenodo.org/api/records/8162790"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "maregraph"
+                        },
+                        {
+                            "id": "vliz-openscience"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Goley, Joanna",
+                            "orcid": "0000-0002-4242-8553"
+                        },
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Marc Portier",
+                            "orcid": "0000-0002-9648-6484"
+                        },
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Lennert Tyberghein",
+                            "orcid": "0000-0003-0577-1691"
+                        },
+                        {
+                            "affiliation": "CNR",
+                            "name": "Alessandro Russo",
+                            "orcid": "0009-0006-9437-0249"
+                        }
+                    ],
+                    "description": "<p>This document outlines the internal project communication flow that has been developed in the form of a brief report outlining the governance structure and communication procedure in the MareGraph project. Additional and more specific procedures will be listed and described in D1.2 and D1.3 on Quality assurance and risk management and dissemination, communication and exploitation plan.</p>",
+                    "doi": "10.5281/zenodo.8162790",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "publication_date": "2023-07-19",
+                    "related_identifiers": [
+                        {
+                            "identifier": "10.5281/zenodo.8162789",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "8162790"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "8162789"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "deliverable",
+                        "title": "Project deliverable",
+                        "type": "publication"
+                    },
+                    "title": "D1.1 - Internal project communication flow"
+                },
+                "owners": [
+                    578927
+                ],
+                "revision": 4,
+                "stats": {
+                    "downloads": 9.0,
+                    "unique_downloads": 9.0,
+                    "unique_views": 11.0,
+                    "version_downloads": 9.0,
+                    "version_unique_downloads": 9.0,
+                    "version_unique_views": 11.0,
+                    "version_views": 16.0,
+                    "version_volume": 3969648.0,
+                    "views": 16.0,
+                    "volume": 3969648.0
+                },
+                "updated": "2023-07-20T08:50:58.395775+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.8119258",
+                "conceptrecid": "8119258",
+                "created": "2023-07-06T08:50:10.726122+00:00",
+                "doi": "10.5281/zenodo.8119259",
+                "files": [
+                    {
+                        "bucket": "08c9fa7a-5974-41c5-8d1a-c68281b5777b",
+                        "checksum": "md5:8aefccb39562bc301cfabc81896077f8",
+                        "key": "OPSCI poster.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/08c9fa7a-5974-41c5-8d1a-c68281b5777b/OPSCI%20poster.pdf"
+                        },
+                        "size": 3751529,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 8119259,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.8119259.svg",
+                    "bucket": "https://zenodo.org/api/files/08c9fa7a-5974-41c5-8d1a-c68281b5777b",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.8119258.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.8119258",
+                    "doi": "https://doi.org/10.5281/zenodo.8119259",
+                    "html": "https://zenodo.org/record/8119259",
+                    "latest": "https://zenodo.org/api/records/8119259",
+                    "latest_html": "https://zenodo.org/record/8119259",
+                    "self": "https://zenodo.org/api/records/8119259"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "vliz-openscience"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "VLIZ",
+                            "name": "Joanna Goley",
+                            "orcid": "0000-0002-4242-8553"
+                        }
+                    ],
+                    "description": "<p>Poster release for VLIZ Marine Science day 2023</p>",
+                    "doi": "10.5281/zenodo.8119259",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "publication_date": "2023-07-06",
+                    "related_identifiers": [
+                        {
+                            "identifier": "10.5281/zenodo.8119258",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "8119259"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "8119258"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "title": "Poster",
+                        "type": "poster"
+                    },
+                    "title": "The Open Science Initiative"
+                },
+                "owners": [
+                    578927
+                ],
+                "revision": 2,
+                "stats": {
+                    "downloads": 7.0,
+                    "unique_downloads": 5.0,
+                    "unique_views": 5.0,
+                    "version_downloads": 7.0,
+                    "version_unique_downloads": 5.0,
+                    "version_unique_views": 5.0,
+                    "version_views": 7.0,
+                    "version_volume": 26260703.0,
+                    "views": 7.0,
+                    "volume": 26260703.0
+                },
+                "updated": "2023-07-06T14:26:44.227635+00:00"
+            }
+        ],
+        "total": 4
+    },
+    "links": {
+        "self": "https://zenodo.org/api/records/?sort=mostrecent&communities=vliz-openscience&page=1&size=10"
+    }
+}

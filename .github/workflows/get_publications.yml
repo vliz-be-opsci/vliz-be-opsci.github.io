@@ -25,7 +25,7 @@ jobs:
                 pip install -r requirements.txt
             - name: Run the scraper
               run: |
-                python ./publication_scraper/scraper.py
+                python ./publication_scraper/get_publications.py
             - name: Commit changes
               run: |
                 git config --local user.email "
