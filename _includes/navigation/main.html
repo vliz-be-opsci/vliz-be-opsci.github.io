@@ -54,11 +54,9 @@
           {% if site.data.navigation %}
           <div class="region region-header-navigation">
             <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation">
-
               <h2 class="visually-hidden" id="block-mainnavigation-menu">Main
                 navigation</h2>
               <ul class="menu">
-
                 {% for item in site.data.navigation %}
                 {% if item.items %}
                 <li class="menu-item menu-item--collapsed">
@@ -81,7 +79,6 @@
     </div>
   </div>
   <div class="region region-header-doormat">
-
     {% if site.data.navigation %}
     {% for item in site.data.navigation %}
     <div id="block-hoofdnavigatie{% if forloop.index != 1 %}-{{ forloop.index }}{% endif %}"
@@ -90,6 +87,8 @@
       <div class="doormat-inner">
         <ul class="menu">
           {% for subitem in item.items %}
+          {% if item.items.size > 4 %}
+
           <li class="menu-item menu-item--expanded">
             <a href="{{subitem.url}}">{{subitem.title}}</a>
             {% if subitem.items %}
@@ -102,6 +101,21 @@
             </ul>
             {% endif %}
           </li>
+          {% else %}
+          {% assign width = 100 | divided_by: item.items.size %}
+          <li class="menu-item menu-item--expanded" style="width:{{width}}%">
+            <a href="{{subitem.url}}">{{subitem.title}}</a>
+            {% if subitem.items %}
+            <ul class="menu">
+              {% for subsubitem in subitem.items %}
+              <li class="menu-item">
+                <a href="{{subsubitem.url}}">{{subsubitem.title}}</a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
