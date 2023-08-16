@@ -45,6 +45,7 @@
     - title: Projects
       url: /projects
     - title: Initiatives
+      url: /initiatives
       items:
         - title: Read the LOD
           url: https://readthelod.org/
