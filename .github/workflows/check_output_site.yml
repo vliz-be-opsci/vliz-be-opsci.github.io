@@ -36,7 +36,7 @@ jobs:
         continue-on-error: true
       - name: Check HTML Proofer Results
       #check the output of the html proover and count the number of errors by counting the number of lines starting with *
-        run: echo "${{ steps.htmlproofer.outputs }}" | grep -c "^*"
+        run: echo "${{ steps.htmlproofer.outputs.hash }}" | grep -c "^*"
         id: htmlproofer_errors
         continue-on-error: true
       - name: Fail if HTML Proofer Errors
