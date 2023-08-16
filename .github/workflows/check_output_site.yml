@@ -23,8 +23,10 @@ jobs:
         run: gem install bundler
       - name: Install dependencies
         run: bundle install
-      - name: install rake and html-proofer
-        run: gem install rake html-proofer
+      - name: install gemrat
+        run: gem install gemrat
+      - name: install rake and html-proofer with gemrat
+        run: gemrat rake html-proofer
       - name: Build the site
         run: bundle exec jekyll build
       - name: Run HTML Proofer
