@@ -36,8 +36,9 @@ jobs:
         continue-on-error: true
       - name: Check HTML Proofer Results
       #check the output of the html proover and count the number of errors by counting the number of lines starting with *
-        run: echo "${{ steps.htmlproofer.outputs.stdout }}" | grep -c "^*"
+        run: echo "${{ steps.htmlproofer.outputs }}" | grep -c "^*"
         id: htmlproofer_errors
+        continue-on-error: true
       - name: Fail if HTML Proofer Errors
       #if the number of errors is greater than 2, fail the build (2 because some internal errors are unavoidable due to the fact that the internal links lead to another repo that has been placed relative to the root path of this repo)
         if: ${{ steps.htmlproofer_errors.outputs.run }} > 2
