@@ -48,10 +48,8 @@ projects:
 
   - title: "George"
     description: >-
-      TODO Write project text
-
-      lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+      GEORGE is a Horizon Europe-funded project that develops novel technologies to improve ocean observations. The technologies developed
+      will represent the next level in systematic long-term autonomous ocean observations.
     clickthrough_url: https://george-project.eu/
     image: "/assets/media/img/project/george-logo.png"
     tags:
