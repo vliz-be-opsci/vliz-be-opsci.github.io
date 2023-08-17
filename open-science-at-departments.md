@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /open-science-at-departments
-title: ... an attitude accross departments
+title: ... an attitude across departments
 ---
 
 At VLIZ we like to say that «Open Science» is not a team or a department, but an attitude. A way of thinking about how we are and should be working. Actively contemaplting how we can improve the outreach and impact of what we do. 
