@@ -38,9 +38,11 @@
     - title: Partners
       url: /partners
       items:
-        - title: EOSC
-          url: /partners
         - title: Flemish Research Data Network
+          url: /partners
+        - title: EMBRC
+          url: /partners
+        - title: LifeWatch
           url: /partners
     - title: Projects
       url: /projects
@@ -76,10 +78,6 @@
           url: /applications-tools/vocab-term-lookup
         - title: Software packages
           url: /applications-tools/software-packages
-    - title: Ontologies
-      url: /ontologies/
-      items:
-        - title: NS stuff -> opt to move to technical approach?
     - title: Publications
       url: /publications
     - title: Events
