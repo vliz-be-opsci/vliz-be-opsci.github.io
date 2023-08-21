@@ -4,7 +4,7 @@ curly: true
 
 banner:
   title: "Open Science"
-  description: "Todo -- one liner?"
+  description: "**90%** of the data in the global datasphere is replicated data and **10%** new data"
   clickthrough_text: "More About The VLIZ approach to Open Science"
   clickthrough_url: "/open-science"
   media: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"
