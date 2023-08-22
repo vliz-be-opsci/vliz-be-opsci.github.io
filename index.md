@@ -4,7 +4,7 @@ curly: true
 
 banner:
   title: "Open Science"
-  description: "**90%** of the data in the global datasphere is replicated data and **10%** new data"
+  description: "Because <b>90%</b> of the data in the global datasphere is replicated data and <b>10%</b> new data"
   clickthrough_text: "More About The VLIZ approach to Open Science"
   clickthrough_url: "/open-science"
   media: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"
@@ -31,7 +31,7 @@ core_principles:
   - title: Accountability
     description: "Open science promotes accountability by holding researchers responsible for their actions 
       and ensuring that they adhere to ethical standards and research integrity. 
-      Researchers are expected to be accountable for their methodologies, results, and interpretations."
+      Researchers is therare expected to be accountable for their methodologies, results, and interpretations."
   - title: Fairness
     description: "Open science advocates for fairness in research practices. This includes fair attribution of 
       credit to contributors, fair evaluation of research outputs, and fair access to research opportunities and 
