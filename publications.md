@@ -8,7 +8,7 @@ items:
       It is a web application that guides the user through the process of creating a DMP. 
       It is based on the DCC DMPonline tool, but has been adapted to the needs of the Belgian marine research community. 
       The tool is available in English."
-    clickthrough_url: "example.org/publication_url/01"
+    clickthrough_url: "https://example.org/publication_url/01"
     authors: 
         - name: "Bart Vanhoorne"
         - name: "Jan Seys"
@@ -18,11 +18,11 @@ items:
       - open data
       - data management
     documents: 
-      url: "example.org/documents/01"
+      - url: "https://example.org/documents/01"
 
   - title: "Example publication 2"
     description: "Lorem ipsun bullshit whatever you want to say about this publication"
-    clickthrough_url: "example.org/publication_url/02"
+    clickthrough_url: "https://example.org/publication_url/02"
     authors: 
         - name: "Somebody"
         - name: "That"
@@ -32,7 +32,7 @@ items:
       - open data Lorem
       - data management Ipsum
     documents: 
-      url: "example.org/documents/02"
+      - url: "https://example.org/documents/02"
 ---
 
 ## Scientific Papers
