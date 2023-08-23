@@ -2,6 +2,37 @@
 layout: default
 permalink: /publications/
 title: Open Science publications
+items:
+  - title: "DMBON Assistant publication"
+    description: "DMBON is a tool to assist in the creation of a Data Management Plan (DMP). 
+      It is a web application that guides the user through the process of creating a DMP. 
+      It is based on the DCC DMPonline tool, but has been adapted to the needs of the Belgian marine research community. 
+      The tool is available in English."
+    clickthrough_url: "example.org/publication_url/01"
+    authors: 
+        - name: "Bart Vanhoorne"
+        - name: "Jan Seys"
+        - name: "Jan Haspeslagh"
+        - name: "Pieter Provoost"
+    tags:
+      - open data
+      - data management
+    documents: 
+      url: "example.org/documents/01"
+
+  - title: "Example publication 2"
+    description: "Lorem ipsun bullshit whatever you want to say about this publication"
+    clickthrough_url: "example.org/publication_url/02"
+    authors: 
+        - name: "Somebody"
+        - name: "That"
+        - name: "I"
+        - name: "Used to know"
+    tags:
+      - open data Lorem
+      - data management Ipsum
+    documents: 
+      url: "example.org/documents/02"
 ---
 
 ## Scientific Papers
@@ -63,6 +94,8 @@ title: Open Science publications
         </div>
     </div>
 </div>
+
+{% include publications/main.html items=page.items %}
 
 ## Conference Proceedings
 
