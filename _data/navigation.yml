@@ -10,7 +10,7 @@
           url: /open-science#ambitions
         - title: Components
           url: /open-science#components
-    - title: Accross Departments
+    - title: Across Departments
       url: /open-science-at-departments
       items:
         - title: Research
@@ -37,13 +37,6 @@
   items:
     - title: Partners
       url: /partners
-      items:
-        - title: Flemish Research Data Network
-          url: /partners
-        - title: EMBRC
-          url: /partners
-        - title: LifeWatch
-          url: /partners
     - title: Projects
       url: /projects
     - title: Initiatives

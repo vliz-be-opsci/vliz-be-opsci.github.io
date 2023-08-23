@@ -4,7 +4,7 @@ curly: true
 
 banner:
   title: "Open Science"
-  description: "''Because <b>90%</b> of the data in the global datasphere is replicated data and <b>10%</b> new data''"
+  description: "''Because <b>90%</b> of the data in the global datasphere is replicated data and <b>10%</b> is new data''"
   clickthrough_text: "More About The VLIZ approach"
   clickthrough_url: "/open-science"
   media: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"

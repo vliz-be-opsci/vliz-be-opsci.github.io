@@ -30,4 +30,4 @@ partners:
 
 ---
 
-{% include item/list/gallery/main.html items=page.partners %}
+{% include item/list/row/text_image/main.html items=page.partners %}

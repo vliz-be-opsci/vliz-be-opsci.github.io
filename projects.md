@@ -55,7 +55,7 @@ projects:
     tags:
       - EU
 
-  - title: "Bluecloud-2026"
+  - title: "Blue-Cloud-2026"
     description: >- 
       The European H2020 Blue-Cloud project aims to achieve a range of innovative services through a practical approach, 
       demonstrating the potential of how the European Open Science Cloud (EOSC) can serve marine research and the blue 
