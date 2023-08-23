@@ -4,13 +4,13 @@ curly: true
 
 banner:
   title: "Open Science"
-  description: "Because <b>90%</b> of the data in the global datasphere is replicated data and <b>10%</b> new data"
-  clickthrough_text: "More About The VLIZ approach to Open Science"
+  description: "''Because <b>90%</b> of the data in the global datasphere is replicated data and <b>10%</b> new data''"
+  clickthrough_text: "More About The VLIZ approach"
   clickthrough_url: "/open-science"
   media: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"
 
 mission:
-  title: "Open science mission and values"
+  title: "Our mission and values"
   image: "/assets/media/img/open-science-logo-flask.svg"
   description: "VLIZ is committed to open science. We believe that open science is the best way to advance 
       science and to make it more efficient, reliable and transparent. We are convinced that open science is the best way to make science more inclusive and to increase its societal impact. We are committed to open science because we believe that it is the best way to make science more fun."
