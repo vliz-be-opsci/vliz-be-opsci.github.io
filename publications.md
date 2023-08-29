@@ -21,7 +21,7 @@ items:
       - url: "https://example.org/documents/01"
 
   - title: "Example publication 2"
-    description: "Lorem ipsun bullshit whatever you want to say about this publication"
+    description: "Lorem ipsum bullshit whatever you want to say about this publication"
     clickthrough_url: "https://example.org/publication_url/02"
     authors: 
         - name: "Somebody"

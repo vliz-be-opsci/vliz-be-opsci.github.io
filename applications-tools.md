@@ -19,7 +19,7 @@ items:
       github: "https://github.com/vliz-be-opsci/dmbon-assistant"
 
   - title: "Open-AIS.org"
-    description: "VLIZ Open-Science has a historic affiliation and vetted interest into the development of open-ais.org: a set of tools and solutions for exploring captured vessel trafic data in a research context."
+    description: "VLIZ Open-Science has a historic affiliation and vetted interest into the development of open-ais.org: a set of tools and solutions for exploring captured vessel traffic data in a research context."
     clickthrough_url: "/applications-tools/open-ais"
     image: "/assets/media/img/app/open-ais-logo.svg"
     tags:
@@ -42,7 +42,7 @@ items:
     
 
   - title: "Vocab Term Lookup Server and Widget"
-    description: "VLIZ commisioned to develop and deploy an open source system to let end-users easily find selected vocabulary terms by full-text-search into label and description. Operational since 2023."
+    description: "VLIZ commissioned to develop and deploy an open source system to let end-users easily find selected vocabulary terms by full-text-search into label and description. Operational since 2023."
     clickthrough_url: "/applications-tools/vocab-term-lookup"
     image: "/assets/media/img/app/rdf-logo.svg"
     tags:

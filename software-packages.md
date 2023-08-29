@@ -43,7 +43,7 @@ items:
         github: https://github.com/vliz-be-opsci/py-sdn-cdi-client
 
   - title: "py-xmlasdict"
-    description: "python library to approach xml DOM trees as python dicts with iterating and attribute-getting behavior"
+    description: "python library to approach xml DOM trees as python dictionaries with iterating and attribute-getting behavior"
     clickthrough_url: https://github.com/vliz-be-opsci/py-xmlasdict
     image: "/assets/media/img/socials/github-mark.svg"
     tags:
@@ -105,7 +105,7 @@ items:
         github: https://github.com/vliz-be-opsci/pysembench
 
   - title: "pysepca"
-    description: "Sparql End Point Compliance Assessment - Ad hoc set of checks for deployed sparql services"
+    description: "SPARQL End Point Compliance Assessment - Ad hoc set of checks for deployed SPARQL services"
     clickthrough_url: https://github.com/vliz-be-opsci/pysepca
     image: "/assets/media/img/socials/github-mark.svg"
     tags:
@@ -114,7 +114,7 @@ items:
         github: https://github.com/vliz-be-opsci/pysepca
 
   - title: "pysubyt"
-    description: "SU-By-t stands for 'Semantic Uplifting BY Templates'. This python package delivers a pragmatical jinja-templating approach to generating turtle syntax files from provided tabular data sources. It is a very basic and 'good enough' take on this, and should be considered as a low-level-entry alternative to things like linkml, rml.io or csvw. \n
+    description: "SU-By-t stands for 'Semantic Uplifting BY Templates'. This python package delivers a pragmatic jinja-templating approach to generating turtle syntax files from provided tabular data sources. It is a very basic and 'good enough' take on this, and should be considered as a low-level-entry alternative to things like linkml, rml.io or csvw. \n
     It bridges the gap from the comfortable table-view and the RDF based graph-view. The latter might be opening to a world of endless flexibility, but it refrains from being the natural modus operandi for a lot of natural data entry and data management where xls and csv remain the popular choice."
     clickthrough_url: https://github.com/vliz-be-opsci/pysubyt
     image: "/assets/media/img/socials/github-mark.svg"

@@ -9,7 +9,7 @@ title: F.A.I.R and Open data
 
 ![Fair Data Principles](/assets/media/img/content/FAIR_data_principles.jpg){:class="image-style-content-embed"}  A focal point in our strategy on open science is making research data FAIR and open.  And as we like to believe: interlinked. \
 \
-The [FAIR principles](https://www.go-fair.org/fair-principles/) outlined in [Wilkinson et al.](https://doi.org/10.1038/sdata.2016.18) guide the enterprise of research data management towards making data: **F**indable, **A**ccesible, **I**nteroperable and **R**eusable.
+The [FAIR principles](https://www.go-fair.org/fair-principles/) outlined in [Wilkinson et al.](https://doi.org/10.1038/sdata.2016.18) guide the enterprise of research data management towards making data: **F**indable, **A**ccessible, **I**nteroperable and **R**eusable.
 
 
 ![5star open data](assets/media/img/content/5-star_deployment_scheme_for_Open_Data.png){:.image-style-content-embed} In a broader scope (i.e. outside the more strict research domain) there are the additional [principles of linked-open-data](https://www.w3.org/wiki/LinkedData) and the semantic web to consider. \
@@ -40,7 +40,7 @@ To achieve that vision we have selected a number of objectives to focus on:
 * apply [RO-Crate](https://www.researchobject.org/ro-crate/) 
 * provide multilingual support to reference vocabularies
 * promote an open (platform-neutral) web-intergration approach through proper [REST APIs](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) and open [WebComponents](https://www.w3.org/TR/components-intro/)
-* provide tracable provenance data following the [EOSC-LIFE Common Provenance Model](https://doi.org/10.5281/zenodo.4705074)
+* provide traceable provenance data following the [EOSC-LIFE Common Provenance Model](https://doi.org/10.5281/zenodo.4705074)
 
 
 ## Practical Examples <a name="examples"></a>

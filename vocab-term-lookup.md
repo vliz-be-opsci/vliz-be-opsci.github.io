@@ -10,7 +10,7 @@ curly: false
 
 Early in our semantic web approach to open science data management we identified the need to support end-users in creating the factual links that are essential to the linked-data enterprise.
 
-Even if we provide approaches to hide direct knowledge graph usage behind the more familiar tabular views (and do so in both directions of providing or retrieving data) we realised that there is no way to actually avoid having actual data-values (content) that reference linked-data terms, concepts or values from controlled vocabularies.  Vocabularies that will innevitably be remotely managed.
+Even if we provide approaches to hide direct knowledge graph usage behind the more familiar tabular views (and do so in both directions of providing or retrieving data) we realised that there is no way to actually avoid having actual data-values (content) that reference linked-data terms, concepts or values from controlled vocabularies. Vocabularies that will inevitably be remotely managed.
 
 To facilitate in this we have developed a vocab-term-lookup-server and -widget.
 
@@ -25,13 +25,13 @@ Looking at the relevant life-cycle of this particular aspect of the data managem
 |---------------|----------------------------------------------|-------------------------------------------------------|
 | Vocab Admin   | adds selected vocabularies to the service    | so they become available for integration and lookup   | 
 | App Developer | configures and embeds a widget into an app   | so the selected URI terms of the found values will be used in the content managed by the application | 
-| App User      | just used the widget in the app              | to make a link to the actual concept it knows about, without having to worry about the RDF techincal details | 
+| App User      | just used the widget in the app              | to make a link to the actual concept it knows about, without having to worry about the RDF technical details | 
 
 
 Note: this does not include:
  - the actual development and management of vocabularies.
  - the development of the application or its backend to actually store the selected values
- - an approach to regularly check up on the continued existance / relevance / possible deprecation of the linked content
+ - an approach to regularly check up on the continued existence / relevance / possible deprecation of the linked content
 
 
 ## Where can I find it?
@@ -54,7 +54,7 @@ The VLIZ instance is setup to service the marine research domain. Therefore the 
 
 
 
-## Introductionary presentation
+## Introductory presentation
 
 {% include presentation/google-slides.html
    document_id="2PACX-1vQdoAd8Cq5CFsS7gC5Q1aGhYEW0dAA_sOQ_RN2U9giR6cI9l2R75o9USHCMgxItHyD21-4BZ_0QErSY"

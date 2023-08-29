@@ -9,11 +9,11 @@ cover_opacity: 1
 
 # Todo:
 - write few lines about the Open Science events we participate in (mainly stating why these are important/relevant/...)
-- further develop priliminary list of events
+- further develop preliminary list of events
 
 # Preliminary list of Open Science events
 
 - ReadTheLod bookclubs
-- Open Knowledege
+- Open Knowledge
 - TDWG presentations?
 - ...
