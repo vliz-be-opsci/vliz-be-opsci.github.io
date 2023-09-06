@@ -4,7 +4,7 @@ permalink: /open-science-at-departments
 title: ... an attitude across departments
 ---
 
-At VLIZ we like to say that «Open Science» is not a team or a department, but an attitude. A way of thinking about how we are and should be working. Actively contemaplting how we can improve the outreach and impact of what we do. 
+At VLIZ we like to say that «Open Science» is not a team or a department, but an attitude. A way of thinking about how we are and should be working. Actively contemplating how we can improve the outreach and impact of what we do. 
 
 This page describes how that translates into focus points for our departments: 
 
@@ -20,7 +20,7 @@ Today, many publishers and funding bodies demand open science principles to appl
 
 For the data center a focus on "open science" is a natural one to take. Our supporting role "to manage, cleanup, standardize and share data" within the organisation has lead to a built up expertise in its own right which logically extends towards stewardship, guidance and the introduction of new and better techniques in the organization.  
 
-The shear growth of data volumes and the inceasing demands on their prompt (and qualitiative) availability is further pushing us towards automation and standardisation. This matches totally with the focus on «interoperability» coming from the movement towards [FAIR and linked-open-data](/fair-open-data).
+The shear growth of data volumes and the increasing demands on their prompt (and qualitative) availability is further pushing us towards automation and standardisation. This matches totally with the focus on «interoperability» coming from the movement towards [FAIR and linked-open-data](/fair-open-data).
 
 Engaging in a fruitful collaboration between data science and data engineering is a growing part of that.  
 
@@ -32,7 +32,7 @@ Engaging in a fruitful collaboration between data science and data engineering i
   ... updating catalogs that are disclosed via marine-info.org
 
 
-## Policy and valorization <a name="innoval"></a>
+## Policy and valorisation <a name="innoval"></a>
 
   ... ? Hans?
 

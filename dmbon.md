@@ -4,7 +4,7 @@ permalink: /applications-tools/dmbon-assistant
 ---
 
 
-<!-- todo revive this statement if we know where that larger ecosysten gets published
+<!-- todo revive this statement if we know where that larger ecosystem gets published
 
 :earth_africa: **[This project is part of a larger open science and open data ecosystem. Find out more information here!](https://open-science.vliz.be/#projects)**
 
@@ -55,7 +55,7 @@ We believe that future projects, potentially built on top of this one, can then 
 This project is intended for academics, policy makers, and the general public. 
 Academics are encouraged to share their research in a way that makes their research more meaningful and easily citable.
 Policy makers benefit from this tool through lowering the barrier for extensive meta-analysis that can shed light on previously unreported correlations.
-Finally, the general public benefits from such an open source tool by making academic research more easily accesible to the public.
+Finally, the general public benefits from such an open source tool by making academic research more easily accessible to the public.
 We believe that open sourcing a project such as this benefits the community and with it we hope to advocate for future open science policies to come.
 
 #### Goals
@@ -68,8 +68,8 @@ Sound scientific results are derived from good data.
 While few people disagree with this statement, the current methods of both storing and accessing historical data are severely hampering novel scientific discoveries. 
 On one end, data of published studies are permanently lost (Vines et al., [2014](https://doi.org/10.1016/j.cub.2013.11.014)) or researchers forget the details requires to make use of the data (Whitlock et al. [2010](https://doi.org/10.1086/650340)).
 On the other end, losing access to data (and, importantly, their [metadata](#metadata)) makes it impossible to reproduce scientific results or perform critical meta-analyses.
-Therefore, automated streamlining of data management plans (DMPs) is necessary for improving data preservation and accesibility.
-DMBON-assistant is an open source webtop application designed to provide this automisation, thereby enabling consistent and streamlined data management.
+Therefore, automated streamlining of data management plans (DMPs) is necessary for improving data preservation and accessibility.
+DMBON-assistant is an open source webtop application designed to provide this automation, thereby enabling consistent and streamlined data management.
 
 <h5 id="metadata">Metadata: the overlooked critical component</h5>
 One critical, but often overlooked, feature that greatly increases the longevity of datasets is [metadata](https://en.wikipedia.org/wiki/Metadata) (Leipzig et al. [2021](https://doi.org/10.1016/j.patter.2021.100322)), i.e. 'data that provides information about other data'. 

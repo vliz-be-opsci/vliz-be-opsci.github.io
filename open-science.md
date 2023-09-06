@@ -16,7 +16,7 @@ Open Science@VLIZ is about
 - *Open Source* For the software we create: so that others can adopt and adapt. 
 - *Open Initiatives* Being open to collaborations.
 - *Open Understanding* Reaching out to multilingual audiences, inside *and* outside the scientific domain.
-- *Open Infrastructure* Reveloping system architecture that is open access and open source.
+- *Open Infrastructure* Developing system architecture that is open access and open source.
 
 Open science is also about embracing principles of accessibility, transparency, inclusivity, and sustainability. We fully support the [UNESCO recommendations on Open Science](https://www.unesco.org/en/open-science/about). 
 

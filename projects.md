@@ -10,7 +10,7 @@ projects:
       MARCO-BOLO aims to structure and strengthen European coastal and marine biodiversity observation capabilities, linking 
       them to global efforts to understand and restore ocean health, hence ensuring that outputs respond to explicit 
       stakeholder needs from policy, planning and industry. MBO will establish and engage with a Community of Practice to 
-      determine enduser needs with the aim of optimising marine data flows, knowledge uptake, and improving governance based 
+      determine end-user needs with the aim of optimising marine data flows, knowledge uptake, and improving governance based 
       on biodiversity observations.
     clickthrough_url: https://marcobolo-project.eu/
     image: "/assets/media/img/project/MARCO-BOLO_logo_col.png"
