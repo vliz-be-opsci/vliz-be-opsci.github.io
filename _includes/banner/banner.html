@@ -1,3 +1,4 @@
+{% if include.banner.description %}
 <div class="col-12 field__item">
     <div class="paragraph paragraph--type--hero paragraph--view-mode--default">
       <div class="hero-container">
@@ -22,14 +23,19 @@
           class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items grayoverlay">
           <div class="field__item">
             <h2 class="white">{{ include.banner.title}}</h2>
+            {% if include.banner.description %}
             <p>{{ include.banner.description }} </p>
+            {% endif %}
             {% if include.banner.clickthrough_url and include.banner.clickthrough_text %}
             <p><a class="more-link" href="{{ include.banner.clickthrough_url}}"
               >{{ include.banner.clickthrough_text }}</a>
             </p>
-            {%  endif %}
+            {% endif %}
           </div>
         </div>
       </div>
     </div>
-  </div>
+</div>
+{% else %}
+{% include item/list/carrousel/quote/main.html items=include.banner.quotes info=include.banner %}
+{%  endif %}

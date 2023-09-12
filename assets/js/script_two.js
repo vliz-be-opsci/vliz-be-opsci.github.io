@@ -2400,6 +2400,8 @@
                 o = !1;
               e.classList.contains("ticker-autoplay") && (a = !0),
                 e.classList.contains("ticker-nav") && (o = !0),
+                e.classList.contains("ticker-nav") && (o = !0),
+                e.classList.contains("ticker-count-1") && (i = 1),
                 e.classList.contains("ticker-count-2") && (i = 2),
                 e.classList.contains("ticker-count-3") && (i = 3),
                 e.classList.contains("ticker-count-4") && (i = 4),
@@ -2416,7 +2418,7 @@
                   controlsText: ["", ""],
                   controlsPosition: "bottom",
                   preventScrollOnTouch: "auto",
-                  responsive: { 1500: { items: i }, 1e3: { items: 2 } },
+                  responsive: { 1500: { items: i }, 1e3: { items: i } },
                 });
             }
           );
