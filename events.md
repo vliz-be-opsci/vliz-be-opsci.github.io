@@ -6,7 +6,7 @@ cover: /assets/media/img/cover/graph_concept_art.jpg
 cover_opacity: 1
 events:
     - title: FAIR-EASE Second Annual Event
-      description: We’re excited to announce that on 19 September 2023, the FAIR-EASE Consortium of 26 partners, coordinated by CNRS, is holding its second full in-person consortium meeting! We are ready to build on the work done in the first 12 months of the project. We are working on the first interdomain digital architecture for integrated use of          environmental data, made of two main components: a FAIR-EASE Interdisciplinary Data Discovery and Access Service and a FAIR-EASE Earth Analytical Lab and Data Lake. Our set of three multidisciplinary Use Cases will help us by contributing to requirements and validation of our solution.
+      description: "We’re excited to announce that on 19 September 2023, the FAIR-EASE Consortium of 26 partners, coordinated by CNRS, is holding its second full in-person consortium meeting! We are ready to build on the work done in the first 12 months of the project. We are working on the first interdomain digital architecture for integrated use of environmental data, made of two main components: a FAIR-EASE Interdisciplinary Data Discovery and Access Service and a FAIR-EASE Earth Analytical Lab and Data Lake. Our set of three multidisciplinary Use Cases will help us by contributing to requirements and validation of our solution."
       date: 2021-09-19
       image: /assets/media/img/events/FEConsortium Meeting 2023.jpg
       tags:

@@ -46,6 +46,8 @@
           url: https://readthelod.org/
         - title: RO-Crate Community
           url: https://www.researchobject.org/ro-crate/community.html
+    - title: Events
+      url: /events
 
 - title: Achievements
   items:
@@ -73,8 +75,7 @@
           url: /applications-tools/software-packages
     - title: Publications
       url: /publications
-    - title: Events
-      url: /events
+    
 - title: Documents
   items:
     - title: Conventions
