@@ -62,12 +62,25 @@
         <div class="field__item">
           <h2 class="white">{{ include.banner.title}}</h2>
           {% if include.banner.quotes %}
-          {% assign arrayLength = include.banner.quotes | size %}
-          {% assign hours= site.time | date: "%H" | plus:100 %}
-          {% assign randomNumber = arrayLength | plus: hours | modulo: include.banner.quotes.size %}
-          {% assign randomQuote = include.banner.quotes[randomNumber] %}
-          <p>{{ randomQuote.title }} </p>
-          <p><a href="{{randomQuote.clickthrough_url}}">{{ randomQuote.clickthrough_text}}</a> </p>
+          
+          <p id="quote"></p>
+          <p id="clickthrough_text"></p>
+          <script>
+            var quotes = {{ include.banner.quotes | jsonify }};
+            var length = quotes.length;
+            //based on unix time get a random number between 0 and length
+            var random = Math.floor(Math.random() * length);
+            //get the quote
+            var quote = quotes[random].title;
+            //get the clickthrough text
+            var clickthrough_text = quotes[random].clickthrough_text;
+            //get the clickthrough url
+            var clickthrough_url = quotes[random].clickthrough_url;
+            //set the clickthrough url
+            document.getElementById("clickthrough_text").innerHTML = "<a href='" + clickthrough_url + "'>" + clickthrough_text + "</a>";
+            //set the quote
+            document.getElementById("quote").innerHTML = quote;
+          </script>
           {% endif %}
           {% if include.banner.clickthrough_url and include.banner.clickthrough_text %}
           <p><a class="more-link" href="{{ include.banner.clickthrough_url}}"
