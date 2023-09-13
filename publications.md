@@ -105,34 +105,3 @@ Same here for the conference proceedings ?
 
 <p>{{pub.title}}</p>
 {% endfor %}
-
-<script>
-    htmx.logger = function(elt, event, data) {
-        if(console) {
-            console.log(event, elt, data);
-        }
-    }
-  
-  document.body.addEventListener('configRequest.htmx', function(evt) {
-      // try to remove x-hx-* headers because gist api complains about CORS
-      Object.keys(evt.detail.headers).forEach(function(key) { 
-        delete evt.detail.headers[key]; 
-      });
-  });
-  
-  htmx.defineExtension('client-side-templates', {
-      transformResponse : function(text, xhr, elt) {
-        var nunjucksTemplate = htmx.closest(elt, "[nunjucks-template]");
-          if (nunjucksTemplate) {
-              var data = {
-                data: JSON.parse(text)
-              };
-              var templateName = nunjucksTemplate.getAttribute('nunjucks-template');
-              var template = htmx.find('#' + templateName);
-              console.log(templateName,data);
-              return nunjucks.renderString(template.innerHTML, data);
-          }
-          return text;
-      }
-  });
-</script>
