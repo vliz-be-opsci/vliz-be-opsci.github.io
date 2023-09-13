@@ -14,10 +14,14 @@ events:
         - EU
       icon_url:
         eye: https://fairease.eu/events/2nd-fair-ease-annual-consortiummeeting#:~:text=We're%20excited%20to%20announce,12%20months%20of%20the%20project.
-    - title: event 2
-      description: description 2
+    - title: EOSC Symposium 2023
+      description: "From 20-22 September 2023, the EOSC Symposium will take place in Madrid, in the context of the Spanish Presidency of the Council of the European Union. The EOSC Symposium is organised by the EOSC Future project, together with the EOSC Tripartite collaboration (the EOSC Association, the EOSC Steering Board and the European Commission).
+
+This year’s event will be fully hybrid, facilitating broader exchanges between stakeholders from ministries, policy makers, research organisations, service providers, research infrastructures and research communities driving the development of – and engagement with – the European Open Science Cloud. In the context of the EOSC Future project, the EOSC Symposium will also be a critical platform to showcase project achievements and key exploitable results."
       date: 2021-10-02
       image: /assets/media/img/cover/graph_concept_art.jpg
+      icon_url:
+        eye: https://symposium23.eoscfuture.eu/
     - title: event 3
       description: description 3
       date: 2021-10-03
