@@ -28,17 +28,22 @@ This year’s event will be fully hybrid, facilitating broader exchanges between
       image: /assets/media/img/cover/graph_concept_art.jpg
       icon_url:
         eye: http://opensciencefair.eu/
+    - title: DTO-BioFlow - Integration of biodiversity monitoring data into the Digital Twin Ocean 
+      description: "The Horizon Europe project “Integration of biodiversity monitoring data into the Digital Twin Ocean” (DTO-BioFlow) will unlock “sleeping” biodiversity data enabling the sustained flow of these and new data via primary integrators and EMODnet into the EU Digital Twin Ocean. It will create a digital replica of marine biological processes transforming new and existing data flows into evidence-based knowledge. DTO-BioFlow will transform access to data on ocean biodiversity and the human activities that impact them, by enabling the sustainable integration of biodiversity monitoring data flows into the EU DTO, enriching digital tools and services thus unlocking the societal value of these data. To fully exploit the potential of these new and existing data flows, DTO-BioFlow will develop the biodiversity component of the DTO, i.e., the digital replica of marine ecological processes, bringing together data, models and new algorithms supporting the development of policy-relevant tools and services for effective monitoring, restoration, and protection of marine biodiversity, delivering to the objectives of the EU Mission “Restore our Ocean and Waters by 2030” and the EU Biodiversity Strategy"
+      date: 2023-09-25
+      image: assets/media/img/events/DTO-BioFlow.png
+      icon_url:
+        eye: https://www.vliz.be/nl/events/dto-bioflow-kick-meeting-integration-biodiversity-monitoring-data-digital-twin-ocean
 
 ---
 
 {% include item/list/row/image_text_link/main.html items=page.events %}
 
-# VLIZ events:
-"Outreach by the open science team helps the general public, private, and research institutions increase their understanding of data management and FAIR principles. The movement expanded to a wider audience can lead to broader adoption and wider community input in decision making."
+# VLIZ events
+Outreach by the open science team helps the general public, private, and research institutions increase their understanding of data management and FAIR principles. The movement expanded to a wider audience can lead to broader adoption and wider community input in decision making.
 
-# Ongoing events
+## Past and ongoing events
 
-- [ReadtheLOD](https://readthelod.org/) bookclub
-- Open Knowledge
-- TDWG presentations?
-- ...
+- [ReadtheLOD](https://readthelod.org/) bookclub hosted by VLIZ
+- [TDWG 2020 Use and re-use of images and their metadata in biodiversity research - SYM02](https://www.youtube.com/watch?v=5UNTiEMivDs)
+- [The Mythical Data Lake: what is a data lake and why is it "a unicorn"?](https://www.youtube.com/watch?v=gY3dXxZmDok)
