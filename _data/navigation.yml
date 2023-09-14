@@ -65,8 +65,6 @@
       items:
         - title: DMBON Assistant
           url: /applications-tools/dmbon-assistant
-        - title: Open AIS
-          url: /applications-tools/open-ais
         - title: RO-Crate demo
           url: /applications-tools/ro-crate-demo
         - title: Vocab Term Lookup
