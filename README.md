@@ -20,7 +20,7 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: vliz-be-theme
 ```
 
-And then execute:
+And then execute:[README]
 
     $ bundle
 
@@ -30,7 +30,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### _includes
+
+| Path | Description | Readme |
+| ---- | ----------- | ------ |
+| `_includes/banner` | Banner | [DOCUMENTATION](./_includes/banner/README.md) |
+| `_includes/footer` | Footer | [DOCUMENTATION](./_includes/footer/README.md) |
+| `_includes/item/list/block/colored` | List of items with a colored background blocks | [DOCUMENTATION](./_includes/item/list/block/colored/README.md) |
+| `_includes/item/list/card/colored` | List of items with a colored background cards | [DOCUMENTATION](./_includes/item/list/card/colored/README.md) |
+| `_includes/item/list/carrousel/block` | List of items with a carrousel of blocks | [DOCUMENTATION](./_includes/item/list/carrousel/block/README.md) |
+| `_includes/item/list/carrousel/waved` | List of items with a carrousel with wavy background | [DOCUMENTATION](./_includes/item/list/carrousel/waved/README.md) |
+| `_includes/item/list/gallery` | Compact list of items with a gallery | [DOCUMENTATION](./_includes/item/list/gallery/README.md) |
+| `_includes/item/list/row/image_text_link` | Item with image, text and link | [DOCUMENTATION](./_includes/item/list/row/image_text_link/README.md) |
+| `_includes/item/list/row/text_image` | Item with text, image | [DOCUMENTATION](./_includes/item/list/row/text_image/README.md) |
+| `_includes/item/single/row_and_wave` | Item with text, image and wavy background | [DOCUMENTATION](./_includes/item/single/row_and_wave/README.md) |
+| `_includes/navigation` | Navigation | [DOCUMENTATION](./_includes/navigation/README.md) |
 
 ## Contributing
 
