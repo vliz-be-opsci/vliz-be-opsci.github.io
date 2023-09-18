@@ -22,8 +22,13 @@
                 <div class="field field--name-field-media-image field--type-image field--label-hidden field__items">
                     <img loading="lazy"
                         src="{{include.item.image | relative_url}}"
-                        alt="{{ include.item.title }}" typeof="foaf:Image" class="image-style-large-1000" width="594"
-                        height="126">
+                        alt="{{ include.item.title }}" 
+                        typeof="foaf:Image" 
+                        class="image-style-large-1000" 
+                        {% if include.item.width_media %}
+                        style="width: {{include.item.width_media}}px; display:inline;"
+                        {% endif %}
+                        >
                 </div>
             </article>
 

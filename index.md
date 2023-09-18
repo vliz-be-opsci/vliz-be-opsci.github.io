@@ -37,7 +37,7 @@ core_principles:
   - title: Objectivity
     description: "Open science promotes an attitude of impartiality in research, 
       where researchers strive to approach their work without bias or personal interests."
-  - title: Honesty
+  - title: Trusted
     description: "Open science emphasizes the importance of honesty in all aspects of research, 
       including reporting findings accurately and transparently. 
       Researchers are expected to be truthful and avoid fabrication or falsification of data."

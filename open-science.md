@@ -5,11 +5,9 @@ cover: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"
 title: Open Science
 ---
 
-# Open Science 
 
-
-## Open science principles <a name="principles"></a>
-Open science is a set of principles and practices that aim to make scientific research accessible to everyone. This benefits not only the scientific community, but also society as a whole. Science is part of almost everything that happens in our modern world, and at VLIZ we aim to contribute towards the increased understanding of, use of, and trust in science by society.  
+## principles <a name="principles"></a>
+We value a set of principles and practices that aim to make scientific research accessible to everyone. This benefits not only the scientific community, but also society as a whole. Science is part of almost everything that happens in our modern world, and at VLIZ we aim to contribute towards the increased understanding of, use of, and trust in science by society.  
 
 Open Science@VLIZ is about  
 - *Open Access* To the scientific outputs we create: data, publications, software.
@@ -26,7 +24,7 @@ At VLIZ we believe that embracing Open Science will increase the quality, effici
 ## Components <a name="components"></a>
 
 There are a number of components that we are focussing on in our Open Science journey
-- *Open Science Campaigning* To spread the word about Open Science and about how to *do* Open Science. To engage with our fellow travellers - through blogs, talks, reviews, talking groups, events, news feeds - in Flanders, Belgium, Europe, and beyond. To reach out to existing and new connections in industry, citizen scientists, and researchers in marine science and in other domains. 
+- *Campaigning* To spread the word about Open Science and about how to *do* Open Science. To engage with our fellow travellers - through blogs, talks, reviews, talking groups, events, news feeds - in Flanders, Belgium, Europe, and beyond. To reach out to existing and new connections in industry, citizen scientists, and researchers in marine science and in other domains. 
 - *Open Access* We enact the principles of open access in our own scientific, technical, and data-oriented work. For publications, we have the Open Marine Archive (OMA) which can provide access to Green and Gold (-access) publications. We use text mining and Natural language processing (NLP), machine-readable semantics, linked-open-data (LOD) thesauri, LOD-oriented metadata formats, persistent identifiers (ORCID, ISNI, URN,..) to open up the content of the Library. 
 - *Open Data* The VLIZ Marine Data Centre has policies and data management practises that make our data findable, accessible, and useable by end users and to fully-automated inquiries. We use machine-readable semantics, LOD feeds, LOD-oriented metadata formats, persistent identifiers, and interoperable formats to open up the contents of our data systems. 
 - *Open Coding* We strive to make our code both openly and practically accessible. This applies at the level of the individuals, and at the level of the coded services we provide to interrogate our data systems. By listening and responding to our user community, we believe we can only improve our provisions.
