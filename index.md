@@ -94,13 +94,8 @@ priorities:
                   open science and fair data. By equipping individuals with the necessary
                   skills and knowledge, we can ensure the widespread adoption of open
                   science principles and fair data practices"
-  - title: "Support from Funding Agencies and Institutions"
-    description:  "Funding agencies and institutions play a crucial role in promoting open
-                  science and fair data practices. They can develop policies and
-                  guidelines that encourage researchers to adopt open science principles
-                  and adhere to fair data practices. By providing support, resources, and
-                  incentives, funding agencies and institutions can create an environment
-                  that fosters the sharing and reuse of research data"
+  - title: "VLIZ supports the Declaration on Research Assessment (DORA)"
+    description:  "VLIZ advocates for changes in the way research outputs are assessed and evaluated and encourages a more holistic and fair approach to assessing research outputs."
 ---
 
 {% include banner/main.html banner=page.banner %}
