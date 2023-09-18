@@ -27,9 +27,13 @@ Engaging in a fruitful collaboration between data science and data engineering i
 
 ## Library <a name="lib"></a>
 
-  ? Heike ?
-  ... budget for open access?
-  ... updating catalogs that are disclosed via marine-info.org
+Open Access is a crucial enabler of Open Science. It removes barriers to accessing research and aligns with the core principles of open science: transparency, collaboration, and accessibility.
+
+With the VLIZ open access budget the library actively promotes open science and assists researchers in publishing their work in open access. The library also plays an advisory role in guiding researchers on open access publishing, ensuring the visibility and impact of their publications and as such contributing to the growth of open science.
+
+Open access repositories serve as a key tool for implementing open access principles in the dissemination of research. With the management of the Open Marine Archive the library promotes knowledge dissemination to the global research community and society at large.
+
+VLIZ supports the Declaration on Research Assessment (DORA), that advocates for changes in the way research outputs are assessed and evaluated and encourages a more holistic and fair approach to assessing research outputs.
 
 
 ## Policy and valorisation <a name="innoval"></a>
