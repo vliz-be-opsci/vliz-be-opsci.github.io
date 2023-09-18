@@ -6,7 +6,7 @@ title: Open Science
 ---
 
 
-## principles <a name="principles"></a>
+## Principles <a name="principles"></a>
 We value a set of principles and practices that aim to make scientific research accessible to everyone. This benefits not only the scientific community, but also society as a whole. Science is part of almost everything that happens in our modern world, and at VLIZ we aim to contribute towards the increased understanding of, use of, and trust in science by society.  
 
 Open Science@VLIZ is about  
