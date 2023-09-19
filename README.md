@@ -30,6 +30,54 @@ Or install it yourself as:
 
 ## Usage
 
+make an index.md file in the root of your project and add the following code:
+
+```markdown
+---
+layout: default
+---
+
+{% include navigation/navigation.html %}
+```
+
+Go to _data/navigation.yml and add the following code:
+
+```yaml
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Contact
+  url: /contact/
+```
+
+To view the page run the following command:
+
+```bash
+bundle exec jekyll serve --livereload
+```
+
+This will start a server on localhost:4000
+
+To add a new page create a new file in the root of your project and add the following code:
+
+```markdown
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+Some information here
+```
+
+The permalink is the url of the page. The title is the title of the page.
+The layout is the layout of the page. The layout is located in the _layouts folder.
+
+For more information about layouts go to [Jekyll](https://jekyllrb.com/docs/layouts/).
+For more information about the jekyll api go to [Jekyll liquid documentation](https://jekyllrb.com/docs/liquid/).
+
+
 ### _includes
 
 | Path | Description | Readme |
@@ -45,10 +93,9 @@ Or install it yourself as:
 | `_includes/item/list/row/text_image` | Item with text, image | [DOCUMENTATION](./_includes/item/list/row/text_image/README.md) |
 | `_includes/item/single/row_and_wave` | Item with text, image and wavy background | [DOCUMENTATION](./_includes/item/single/row_and_wave/README.md) |
 | `_includes/navigation` | Navigation | [DOCUMENTATION](./_includes/navigation/README.md) |
-
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/vliz-be-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/vliz-be-opsci/vliz-be-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 
