@@ -14,7 +14,7 @@
           {% else %}
           "{{ site.base_url }}"
           {% endif %}
-          rel="home" title="">
+           rel="home" title="">
             <svg width="187.046" height="118.179" viewBox="0 0 52.916667 42.333335" version="1.1" id="svg5"
               inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)" sodipodi:docname="VLIZ_LOGO_OpSci.svg"
               xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -66,13 +66,13 @@
                 {% for item in site.data.navigation %}
                 {% if item.items %}
                 <li class="menu-item menu-item--collapsed">
-                  <a {% if item.highlight %}class="highlight" {% endif %} href="{{ item.url }}"
+                  <a {% if item.highlight %}class="highlight" {% endif %} href="{{ site.base_url }}{{ item.url }}"
                     data-doormat-target="doormat-block-hoofdnavigatie{% if forloop.index != 1 %}-{{ forloop.index }}{% endif %}">{{
                     item.title }}</a>
                 </li>
                 {% else %}
                 <li class="menu-item">
-                  <a {% if item.highlight %}class="highlight" {% endif %} href="{{ item.url }}">{{ item.title }}</a>
+                  <a {% if item.highlight %}class="highlight" {% endif %} href="{{ site.base_url }}{{ item.url }}">{{ item.title }}</a>
                 </li>
                 {% endif %}
                 {% endfor %}
@@ -97,10 +97,10 @@
 
           <li class="menu-item menu-item--expanded">
             <a 
-              href="{{subitem.url}}"
-              {% if subitem.url contains "http://" or "https://" %}
+              href="{{ site.base_url }}{{subitem.url}}"
+              {% unless subitem.url contains site.base_url %}
               target="blank"
-              {% endif %}
+              {% endunless %}
             >{{subitem.title}}
             </a>
             {% if subitem.items %}
@@ -108,10 +108,10 @@
               {% for subsubitem in subitem.items %}
               <li class="menu-item">
                 <a 
-                  href="{{subsubitem.url}}"
-                  {% if subsubitem.url contains "http://" or "https://" %}
+                  href="{{ site.base_url }}{{subsubitem.url}}"
+                  {% unless subsubitem.url contains site.base_url %}
                   target="blank"
-                  {% endif %}
+                  {% endunless %}
                 >{{subsubitem.title}}</a>
               </li>
               {% endfor %}
@@ -122,20 +122,20 @@
           {% assign width = 100 | divided_by: item.items.size %}
           <li class="menu-item menu-item--expanded" style="width:{{width}}%">
             <a 
-              href="{{subitem.url}}"
-              {% if subitem.url contains "http://" or "https://" %}
+              href="{{ site.base_url }}{{subitem.url}}"
+              {% unless subitem.url contains site.base_url %}
               target="blank"
-              {% endif %}
+              {% endunless %}
             >{{subitem.title}}</a>
             {% if subitem.items %}
             <ul class="menu">
               {% for subsubitem in subitem.items %}
               <li class="menu-item">
                 <a 
-                  href="{{subsubitem.url}}"
-                  {% if subsubitem.url contains "http://" or "https://" %}
+                  href="{{ site.base_url }}{{subsubitem.url}}"
+                  {% unless subsubitem.url contains site.base_url %}
                   target="blank"
-                  {% endif %}
+                  {% endunless %}
                 >{{subsubitem.title}}</a>
               </li>
               {% endfor %}
