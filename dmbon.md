@@ -66,13 +66,13 @@ We believe that open sourcing a project such as this benefits the community and 
 ### Motivation
 Sound scientific results are derived from good data. 
 While few people disagree with this statement, the current methods of both storing and accessing historical data are severely hampering novel scientific discoveries. 
-On one end, data of published studies are permanently lost (Vines et al., [2014](https://doi.org/10.1016/j.cub.2013.11.014)) or researchers forget the details requires to make use of the data (Whitlock et al. [2010](https://doi.org/10.1086/650340){:target=”_blank”}).
+On one end, data of published studies are permanently lost (Vines et al., [2014](https://doi.org/10.1016/j.cub.2013.11.014){:target=”_blank”}) or researchers forget the details requires to make use of the data (Whitlock et al. [2010](https://doi.org/10.1086/650340){:target=”_blank”}).
 On the other end, losing access to data (and, importantly, their [metadata](#metadata)) makes it impossible to reproduce scientific results or perform critical meta-analyses.
 Therefore, automated streamlining of data management plans (DMPs) is necessary for improving data preservation and accessibility.
 DMBON-assistant is an open source webtop application designed to provide this automation, thereby enabling consistent and streamlined data management.
 
 <h5 id="metadata">Metadata: the overlooked critical component</h5>
-One critical, but often overlooked, feature that greatly increases the longevity of datasets is [metadata](https://en.wikipedia.org/wiki/Metadata) (Leipzig et al. [2021](https://doi.org/10.1016/j.patter.2021.100322){:target=”_blank”}), i.e. 'data that provides information about other data'. 
+One critical, but often overlooked, feature that greatly increases the longevity of datasets is [metadata](https://en.wikipedia.org/wiki/Metadata){:target=”_blank”} (Leipzig et al. [2021](https://doi.org/10.1016/j.patter.2021.100322){:target=”_blank”}), i.e. 'data that provides information about other data'. 
 Metadata often encodes how to interpret the actual data, e.g. descriptions of meaning of columns in a table, and is thus often necessary for meta-analyses.
 While sharing primary data is becoming increasingly more common (even though the process is not streamlined, see, e.g. Alsheikh-Ali et al., [2011](https://doi.org/10.1371/journal.pone.0024357) and Baker, [2015](https://doi.org/10.1038/533452a)), extensive efforts are often needed to gain access to metadata even when data is openly available (Tedersoo et al., [2021](https://doi.org/10.1038/s41597-021-00981-0){:target=”_blank”}).
 DMBON-assistant aims to alleviate this issue by assisting its users in providing the sufficient metadata that is needed to correctly interpret the data.
@@ -103,7 +103,7 @@ Our general envisioned flow is illustrated below:
 
 On the left, we see a user that has multiple sources of data and metadata. 
 These can range from raw data and metadata to (source code to) analyses and publications. 
-Importantly, much of the raw data is often uploaded to some external cloud service (such as [ENA](https://www.ebi.ac.uk/ena/browser/home) for DNA sequence information){:target=”_blank”}. 
+Importantly, much of the raw data is often uploaded to some external cloud service (such as [ENA](https://www.ebi.ac.uk/ena/browser/home){:target=”_blank”} for DNA sequence information). 
 As such, links to the raw data can be provided as well! 
 
 DMBON assistant, here highlighted in blue, provides an easy way of uploading heterogeneous data using any browser!
