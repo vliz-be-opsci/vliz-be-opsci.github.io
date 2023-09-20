@@ -74,8 +74,8 @@ Some information here
 The permalink is the url of the page. The title is the title of the page.
 The layout is the layout of the page. The layout is located in the _layouts folder.
 
-For more information about layouts go to [Jekyll](https://jekyllrb.com/docs/layouts/).
-For more information about the jekyll api go to [Jekyll liquid documentation](https://jekyllrb.com/docs/liquid/).
+For more information about layouts go to [Jekyll](https://jekyllrb.com/docs/layouts/){:target=”_blank”}.
+For more information about the jekyll api go to [Jekyll liquid documentation](https://jekyllrb.com/docs/liquid/){:target=”_blank”}.
 
 
 ### _includes
@@ -95,7 +95,7 @@ For more information about the jekyll api go to [Jekyll liquid documentation](ht
 | `_includes/navigation` | Navigation | [DOCUMENTATION](./_includes/navigation/README.md) |
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/vliz-be-opsci/vliz-be-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/vliz-be-opsci/vliz-be-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/){:target=”_blank”} code of conduct.
 
 ## Development
 
@@ -108,4 +108,4 @@ To add a custom directory to your theme-gem, please edit the regexp in `vliz-be-
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT){:target=”_blank”}.

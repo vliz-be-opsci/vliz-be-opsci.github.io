@@ -16,26 +16,26 @@ With this overview we want to give a general sense of the available linked-open-
 
 ## marineinfo.org <a name="marineinfo"></a>
 
-[MarineInfo.org](https://marineinfo.org/) exposes the various entities from VLIZ's IMIS (Integrated Marine Information System) as linked-open-data. The IMIS catalogues cover datasets, publications, people, institutes and projects.
+[MarineInfo.org](https://marineinfo.org/){:target=”_blank”} exposes the various entities from VLIZ's IMIS (Integrated Marine Information System) as linked-open-data. The IMIS catalogues cover datasets, publications, people, institutes and projects.
 
 {% include presentation/google-slides.html
    document_id="2PACX-1vS8k78KZfJxVWUMB7jZR0FVzMOZaNk7Ek_Oe7YEWwyfchwqdotfbaqWrLeoE5eKGNS7U9b_V9u0tnYu"
 %}
  
-More information can be found in this [service description](https://marineinfo.org/products-and-services)
+More information can be found in this [service description](https://marineinfo.org/products-and-services){:target=”_blank”}
 
 ## marineregions.org <a name="marineregions"></a>
 
-The Gazetteer [MarineRegions.org](https://marineregions.org/) maintains the list of named and identified geographical regions for a practical use in scientific research. These so-called GeoObjects are exposed as linked-open-data, including the relations between them and their geometries.
+The Gazetteer [MarineRegions.org](https://marineregions.org/){:target=”_blank”} maintains the list of named and identified geographical regions for a practical use in scientific research. These so-called GeoObjects are exposed as linked-open-data, including the relations between them and their geometries.
 
-A thorough description and motivation of its development and workings can be found in [Lonneville et al.](https://marineinfo.org/id/publication/346947).
+A thorough description and motivation of its development and workings can be found in [Lonneville et al.](https://marineinfo.org/id/publication/346947){:target=”_blank”}.
 
-A practical description of the available uri-templates for the individual GeoObject representations and the [LDES fragmentation](https://marineregions.org/feed) of the full dataset can be found under this [webservices description](https://marineregions.org/gazetteer.php?p=webservices) 
+A practical description of the available uri-templates for the individual GeoObject representations and the [LDES fragmentation](https://marineregions.org/feed){:target=”_blank”} of the full dataset can be found under this [webservices description](https://marineregions.org/gazetteer.php?p=webservices){:target=”_blank”} 
 
 
 ## marinespecies.org (coming soon!) <a name="marinespecies"></a>
 
-The [World Register of Marine Species (WoRMS)](https://marinespecies.org/) is a taxonomic database that aims to provide an authoritative and comprehensive list of names of marine organisms.
+The [World Register of Marine Species (WoRMS)](https://marinespecies.org/){:target=”_blank”} is a taxonomic database that aims to provide an authoritative and comprehensive list of names of marine organisms.
 
-Through our participation in the [MareGraph project](https://www.maregraph.eu/) we are preparing the linked-open-data publication of this important reference.
+Through our participation in the [MareGraph project](https://www.maregraph.eu/){:target=”_blank”} we are preparing the linked-open-data publication of this important reference.
 

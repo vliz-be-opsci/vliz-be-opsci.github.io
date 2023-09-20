@@ -36,9 +36,9 @@ Note: this does not include:
 
 ## Where can I find it?
 
-The VLIZ deployed vocab server is running at [https://todo.vliz.be/](https://todo.vliz.be)
+The VLIZ deployed vocab server is running at [https://todo.vliz.be/](https://todo.vliz.be){:target=”_blank”}
 
-The application is [developed in open source](https://github.com/vlizBE/vocabserver-app) and being shared under the liberal MIT license.
+The application is [developed in open source](https://github.com/vlizBE/vocabserver-app){:target=”_blank”} and being shared under the liberal MIT license.
 
 As you can read in the documentation over there, the system is build as a collection of microservices that are expected to be launched via `docker-compose`
 
@@ -48,9 +48,9 @@ As you can read in the documentation over there, the system is build as a collec
 By running your own instance one is in full control to configure their own list of available vocabularies.
 
 The VLIZ instance is setup to service the marine research domain. Therefore the available vocabularise consist off:
-* a selection of important skos collections from [NERC Vocab Server(NVS)](https://vocab.nerc.ac.uk/collection) maintained by the [British Oceanographic Data Centre (BODC)](https://www.bodc.ac.uk/)
-* the maintained lists of [Marine Species](https://marinespecies.org/) and [Marine Regions](https://marineregions.org)   
-* relevant additional concepts (projects, people, organizations, ...) from [MarineInfo.org](https://marineinfo.org) 
+* a selection of important skos collections from [NERC Vocab Server(NVS)](https://vocab.nerc.ac.uk/collection){:target=”_blank”} maintained by the [British Oceanographic Data Centre (BODC)](https://www.bodc.ac.uk/){:target=”_blank”}
+* the maintained lists of [Marine Species](https://marinespecies.org/) and [Marine Regions](https://marineregions.org){:target=”_blank”}   
+* relevant additional concepts (projects, people, organizations, ...) from [MarineInfo.org](https://marineinfo.org){:target=”_blank”} 
 
 
 

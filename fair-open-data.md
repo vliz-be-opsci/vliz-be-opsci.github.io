@@ -9,10 +9,10 @@ title: F.A.I.R and Open data
 
 ![Fair Data Principles](/assets/media/img/content/FAIR_data_principles.jpg){:class="image-style-content-embed"}  A focal point in our strategy on open science is making research data FAIR and open.  And as we like to believe: interlinked. \
 \
-The [FAIR principles](https://www.go-fair.org/fair-principles/) outlined in [Wilkinson et al.](https://doi.org/10.1038/sdata.2016.18) guide the enterprise of research data management towards making data: **F**indable, **A**ccessible, **I**nteroperable and **R**eusable.
+The [FAIR principles](https://www.go-fair.org/fair-principles/) outlined in [Wilkinson et al.](https://doi.org/10.1038/sdata.2016.18){:target=”_blank”} guide the enterprise of research data management towards making data: **F**indable, **A**ccessible, **I**nteroperable and **R**eusable.
 
 
-![5star open data](assets/media/img/content/5-star_deployment_scheme_for_Open_Data.png){:.image-style-content-embed} In a broader scope (i.e. outside the more strict research domain) there are the additional [principles of linked-open-data](https://www.w3.org/wiki/LinkedData) and the semantic web to consider. \
+![5star open data](assets/media/img/content/5-star_deployment_scheme_for_Open_Data.png){:.image-style-content-embed target=”_blank”} In a broader scope (i.e. outside the more strict research domain) there are the additional [principles of linked-open-data](https://www.w3.org/wiki/LinkedData){:target=”_blank”} and the semantic web to consider. \
 \
 We very much see these as going hand in hand: the one set of guidelines naturally extends and completes the other; and the ubiquitous web-stack provides the methodology, the technology, and the practical platform for reliable and interoperable information exchange on a global scale.
 
@@ -35,12 +35,12 @@ Packaged in a compelling story, we motivate the above goals in the so called «F
 
 To achieve that vision we have selected a number of objectives to focus on:
 
-* apply [RDF](https://www.w3.org/RDF/) to expose the data we have as linked-open-data publications  
-* provide harvestable change-feeds on our data catalogues using standards such as [OAI-PMH](https://www.openarchives.org/pmh/) and [LDES](https://www.researchobject.org/ro-crate/)
-* apply [RO-Crate](https://www.researchobject.org/ro-crate/) 
+* apply [RDF](https://www.w3.org/RDF/){:target=”_blank”} to expose the data we have as linked-open-data publications  
+* provide harvestable change-feeds on our data catalogues using standards such as [OAI-PMH](https://www.openarchives.org/pmh/) and [LDES](https://www.researchobject.org/ro-crate/){:target=”_blank”}
+* apply [RO-Crate](https://www.researchobject.org/ro-crate/){:target=”_blank”} 
 * provide multilingual support to reference vocabularies
-* promote an open (platform-neutral) web-intergration approach through proper [REST APIs](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) and open [WebComponents](https://www.w3.org/TR/components-intro/)
-* provide traceable provenance data following the [EOSC-LIFE Common Provenance Model](https://doi.org/10.5281/zenodo.4705074)
+* promote an open (platform-neutral) web-intergration approach through proper [REST APIs](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm){:target=”_blank”} and open [WebComponents](https://www.w3.org/TR/components-intro/){:target=”_blank”}
+* provide traceable provenance data following the [EOSC-LIFE Common Provenance Model](https://doi.org/10.5281/zenodo.4705074){:target=”_blank”}
 
 
 ## Practical Examples <a name="examples"></a>

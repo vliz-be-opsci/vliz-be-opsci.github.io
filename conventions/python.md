@@ -12,12 +12,12 @@ permalink: /conventions/python
 
 ### Dependency Manager <a name="dependency-manager"></a>
 
-We recommend using [poetry](https://python-poetry.org/docs/) as the dependency manager for Python projects. Poetry helps to manage project dependencies and environments effectively, which can improve productivity and reduce conflicts between dependencies.
+We recommend using [poetry](https://python-poetry.org/docs/){:target=”_blank”} as the dependency manager for Python projects. Poetry helps to manage project dependencies and environments effectively, which can improve productivity and reduce conflicts between dependencies.
 
 ### Linting Rules <a name="linting-rules"></a>
 
-Our projects adhere to the default settings provided by [Flake8](https://github.com/PyCQA/flake8).
-We also use [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) for code formatting.
+Our projects adhere to the default settings provided by [Flake8](https://github.com/PyCQA/flake8){:target=”_blank”}.
+We also use [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort){:target=”_blank”} for code formatting.
 The only deviation from the default settings is that we set the maximum line length to 79 characters. These tools help maintain code quality and consistency across the project.
 
 ### Testing <a name="testing"></a>
@@ -26,7 +26,7 @@ Maintaining a high test coverage is crucial for ensuring code quality and catchi
 
 ### Project Template <a name="project-template"></a>
 
-We provide a cookiecutter/template for new Python projects, available [here](https://github.com/vliz-be-opsci/cookiecutter-py-module).
+We provide a cookiecutter/template for new Python projects, available [here](https://github.com/vliz-be-opsci/cookiecutter-py-module){:target=”_blank”}.
 This template helps to set up new projects quickly and ensures they follow our conventions.
 
 
@@ -70,7 +70,7 @@ If you are not using the cookiecutter, you can run the linting commands manually
 
 ### Documentation <a name="documentation"></a>
 
-We use [Sphinx](https://www.sphinx-doc.org/en/master/) to build project documentation. Docstrings should follow the [Sphinx Markup](https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#python-signatures) conventions. Good documentation is crucial for maintaining and understanding the codebase, especially as projects grow and more developers contribute.
+We use [Sphinx](https://www.sphinx-doc.org/en/master/) to build project documentation. Docstrings should follow the [Sphinx Markup](https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#python-signatures){:target=”_blank”} conventions. Good documentation is crucial for maintaining and understanding the codebase, especially as projects grow and more developers contribute.
 
 Remember, these conventions are in place to help maintain high-quality, consistent code across all our Python projects. They are not meant to be restrictive, but rather to provide a guide for best practices and consistency.
 

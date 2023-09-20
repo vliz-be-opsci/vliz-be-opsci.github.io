@@ -90,12 +90,25 @@
           {% if item.items.size > 4 %}
 
           <li class="menu-item menu-item--expanded">
-            <a href="{{subitem.url}}">{{subitem.title}}</a>
+            //if subitem.url contains "http://" or "https://" then add target="blank"
+
+            <a 
+              href="{{subitem.url}}"
+              {% if subitem.url contains "http://" or "https://" %}
+              target="blank"
+              {% endif %}
+            >{{subitem.title}}
+            </a>
             {% if subitem.items %}
             <ul class="menu">
               {% for subsubitem in subitem.items %}
               <li class="menu-item">
-                <a href="{{subsubitem.url}}">{{subsubitem.title}}</a>
+                <a 
+                  href="{{subsubitem.url}}"
+                  {% if subsubitem.url contains "http://" or "https://" %}
+                  target="blank"
+                  {% endif %}
+                >{{subsubitem.title}}</a>
               </li>
               {% endfor %}
             </ul>
@@ -104,12 +117,22 @@
           {% else %}
           {% assign width = 100 | divided_by: item.items.size %}
           <li class="menu-item menu-item--expanded" style="width:{{width}}%">
-            <a href="{{subitem.url}}">{{subitem.title}}</a>
+            <a 
+              href="{{subitem.url}}"
+              {% if subitem.url contains "http://" or "https://" %}
+              target="blank"
+              {% endif %}
+            >{{subitem.title}}</a>
             {% if subitem.items %}
             <ul class="menu">
               {% for subsubitem in subitem.items %}
               <li class="menu-item">
-                <a href="{{subsubitem.url}}">{{subsubitem.title}}</a>
+                <a 
+                  href="{{subsubitem.url}}"
+                  {% if subsubitem.url contains "http://" or "https://" %}
+                  target="blank"
+                  {% endif %}
+                >{{subsubitem.title}}</a>
               </li>
               {% endfor %}
             </ul>

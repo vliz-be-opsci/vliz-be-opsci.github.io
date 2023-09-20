@@ -29,7 +29,7 @@ The DMBON-assistant is an important piece of our grander [vision](#our-vision).
 
 <!-- EXPLANATION OF OUR VISION -->
 ## Our vision
-We believe that discovery relies on open and transparent management of data by following the [FAIR principles](https://www.go-fair.org/fair-principles/).
+We believe that discovery relies on open and transparent management of data by following the [FAIR principles](https://www.go-fair.org/fair-principles/){:target=”_blank”}.
 We furthermore believe that researchers should be able to search through scientific data just as easy as if they are performing a web-search.
 This means that search queries such as *"what was the water temperature during recent sightings of killer whales in the North Pacific Ocean?"*, should be made possible. 
 Obviously, for scientific data to be FAIR and meaningful to allow such queries, it has to adhere to specific rules such that others can discover, filter and (re-)use the data with little effort.
@@ -66,15 +66,15 @@ We believe that open sourcing a project such as this benefits the community and 
 ### Motivation
 Sound scientific results are derived from good data. 
 While few people disagree with this statement, the current methods of both storing and accessing historical data are severely hampering novel scientific discoveries. 
-On one end, data of published studies are permanently lost (Vines et al., [2014](https://doi.org/10.1016/j.cub.2013.11.014)) or researchers forget the details requires to make use of the data (Whitlock et al. [2010](https://doi.org/10.1086/650340)).
+On one end, data of published studies are permanently lost (Vines et al., [2014](https://doi.org/10.1016/j.cub.2013.11.014)) or researchers forget the details requires to make use of the data (Whitlock et al. [2010](https://doi.org/10.1086/650340){:target=”_blank”}).
 On the other end, losing access to data (and, importantly, their [metadata](#metadata)) makes it impossible to reproduce scientific results or perform critical meta-analyses.
 Therefore, automated streamlining of data management plans (DMPs) is necessary for improving data preservation and accessibility.
 DMBON-assistant is an open source webtop application designed to provide this automation, thereby enabling consistent and streamlined data management.
 
 <h5 id="metadata">Metadata: the overlooked critical component</h5>
-One critical, but often overlooked, feature that greatly increases the longevity of datasets is [metadata](https://en.wikipedia.org/wiki/Metadata) (Leipzig et al. [2021](https://doi.org/10.1016/j.patter.2021.100322)), i.e. 'data that provides information about other data'. 
+One critical, but often overlooked, feature that greatly increases the longevity of datasets is [metadata](https://en.wikipedia.org/wiki/Metadata) (Leipzig et al. [2021](https://doi.org/10.1016/j.patter.2021.100322){:target=”_blank”}), i.e. 'data that provides information about other data'. 
 Metadata often encodes how to interpret the actual data, e.g. descriptions of meaning of columns in a table, and is thus often necessary for meta-analyses.
-While sharing primary data is becoming increasingly more common (even though the process is not streamlined, see, e.g. Alsheikh-Ali et al., [2011](https://doi.org/10.1371/journal.pone.0024357) and Baker, [2015](https://doi.org/10.1038/533452a)), extensive efforts are often needed to gain access to metadata even when data is openly available (Tedersoo et al., [2021](https://doi.org/10.1038/s41597-021-00981-0)).
+While sharing primary data is becoming increasingly more common (even though the process is not streamlined, see, e.g. Alsheikh-Ali et al., [2011](https://doi.org/10.1371/journal.pone.0024357) and Baker, [2015](https://doi.org/10.1038/533452a)), extensive efforts are often needed to gain access to metadata even when data is openly available (Tedersoo et al., [2021](https://doi.org/10.1038/s41597-021-00981-0){:target=”_blank”}).
 DMBON-assistant aims to alleviate this issue by assisting its users in providing the sufficient metadata that is needed to correctly interpret the data.
 
 ##### Why open source?
@@ -103,12 +103,12 @@ Our general envisioned flow is illustrated below:
 
 On the left, we see a user that has multiple sources of data and metadata. 
 These can range from raw data and metadata to (source code to) analyses and publications. 
-Importantly, much of the raw data is often uploaded to some external cloud service (such as [ENA](https://www.ebi.ac.uk/ena/browser/home) for DNA sequence information). 
+Importantly, much of the raw data is often uploaded to some external cloud service (such as [ENA](https://www.ebi.ac.uk/ena/browser/home) for DNA sequence information){:target=”_blank”}. 
 As such, links to the raw data can be provided as well! 
 
 DMBON assistant, here highlighted in blue, provides an easy way of uploading heterogeneous data using any browser!
 Hidden under the hood, DMBON assistant ensures that the data description conforms to the data management plan of the organization.
-Finally, the assistant generates a publishable [Research Object Crate (RO-crate)](https://www.researchobject.org/ro-crate/) that neatly packages heterogeneous research data with their metadata. 
+Finally, the assistant generates a publishable [Research Object Crate (RO-crate)](https://www.researchobject.org/ro-crate/){:target=”_blank”} that neatly packages heterogeneous research data with their metadata. 
 Explain the general premise of DMBON-assistant
 
 As such, using DMBON assistant greatly simplifies generation of FAIR research object crates by:

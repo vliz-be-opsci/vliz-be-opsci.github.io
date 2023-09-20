@@ -56,7 +56,7 @@ items:
 
 ```
 Notes:
-* for the icon_url you can add extra keys freely, they should just match the name of an [available font-awesome icon](https://fontawesome.com/search?q=&f=classic)
+* for the icon_url you can add extra keys freely, they should just match the name of an [available font-awesome icon](https://fontawesome.com/search?q=&f=classic){:target=”_blank”}
 * for those includes taking single items (i.e. the ones in /single/), the construct passed is singular: `item=...`
 
 

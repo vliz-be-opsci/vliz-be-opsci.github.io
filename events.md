@@ -42,9 +42,9 @@ This year’s event will be fully hybrid, facilitating broader exchanges between
 
 ## Past and ongoing events
 
-- [ReadtheLOD](https://readthelod.org/) a Reading club for relevant contemporary Linked Open Data and Semantic Web documents
--  Biodiversity Information Standards (TDWG) [TDWG 2020 Use and re-use of images and their metadata in biodiversity research - SYM02](https://www.youtube.com/watch?v=5UNTiEMivDs)
-- FAIR-EASE webinar [The Mythical Data Lake: what is a data lake and why is it "a unicorn"?](https://www.youtube.com/watch?v=gY3dXxZmDok)
+- [ReadtheLOD](https://readthelod.org/){:target=”_blank”} a Reading club for relevant contemporary Linked Open Data and Semantic Web documents
+-  Biodiversity Information Standards (TDWG) [TDWG 2020 Use and re-use of images and their metadata in biodiversity research - SYM02](https://www.youtube.com/watch?v=5UNTiEMivDs){:target=”_blank”}
+- FAIR-EASE webinar [The Mythical Data Lake: what is a data lake and why is it "a unicorn"?](https://www.youtube.com/watch?v=gY3dXxZmDok){:target=”_blank”}
 
 ## VLIZ events
 Outreach by the open science team helps the general public, private, and research institutions increase their understanding of data management and FAIR principles. The movement expanded to a wider audience can lead to broader adoption and wider community input in decision making.

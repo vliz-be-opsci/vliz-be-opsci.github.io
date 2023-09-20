@@ -16,7 +16,7 @@ Open Science@VLIZ is about
 - *Open Understanding* Reaching out to multilingual audiences, inside *and* outside the scientific domain.
 - *Open Infrastructure* Developing system architecture that is open access and open source.
 
-Open science is also about embracing principles of accessibility, transparency, inclusivity, and sustainability. We fully support the [UNESCO recommendations on Open Science](https://www.unesco.org/en/open-science/about). 
+Open science is also about embracing principles of accessibility, transparency, inclusivity, and sustainability. We fully support the [UNESCO recommendations on Open Science](https://www.unesco.org/en/open-science/about){:target=”_blank”}. 
 
 ## Ambitions <a name="ambitions"></a>
 At VLIZ we believe that embracing Open Science will increase the quality, efficiency, and impact of science. We have already taken important steps in the fields of Open Access and Open Data. Unfortunately Open Science practices are not yet the norm, and at VLIZ we aim to use the expertise we have built up within the Data Centre and the Library to help smooth the way to the adoption of Open Sciences practices and technologies in the domain of marine science. We participate in numerous regional and EU projects that aim to make Science more Open, and crucially that actually help embed the practices of Open Science in a practical, workable way with the scientists and organisations that create the science. 
