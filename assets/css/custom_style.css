@@ -147,3 +147,21 @@ span.social-icons a {
     /* overflow: hidden; */
     /* text-align: center; */
 }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table thead {
+  background: #F7C97C;
+}
+table thead th {
+  font-weight: bold;
+}

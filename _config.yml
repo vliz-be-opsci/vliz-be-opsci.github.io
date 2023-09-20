@@ -1,3 +1,8 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # Base URI for your site, e.g. http://example.com/test-repo/ => for development leave empty for gh-pages fill in the name of the repo of not the main gh-pages repo
 base_url: "" 
 

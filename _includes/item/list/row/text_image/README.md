@@ -1,12 +1,6 @@
-### item/row/text_image
+### item/list/row/text_image
 
 This component is a row of items with a text and an image.
-
-#### Usage
-
-```liquid
-{% include item/row/text_image/main.html include=page.example %}
-```
 
 #### Options
 
@@ -17,7 +11,7 @@ This component is a row of items with a text and an image.
 | `items.clickthrough_url` | Item url | String | `null` |
 | `items.image` | Item image | String | `null` |
 | `items.description` | Item description | String | `null` |
-| `items.width_media` | Image width | String | `null` |
+| `item.text_col_width` | Column width of the text column (out of 12) | Integer | `9` |
 
 
 #### Example with options
@@ -35,7 +29,7 @@ projects:
       determine end-user needs with the aim of optimising marine data flows, knowledge uptake, and improving governance based 
       on biodiversity observations.
     clickthrough_url: https://marcobolo-project.eu/
-    image: "/assets/media/img/project/MARCO-BOLO_logo_col.png"
+    image: "/assets/media/img/placeholder.png"
     tags:
       - EOSC-Association
       - EU
@@ -52,69 +46,12 @@ projects:
       implemented in close cooperation with user-communities, the European Open Science Cloud and research infrastructures in 
       their design and sustainable availability.
     clickthrough_url: https://www.fairease.eu/
-    image: "/assets/media/img/project/fairease-logo.svg"
-    tags:
-      - EOSC-Association
-      - EU
-
-  - title: "MareGraph"
-    description: >-
-      The MAREGRAPH project will provide an open linked data production and publication of three high impact datasets in the 
-      marine domain (the World Register of Marine Species (WoRMS), Marine Regions and EurOBIS (the European Node of the 
-      international Ocean Biodiversity Information System) using state of the art technologies.
-    clickthrough_url: https://www.maregraph.eu 
-    image: "/assets/media/img/project/maregraph-text-horizontal-600x200.svg"
-    tags:
-      - EU
-      - RDF
-
-  - title: "George"
-    description: >-
-      GEORGE is a Horizon Europe-funded project that develops novel technologies to improve ocean observations. The technologies developed
-      will represent the next level in systematic long-term autonomous ocean observations.
-    clickthrough_url: https://george-project.eu/
-    image: "/assets/media/img/project/george-logo.png"
-    tags:
-      - EU
-
-  - title: "Blue-Cloud-2026"
-    description: >- 
-      The European H2020 Blue-Cloud project aims to achieve a range of innovative services through a practical approach, 
-      demonstrating the potential of how the European Open Science Cloud (EOSC) can serve marine research and the blue 
-      economy. VLIZ is the initiator and partner in two 'Plankton demonstrators' and is also involved in this project as a 
-      data infrastructure (EurOBIS).
-    clickthrough_url: https://blue-cloud.org/
-    image: "/assets/media/img/project/bluecloud2026-logo.png"
-    tags:
-      - EOSC-Association
-      - EU
-
-  - title: "Mission Atlantic"
-    description: >-
-      The “mission” of Mission Atlantic is to investigate how multiple pressures within and across important sub-areas
-      affect the resilience of the Atlantic Ocean to future climate and societal changes. 
-      The project will tackle this question by advancing knowledge on ecosystem processes as well as applying new 
-      observation technology and state-of-the-art predictive capacity to develop an operational regional and basin-scale 
-      Integrated Ecosystem Assessment (IEA)."
-    clickthrough_url: https://missionatlantic.eu/
-    image: "/assets/media/img/project/missionatlantic-logo.png"
-    tags:
-      - EOSC-Association
-      - EU
-
-  - title: "EDITO Infra"
-    description: >-
-      The main aim of EDITO-Infra, the “EU Public Infrastructure for the European Digital Twin”, is to build the 
-      EU Public Infrastructure backbone for the European Digital Twin of the Ocean (DTO) by upgrading, combining and 
-      integrating key service components of the existing EU ocean observing, monitoring and data programmes 
-      Copernicus Marine Service (Copernicus Marine Service) and the European Marine Observation and Data Network (EMODnet) 
-      into a single digital framework."
-    clickthrough_url: https://edito-infra.eu/
-    image: "/assets/media/img/project/edito-logo.png"
+    image: "/assets/media/img/placeholder.png"
+    text_col_width: 10
     tags:
       - EOSC-Association
       - EU
 ---
 
-{% include item/list/row/text_image/main.html items=page.projects %}
+{/% include item/list/row/text_image/main.html items=page.projects %}
 ```
