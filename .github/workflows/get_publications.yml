@@ -1,6 +1,6 @@
 #github workflow to run as cronjob every week
 
-name: Weekly Update of publications
+name: Update of publications
 
 on:
   schedule:
@@ -19,6 +19,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
+            - uses: fregante/setup-git-user@v2
             - name: Set up Python 3.8
               uses: actions/setup-python@v2
               with:
@@ -32,12 +33,6 @@ jobs:
                 python ./publication_scraper/get_publications.py
             - name: Commit changes
               run: |
-                git config --local user.email "
-                git config --local user.name "
                 git add .
                 git commit -m "Update publications"
-            - name: Push changes
-              uses: ad-m/github-push-action@master
-              with:
-                github_token: ${{ secrets.GITHUB_TOKEN }}
-                branch: main
+                git push
