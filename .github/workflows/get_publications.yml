@@ -5,6 +5,10 @@ name: Weekly Update of publications
 on:
   schedule:
     - cron: '0 0 * * 0'
+  push:
+    branches:
+      - main
+      - dev
 
 jobs:
 
