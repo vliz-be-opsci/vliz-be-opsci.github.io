@@ -40,7 +40,7 @@ This year’s event will be fully hybrid, facilitating broader exchanges between
 {% include item/list/row/image_text_link/main.html items=page.events %}
 
 
-## Past and ongoing events
+### More events...
 
 - [ReadtheLOD](https://readthelod.org/){:target=”_blank”} a Reading club for relevant contemporary Linked Open Data and Semantic Web documents
 -  Biodiversity Information Standards (TDWG) [TDWG 2020 Use and re-use of images and their metadata in biodiversity research - SYM02](https://www.youtube.com/watch?v=5UNTiEMivDs){:target=”_blank”}
