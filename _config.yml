@@ -24,12 +24,3 @@ gems:
 plugins:
   - jekyll-datapage-generator   # TODO investigate and document why this is here
   - jemoji                      # allows :emoji-name: inline images in markdown
-
-
-# TODO investigate and doument why this is here ?
-page_gen:
-  - data: 'tools'
-    template: 'remote_md'
-    dir: 'tools'
-    name: 'title'
-    extension: '.html'
