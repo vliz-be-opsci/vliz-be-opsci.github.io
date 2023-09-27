@@ -1,31 +1,32 @@
+---
+---
 
 /* make a few vars */
 :root {
-    --vliz-color-text-brand: #354D9B;
-    --vliz-color-text-brand-hover: #283a75;
-    --vliz-color-text: #2f2d2d;
-    --vliz-color-text-invert: #ffffff;
-    --vliz-color-text-invert-hover: #e6e6e6;
-    --vliz-color-text-light: #31b7bc;
-    --vliz-color-link: #707070;
-    --vliz-color-link-hover: shift-color(#707070, 20%);
-    --vliz-color-link-highlight: #6bbf76;
-    --vliz-color-link-highlight-hover: #59b766;
-    --vliz-color-text-brand: #354d9b;
-    --vliz-color-text-brand-hover: #283a75;
+    --vliz-color-text: {% if site.data.color_scheme.root-normal.bs-text %} {{site.data.color_scheme.root-normal.bs-text}} {% else %} #2f2d2d {% endif %};
+    --vliz-color-text-invert: {% if site.data.color_scheme.root-normal.bs-text-invert %} {{site.data.color_scheme.root-normal.bs-text-invert}} {% else %} #ffffff {% endif %};
+    --vliz-color-text-invert-hover: {% if site.data.color_scheme.root-normal.bs-text-invert-hover %} {{site.data.color_scheme.root-normal.bs-text-invert-hover}} {% else %} #e6e6e6 {% endif %};
+    --vliz-color-text-light: {% if site.data.color_scheme.root-normal.bs-text-light %} {{site.data.color_scheme.root-normal.bs-text-light}} {% else %} #31b7bc {% endif %};
+    --vliz-color-link: {% if site.data.color_scheme.root-normal.bs-link %} {{site.data.color_scheme.root-normal.bs-link}} {% else %} #707070 {% endif %};
+    --vliz-color-link-hover: shift-color({% if site.data.color_scheme.root-normal.bs-link %} {{site.data.color_scheme.root-normal.bs-link}} {% else %} #707070 {% endif %}, 20%);
+    --vliz-color-link-highlight: {% if site.data.color_scheme.root-normal.bs-link-highlight %} {{site.data.color_scheme.root-normal.bs-link-highlight}} {% else %} #6bbf76 {% endif %};
+    --vliz-color-link-highlight-hover: {% if site.data.color_scheme.root-normal.bs-link-highlight-hover %} {{site.data.color_scheme.root-normal.bs-link-highlight-hover}} {% else %} #59b766 {% endif %};
+    --vliz-color-text-brand: {% if site.data.color_scheme.root-normal.bs-text-brand %} {{site.data.color_scheme.root-normal.bs-text-brand}} {% else %} #354d9b {% endif %};
+    --vliz-color-text-brand-hover: {% if site.data.color_scheme.root-normal.bs-text-brand-hover %} {{site.data.color_scheme.root-normal.bs-text-brand-hover}} {% else %} #283a75 {% endif %};
     --vliz-color-text-gray: #707070;
-    --vliz-color-background-primary: white;
-    --vliz-color-background-box: white;
-    --vliz-color-background-light-1: #f7c97c;
-    --vliz-color-background-light-2: #fff7d0;
-    --vliz-color-background-light-3: #65c9cd;
+    --vliz-color-background-primary: {% if site.data.color_scheme.root-normal.bs-background-primary %} {{site.data.color_scheme.root-normal.bs-background-primary}} {% else %} white {% endif %};
+    --vliz-color-background-box: {% if site.data.color_scheme.root-normal.bs-background-box %} {{site.data.color_scheme.root-normal.bs-background-box}} {% else %} white {% endif %};
+    --vliz-color-background-light-1: {% if site.data.color_scheme.root-normal.bs-background-light-1 %} {{site.data.color_scheme.root-normal.bs-background-light-1}} {% else %} #f7c97c {% endif %};
+    --vliz-color-background-light-2: {% if site.data.color_scheme.root-normal.bs-background-light-2 %} {{site.data.color_scheme.root-normal.bs-background-light-2}} {% else %} #fff7d0 {% endif %};
+    --vliz-color-background-light-3: {% if site.data.color_scheme.root-normal.bs-background-light-3 %} {{site.data.color_scheme.root-normal.bs-background-light-3}} {% else %} #65c9cd {% endif %};
+    --vliz-color-background-light-4: {% if site.data.color_scheme.root-normal.bs-background-light-4 %} {{site.data.color_scheme.root-normal.bs-background-light-4}} {% else %} #e2e2e2 {% endif %};
+    --vliz-color-background-dark-1: {% if site.data.color_scheme.root-normal.bs-background-dark-1 %} {{site.data.color_scheme.root-normal.bs-background-dark-1}} {% else %} #465daa {% endif %};
+    --vliz-color-background-dark-2: {% if site.data.color_scheme.root-normal.bs-background-dark-2 %} {{site.data.color_scheme.root-normal.bs-background-dark-2}} {% else %} #354d9b {% endif %};
     --vliz-color-background-light-4: #e2e2e2;
     --vliz-color-background-light-5: #ff4444;
-    --vliz-color-background-light-3-opace: #65c9cd80;
+    --vliz-color-background-light-3-opace: shade-color(var(--vliz-color-background-light-3), 20%);
     --vliz-color-background-light-4-opace: #e2e2e280;
     --vliz-color-background-light-5-opace: #ff444480;
-    --vliz-color-background-dark-1: #465daa;
-    --vliz-color-background-dark-2: #354d9b;
 }
 
 .grayoverlay,
