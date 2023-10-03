@@ -8,6 +8,7 @@ base_url: ""
 
 # Main title for your site --> TODO investigate and document where this is actually used
 title: "VLIZ Open Science"
+logo: "/assets/media/img/VLIZ_LOGO_OpSci.svg"
 
 # socila_media refs to be included in the footer
 social_media:
