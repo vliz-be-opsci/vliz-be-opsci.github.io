@@ -18,7 +18,7 @@
     <meta property="og:site_name" content="{{site.title}}" />
     <meta property="og:type" content="Pagina" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:title" content="{{ page.title | default: page.url }}" />
+    <meta property="og:title" content="{{ page.title | default: site.url }}" />
     <meta property="og:image" content="https://www.vliz.be/sites/vliz.be/files/VLIZ_LOGO_OG_TWITTER_1200x630.png" />
     <link rel="icon" type="image/svg+xml" href="{{site.logo}}">
     <link rel="icon" type="image/png" href="/assets/core/favicon/favicon.png">
