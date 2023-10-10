@@ -1,0 +1,46 @@
+#this workflow will run the following steps:
+    # 1. make the _site data via bundle exec jekyll build command
+    # 2. run html proover on the _site data to check for broken links
+
+name: Jekyll Build and HTML Proofer
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+      - name: Install Bundler
+        run: gem install bundler
+      - name: Install dependencies
+        run: bundle install
+      - name: install gemrat
+        run: gem install gemrat
+      - name: install rake and html-proofer with gemrat
+        run: gemrat rake html-proofer
+      - name: Build the site
+        run: bundle exec jekyll build
+      - name: Run HTML Proofer
+      #ignore missing a hrefs
+        run: bundle exec htmlproofer --allow-hash-href --allow-missing-href --disable-external ./_site
+        id: htmlproofer
+        continue-on-error: true
+      - name: Check HTML Proofer Results
+      #check the output of the html proover and count the number of errors by counting the number of lines starting with *
+        run: echo "${{ steps.htmlproofer.outputs.hash }}" | grep -c "^*"
+        id: htmlproofer_errors
+        continue-on-error: true
+      - name: Fail if HTML Proofer Errors
+      #if the number of errors is greater than 2, fail the build (2 because some internal errors are unavoidable due to the fact that the internal links lead to another repo that has been placed relative to the root path of this repo)
+        if: ${{ steps.htmlproofer_errors.outputs.run.hash }} > 2
+        run: exit 1
+        continue-on-error: true

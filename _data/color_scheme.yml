@@ -1,0 +1,91 @@
+# Documentation:
+# root-normal: default color scheme
+# # bs-text: text color
+# # bs-text-invert: text color for invert background
+# # bs-text-invert-hover: text color for invert background hover
+# # bs-text-light: text color for light background
+# # bs-link: link color
+# # bs-link-highlight: link color for highlight
+# # bs-link-highlight-hover: link color for highlight hover
+# # bs-text-brand: text color for brand
+# # bs-text-brand-hover: text color for brand hover
+# # bs-background-primary: primary background color
+# # bs-background-box: box background color
+# # bs-background-light-1: light background color | used as background color for cards and keywords tags
+# # bs-background-light-2: light background color | used as background color for full width elements and background of carrousels
+# # bs-background-light-3: light background color | used in the vliz svg logo and as the color of the swoosh that can be in the background of a page
+# # bs-background-light-4: light background color | used as paragraph background color for certain elements
+# # bs-background-dark-1: dark background color | used as background color for cards and the social media banner
+# # bs-background-dark-2: dark background color | used as background color for the search block component that is a modal
+# # bs-code-color: color for code blocks
+# # bs-highlight-bg: background color for highlighted text
+
+
+# root-dark: dark color scheme
+# # bs-body-bg: body background color
+# # bs-body-color: body text color
+# # bs-link-color: link color
+# # bs-link-hover-color: link color for hover
+# # bs-text: text color
+# # bs-text-invert: text color for invert background
+# # bs-text-invert-hover: text color for invert background hover
+# # bs-text-light: text color for light background
+# # bs-link: link color
+# # bs-link-hover: link color for hover
+# # bs-link-highlight: link color for highlight
+# # bs-link-highlight-hover: link color for highlight hover
+# # bs-text-brand: text color for brand
+# # bs-text-brand-hover: text color for brand hover
+# # bs-background-primary: primary background color
+# # bs-background-box: box background color
+# # bs-background-light-1: light background color | used as background color for cards and keywords tags
+# # bs-background-light-2: light background color | used as background color for full width elements and background of carrousels
+# # bs-background-light-3: light background color | used in the vliz svg logo and as the color of the swoosh that can be in the background of a page
+# # bs-background-light-4: light background color | used as paragraph background color for certain elements
+# # bs-background-dark-1: dark background color | used as background color for cards and the social media banner
+# # bs-background-dark-2: dark background color | used as background color for the search block component that is a modal
+
+root-normal:
+  bs-text: "#2f2d2d"
+  bs-text-invert: "#ffffff"
+  bs-text-invert-hover: "#e6e6e6"
+  bs-text-light: "#31b7bc"
+  bs-link: "#707070"
+  bs-link-highlight: "#6bbf76"
+  bs-link-highlight-hover: "#59b766"
+  bs-text-brand: "#354d9b"
+  bs-text-brand-hover: "#283a75"
+  bs-background-primary: "white"
+  bs-background-box: "white"
+  bs-background-light-1: "#f7c97c"
+  bs-background-light-2: "#fff7d0" 
+  bs-background-light-3: "#65c9cd" 
+  bs-background-light-4: "#e2e2e2" 
+  bs-background-dark-1: "#465daa" 
+  bs-background-dark-2: "#354d9b" 
+  bs-code-color: "#d63384" 
+  bs-highlight-bg: "#fff3cd"
+
+root-dark:
+  bs-body-bg: "#2f2d2d"
+  bs-body-color: "#e2e2e2"
+  bs-link-color: "#acacac"
+  bs-link-hover-color: "#9f9f9f"
+  bs-text: "#e2e2e2"
+  bs-text-invert: "#2f2d2d"
+  bs-text-invert-hover: "#151414"
+  bs-text-light: "#31b7bc"
+  bs-link: "#acacac"
+  bs-link-hover: "#9f9f9f"
+  bs-link-highlight: "#6bbf76"
+  bs-link-highlight-hover: "#59b766"
+  bs-text-brand: "white"
+  bs-text-brand-hover: "#e6e6e6"
+  bs-background-primary: "#2f2d2d"
+  bs-background-box: "#555252"
+  bs-background-light-1: "#555252"
+  bs-background-light-2: "#555252"
+  bs-background-light-3: "#b5e1ea"
+  bs-background-light-4: "#555252"
+  bs-background-dark-1: "#465daa"
+  bs-background-dark-2: "#555252"
