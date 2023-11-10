@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /applications-tools/vocab-term-lookup
+description: "Explore the Vocab Term Lookup tool, a key component in our semantic web approach to open science data management. It simplifies linking data terms from controlled vocabularies."
 curly: false
 ---
 

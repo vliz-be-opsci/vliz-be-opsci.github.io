@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /applications-tools/dmbon-assistant
+description: "Explore DMBON-Assistant, our tool for uniform and FAIR data management. It streamlines dataflow, making research data more accessible and searchable. Discover our vision for open science!"
 ---
 
 

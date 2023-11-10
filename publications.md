@@ -2,6 +2,7 @@
 layout: default
 permalink: /publications/
 title: Open Science publications
+description: "Delve into a diverse collection of open science publications fostering innovation and collaboration in research."
 items:
   - title: "DMBON Assistant publication"
     description: "DMBON is a tool to assist in the creation of a Data Management Plan (DMP). 

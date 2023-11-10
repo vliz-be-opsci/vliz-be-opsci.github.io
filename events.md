@@ -3,6 +3,7 @@ layout: default
 permalink: /events
 title: Events
 cover: /assets/media/img/cover/graph_concept_art.jpg
+description: "Join us at our upcoming events to learn more about FAIR and Open data initiatives at VLIZ. Engage with our community, share insights, and contribute to the future of open science!"
 cover_opacity: 1
 events:
     - title: FAIR-EASE Second Annual Event

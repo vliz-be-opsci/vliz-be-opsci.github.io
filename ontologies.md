@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /ontologies
+description: "Delve into the world of Ontologies & Vocabularies with VLIZ. Learn about NS, its use in linked data generation, and how it interlinks with other ontologies. Explore our Vocab server!"
 ---
 
 # Ontologies & Vocabularies <a name="ontologies"></a>

@@ -2,6 +2,7 @@
 layout: default
 permalink: /fair-open-data
 cover: /assets/media/img/cover/graph_concept_art.jpg
+description: "Dive into our vision for F.A.I.R and Open data at VLIZ. Learn how we're making research data findable, accessible, interoperable, and reusable. Explore our technical approach!"
 title: F.A.I.R and Open data
 ---
 

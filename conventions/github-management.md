@@ -3,6 +3,7 @@ title: github-management
 author: "João dos Santos"
 layout: default
 permalink: /conventions/github-management
+description: "Conventions relating to github management, repository naming, branch naming, commit messages, and pull requests."
 ---
 
 # Conventions relating to _github management_

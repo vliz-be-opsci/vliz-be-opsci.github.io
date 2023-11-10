@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /partners/
+description: "Meet our partners in advancing open and FAIR data. Discover how organizations like FRDN, EMBRC, and LifeWatch are revolutionizing research data management."
 title: Partners
 
 partners:

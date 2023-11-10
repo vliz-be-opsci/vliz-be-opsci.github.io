@@ -2,7 +2,7 @@
 layout: default
 permalink: /initiatives/
 title: Initiatives
-
+description: "Join our initiatives at VLIZ, like 'Read the LOD' and 'RO-Crate community', to delve deeper into Linked Open Data and Research Object Crate. Participate, learn, and contribute!"
 initiatives:
   - title: "Read the LOD"
     description: >-

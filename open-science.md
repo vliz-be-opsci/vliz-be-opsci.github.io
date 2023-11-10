@@ -2,6 +2,7 @@
 layout: default
 permalink: /open-science
 cover: "/assets/media/img/cover/graph-nodes-blue-gradient.webp"
+description: "Explore Open Science@VLIZ, where we champion accessibility, transparency, and inclusivity in scientific research. Discover our principles, ambitions, and components!"
 title: Open Science
 ---
 

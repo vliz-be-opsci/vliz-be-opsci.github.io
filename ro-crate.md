@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /applications-tools/ro-crate-demo
+description: "Discover how we use RO-Crate for open science and FAIR principles. Explore our GitHub Actions and demo pages for a hands-on experience!"
 ---
 
 RO-CRATE Demo Page

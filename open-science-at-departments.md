@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /open-science-at-departments
+description: "Discover how VLIZ embodies Open Science across departments. Learn about our focus on transparency, collaboration, and accessibility in research and data management."
 title: ... an attitude across departments
 ---
 

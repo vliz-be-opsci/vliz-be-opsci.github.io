@@ -3,6 +3,7 @@ layout: default
 permalink: /applications-tools/
 title: Applications and tools
 cover: /assets/media/img/cover/cover-code-python.jpg
+description: "Explore our suite of applications and tools at VLIZ, designed to support open science. From DMBON Assistant for data management to Open-AIS.org for vessel traffic data, we have a tool for every need!"
 
 items:
   - title: "DMBON Assistant"

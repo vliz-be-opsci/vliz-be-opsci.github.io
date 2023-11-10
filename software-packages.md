@@ -2,8 +2,8 @@
 layout: default
 permalink: /applications-tools/software-packages
 cover: /assets/media/img/cover/cover-code-python.jpg
+description: "Discover essential open science software packages advancing research and collaboration in the digital age."
 title: Software Packages
-
 items:
   - title: "py-data-rules"
     description: "python library for data quality assessment"

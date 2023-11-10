@@ -2,6 +2,7 @@
 layout: default
 permalink: /conventions/
 title: Our Conventions
+description: "Discover our conventions at VLIZ for managing GitHub, Python, JavaScript, and TypeScript projects. Learn about our best practices to ensure efficient and collaborative open science!"
 
 items:
   - title: "Github Management"
