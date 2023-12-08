@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /linked-data
+graph_logo_bg: true
 title: Linked Open Data @VLIZ
 cover: /assets/media/img/cover/Wikidata_in_the_Linked_Open_Data_cloud_2020-08-20.svg
 description: "Explore Linked Open Data at VLIZ. Discover how we use Semantic Web Technology to grow the Research Knowledge Graph and expose our reference systems to a wider community."

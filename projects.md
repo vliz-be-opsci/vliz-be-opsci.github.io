@@ -1,5 +1,6 @@
 ---
 layout: default
+graph_logo_bg: true
 permalink: /projects/
 cover: /assets/media/img/cover/graph_concept_art.jpg
 description: "Dive into our Open Science Projects, featuring initiatives like Marco-Bolo and FAIR-EASE. Explore how we're revolutionizing marine and environmental data management!"

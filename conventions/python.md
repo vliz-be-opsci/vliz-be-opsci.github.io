@@ -1,6 +1,7 @@
 ---
 title: python
 author: "João dos Santos"
+graph_logo_bg: true
 layout: default
 permalink: /conventions/python
 description: "Python is a popular programming language for building web applications. Learn about Python conventions and best practices."

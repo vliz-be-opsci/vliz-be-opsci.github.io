@@ -1,6 +1,7 @@
 ---
 title: typescript
 author: "Decruw Cedric"
+graph_logo_bg: true
 layout: default
 permalink: /conventions/typescript
 description: "TypeScript is a popular programming language for building web applications. Learn about TypeScript conventions and best practices."

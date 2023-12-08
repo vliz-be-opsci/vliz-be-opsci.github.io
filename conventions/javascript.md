@@ -1,6 +1,7 @@
 ---
 title: javascript
 author: "Decruw Cedric"
+graph_logo_bg: true
 layout: default
 permalink: /conventions/javascript
 description: "JavaScript is a popular programming language for building web applications. Learn about JavaScript conventions and best practices."

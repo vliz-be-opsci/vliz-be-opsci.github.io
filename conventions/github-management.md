@@ -1,6 +1,7 @@
 ---
 title: github-management
 author: "João dos Santos"
+graph_logo_bg: true
 layout: default
 permalink: /conventions/github-management
 description: "Conventions relating to github management, repository naming, branch naming, commit messages, and pull requests."
