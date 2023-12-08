@@ -1,6 +1,6 @@
 ---
 layout: default
-curly: true
+graph_logo_bg: true
 description: "Discover Open Science at VLIZ, where we're making science more efficient, reliable, and transparent. Learn about our mission, values, and core principles. Join us in our journey!"
 banner:
   title: "Open Science"

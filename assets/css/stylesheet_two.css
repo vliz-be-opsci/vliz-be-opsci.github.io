@@ -7384,6 +7384,30 @@ form[class*="user-"] .fieldgroup .fieldset-legend,
     z-index: 100;
   }
 }
+
+@media (min-width: 1200px) {
+  .paragraph--type--basic-text.text-add-rdf-logo {
+    position: relative;
+  }
+  .paragraph--type--basic-text.text-add-rdf-logo:before {
+    content: "";
+    background: url(/assets/core/misc/rdf-vector.svg) no-repeat
+      0 0;
+    background-size: contain;
+    display: block;
+    width: 856px;
+    height: 407px;
+    position: absolute;
+    bottom: 0;
+    right: -20%;
+    z-index: 50;
+  }
+  .paragraph--type--basic-text.text-add-rdf-logo .text-formatted {
+    position: relative;
+    z-index: 100;
+  }
+}
+
 .paragraph--type--media {
   overflow: hidden;
 }
@@ -9701,6 +9725,14 @@ body.vliz-enable-background-waves main {
   background-attachment: fixed;
   background-size: 90% auto;
 }
+
+body.vliz-enable-background-graph main {
+  background: url(/assets/core/misc/graph_nodes_bg.svg) no-repeat
+    center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
 #vlizimisfp * {
   font-weight: lighter;
 }
