@@ -6,7 +6,7 @@ banner:
   title: "Open Science"
   quotes:
     - title: " ...90% of scientists agreeing that the replicability crisis is real"
-      clickthrough_text: "Hensel, 2023"
+      clickthrough_text: "Baker, 2016"
       clickthrough_url: "https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F08989621.2021.1981870"
     - title: " The replication crisis has stimulated a movement for open science, encouraging or even requiring researchers to publish their raw data and analysis code... One common response to the replication crisis has been to call for open science"
       clickthrough_text: "Hicks, 2021"
