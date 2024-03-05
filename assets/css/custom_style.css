@@ -187,3 +187,20 @@ table thead th {
 .vliz_parent_banner > * {
     display: flex;
 }
+
+.publication {
+    border-left: 1px solid var(--vliz-color-background-light-1);
+    padding-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.authors {
+    font-size: 0.8em;
+    color: var(--vliz-color-text-gray);
+
+}
+
+.description > p {
+    font-size: 0.85em !important;
+}
