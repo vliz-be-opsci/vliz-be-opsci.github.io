@@ -69,6 +69,7 @@ items:
     tags:
       - tables
       - knowledge graph
+      - kgap
     icon_url:
         github: https://github.com/vliz-be-opsci/pykg2tbl 
         cube: https://pypi.org/project/pykg2tbl/
@@ -101,6 +102,7 @@ items:
     tags:
       - semantic-web
       - task-manager
+      - kgap
     icon_url:
         github: https://github.com/vliz-be-opsci/pysembench
 
@@ -123,6 +125,36 @@ items:
       - semantic uplifting
     icon_url:
         github: https://github.com/vliz-be-opsci/pysubyt
+  - title: "py-sync-fs-triples"
+    description: "Python package to synchronize file system with triples to a triple store"
+    clickthrough_url: "https://github.com/vliz-be-opsci/py-sync-fs-triples"
+    image: "/assets/media/img/socials/github-mark.svg"
+    tags:
+      - file-system
+      - triples
+      - kgap
+    icon_url:
+        github: "https://github.com/vliz-be-opsci/py-sync-fs-triples"
+  - title: "py-trav-harv"
+    description: "A Python module that will allows an end-user to traverse given property-paths en a given config file."
+    clickthrough_url: "https://github.com/vliz-be-opsci/py-trav-harv"
+    image: "/assets/media/img/socials/github-mark.svg"
+    tags:
+      - property-paths
+      - traversal
+      - kgap
+    icon_url:
+        github: "https://github.com/vliz-be-opsci/py-trav-harv"
+  - title: "py-RDF-store"
+    description: "Python package to interact with RDF stores"
+    clickthrough_url: "https://github.com/vliz-be-opsci/py-RDF-store"
+    image: "/assets/media/img/socials/github-mark.svg"
+    tags:
+      - RDF
+      - store
+      - kgap
+    icon_url:
+        github: "https://github.com/vliz-be-opsci/py-RDF-store"
 ---
 
 {% include item/list/row/image_text_link/main.html items=page.items %}
