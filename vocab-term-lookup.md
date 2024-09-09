@@ -54,7 +54,7 @@ In the widget underneath here you can search for some terms
 </vocab-search-bar>
 </div>
 
-To include this widget you must add the following to the head of your html:
+To include this widget you must add the following to the head and body of your html:
 
 ```html
 <!DOCTYPE html>
