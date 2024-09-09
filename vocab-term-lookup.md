@@ -74,7 +74,7 @@ To include this widget you must add the following to the head and body of your h
 </html>
 ```
 
-Extra features for the [components API](https://github.com/vlizBE/vocabserver-webcomponent?tab=readme-ov-file) can be enabled
+Extra features for the [components API](https://github.com/vlizBE/vocabserver-webcomponent?tab=readme-ov-file){:target=”_blank”} can be enabled
 like single-select and the selection of a specific vocab.
 
 ## Which vocabs do you serve?
