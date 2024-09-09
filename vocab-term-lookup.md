@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: with_vocab
 permalink: /applications-tools/vocab-term-lookup
 description: "Explore the Vocab Term Lookup tool, a key component in our semantic web approach to open science data management. It simplifies linking data terms from controlled vocabularies."
 graph_logo_bg: false
@@ -37,12 +37,45 @@ Note: this does not include:
 
 ## Where can I find it?
 
-The VLIZ deployed vocab server is running at [https://todo.vliz.be/](https://todo.vliz.be){:target=”_blank”}
+The VLIZ deployed vocab server is running at [https://vocab.vliz.be/](https://vocab.vliz.be/){:target=”_blank”}
 
 The application is [developed in open source](https://github.com/vlizBE/vocabserver-app){:target=”_blank”} and being shared under the liberal MIT license.
 
 As you can read in the documentation over there, the system is build as a collection of microservices that are expected to be launched via `docker-compose`
 
+## Demo vocabserver
+
+In the widget underneath here you can search for some terms
+
+<div id="demo_vocab_container">
+<vocab-search-bar
+   search-endpoint="https://vocab.vliz.be/"
+>
+</vocab-search-bar>
+</div>
+
+To include this widget you must add the following to the head of your html:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+        <script type="module" src="https://vocab.vliz.be/webcomponent/main.js"></script>
+</head>
+
+<body>
+   <div id="demo_vocab_container">
+   <vocab-search-bar
+   search-endpoint="https://vocab.vliz.be/"
+   >
+   </vocab-search-bar>
+   </div>
+</body>
+</html>
+```
+
+Extra features for the [components API](https://github.com/vlizBE/vocabserver-webcomponent?tab=readme-ov-file) can be enabled
+like single-select and the selection of a specific vocab.
 
 ## Which vocabs do you serve?
 
