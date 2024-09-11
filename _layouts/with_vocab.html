@@ -24,7 +24,7 @@
             const termtable = document.querySelector("#selected_term_table");
 
             container.addEventListener("search-results-changed", (event) => {
-                console.info(`The search results have changed to ${event.detail}`);
+                console.debug(`The search results have changed to ${event.detail}`);
             });
 
             container.addEventListener("selection-changed", (event) => {
@@ -90,7 +90,7 @@
                 } else {
                     termtable.innerHTML = "";
                 }
-                console.info(JSON.stringify(event.detail));
+                console.debug(JSON.stringify(event.detail));
             });
         };
     </script>
