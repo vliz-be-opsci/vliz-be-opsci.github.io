@@ -15,11 +15,11 @@
     <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
     <link rel="shortlink" href="{{ page.url | absolute_url }}" />
-    <!--<script src="https://open-science.vliz.be/MIA/latest/mia.bundle.js" id="mia_script"
-        deref-config="https://open-science.vliz.be/MIA/deref_config.json"></script>-->
+    <script src="https://open-science.vliz.be/MIA/latest/mia.bundle.js" id="mia_script"
+        deref-config="https://open-science.vliz.be/MIA/deref_config.json"></script>
     <script type="module" src="https://vocab.vliz.be/webcomponent/main.js"></script>
     <script>
-        window.onload = function () {
+        document.addEventListener("DOMContentLoaded", function () {
             const container = document.querySelector("#demo_vocab_container");
             const termtable = document.querySelector("#selected_term_table");
 
@@ -92,7 +92,7 @@
                 }
                 console.debug(JSON.stringify(event.detail));
             });
-        };
+        });
     </script>
     <!-- <link rel="image_src" href="https://www.vliz.be/sites/vliz.be/files/VLIZ_LOGO_OG_TWITTER_1200x630.png" /> -->
     <!-- HTML Meta Tags -->
