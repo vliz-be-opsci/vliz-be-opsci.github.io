@@ -11,6 +11,82 @@
             }
         </style>
     </noscript>
+    <style>
+        /* Fallback styles if the component does not use Shadow DOM */
+        vocab-search-bar::part(vaadin-multi-select-combo-box) {
+            background-color: #f7c97c;
+        }
+
+        vocab-search-bar::part(input-field) {
+            background-color: #f7c97c;
+        }
+
+        vocab-search-bar::part(chip) {
+            background-color: #f7c97c;
+        }
+
+        vocab-search-bar::part(combo-box-item):hover {
+            background-color: #e6b86b;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // go over each node and console.debug the node name
+            // if the node name is vocab-search-bar then inject the styles
+
+            const injectStyles = (shadowRoot) => {
+                const style = document.createElement('style');
+                style.textContent = `
+                    vaadin-multi-select-combo-box {
+                        background-color: #f7c97c !important;
+                    }
+                    vaadin-multi-select-combo-box::part(input-field) {
+                        background-color: #f7c97c50;
+                    }
+                    vaadin-multi-select-combo-box-chip {
+                        background-color: #fff !important;
+                    }
+                    vaadin-multi-select-combo-box-item:hover {
+                        background-color: #e6b86b;
+                    }
+                `;
+                shadowRoot.appendChild(style);
+            };
+
+            document.querySelectorAll('*').forEach(node => {
+                if (node.nodeName === 'VOCAB-SEARCH-BAR') {
+                    console.debug('Vocab search bar found');
+                    const shadowRoot = node.shadowRoot;
+                    console.debug(shadowRoot);
+                    if (shadowRoot) {
+                        injectStyles(shadowRoot);
+                    }
+                    console.debug(node.shadowRoot);
+                }
+            });
+
+            
+            /*
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    mutation.addedNodes.forEach((node) => {
+                        console.debug('Node added to the DOM:', node);
+                        if (node.nodeName === 'vocab-search-bar') {
+                            console.debug('Vocab search bar added to the DOM');
+                            const shadowRoot = node.shadowRoot;
+                            if (shadowRoot) {
+                                injectStyles(shadowRoot);
+                            }
+                        }
+                    });
+                });
+            });
+            
+            observer.observe(document.body, { childList: true, subtree: true });
+            */
+        });
+    </script>
     <script>var _paq = _paq || []; (function () { var u = (("https:" == document.location.protocol) ? "https://piwik.vliz.be/" : "http://piwik.vliz.be/"); _paq.push(["setSiteId", "1"]); _paq.push(["setTrackerUrl", u + "matomo.php"]); _paq.push(["setDoNotTrack", 1]); if (!window.matomo_search_results_active) { _paq.push(["trackPageView"]); } _paq.push(["setIgnoreClasses", ["no-tracking", "colorbox"]]); _paq.push(["enableLinkTracking"]); var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0]; g.type = "text/javascript"; g.defer = true; g.async = true; g.src = u + "matomo.js"; s.parentNode.insertBefore(g, s); })();</script>
     <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
@@ -19,12 +95,41 @@
         deref-config="https://open-science.vliz.be/MIA/deref_config.json"></script>
     <script type="module" src="https://vocab.vliz.be/webcomponent/main.js"></script>
     <script>
+
+        let initialSearchValues = null;
+        let initialSearchSet = false;
+
         document.addEventListener("DOMContentLoaded", function () {
+            /*
+            fetch("http://vocab.web.vliz.be:3033/vocabularies?page[number]=0&page[size]=999", {
+                method: "GET",
+                credentials: "include"
+              })
+              .then(response => {
+                if (response.ok) {
+                  return response.json();
+                } else {
+                  throw new Error("Network response was not ok.");
+                }
+              })
+              .then(data => {
+                console.log("Initial vocabularies data:", data);
+                // Handle the data as needed
+              })
+              .catch(error => {
+                console.error("There was a problem with the fetch operation:", error);
+              });
+            */
+
             const container = document.querySelector("#demo_vocab_container");
             const termtable = document.querySelector("#selected_term_table");
 
             container.addEventListener("search-results-changed", (event) => {
-                console.debug(`The search results have changed to ${event.detail}`);
+                if (!initialSearchSet) {
+                    initialSearchValues = event.detail;
+                    initialSearchSet = true;
+                    console.debug(initialSearchValues);
+                }
             });
 
             container.addEventListener("selection-changed", (event) => {

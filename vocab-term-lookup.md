@@ -47,7 +47,6 @@ In the widget underneath here you can search for some terms
 
 <div id="demo_vocab_container">
 <vocab-search-bar
-   id="search"
    search-endpoint="https://vocab.vliz.be/"
 >
 </vocab-search-bar>
