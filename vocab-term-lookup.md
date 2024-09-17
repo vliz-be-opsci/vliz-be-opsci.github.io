@@ -5,8 +5,6 @@ description: "Explore the Vocab Term Lookup tool, a key component in our semanti
 graph_logo_bg: false
 ---
 
-# Vocab Term Lookup
-
 ## Background
 
 Early in our semantic web approach to open science data management we identified the need to support end-users in creating the factual links that are essential to the linked-data enterprise.
@@ -78,14 +76,14 @@ To include this widget you must add the following to the head and body of your h
 Extra features for the [components API](https://github.com/vlizBE/vocabserver-webcomponent?tab=readme-ov-file){:target=”\_blank”} can be enabled
 like single-select and the selection of a specific vocab.
 
-## Which vocabs do you serve?
+## Which vocabs do we serve?
 
 By running your own instance one is in full control to configure their own list of available vocabularies.
 
-The VLIZ instance is setup to service the marine research domain. Therefore the available vocabularise consist off:
+The VLIZ instance is setup to service the marine research domain. Therefore the available vocabularies consist off:
 
 - a selection of important skos collections from [NERC Vocab Server(NVS)](https://vocab.nerc.ac.uk/collection){:target=”\_blank”} maintained by the [British Oceanographic Data Centre (BODC)](https://www.bodc.ac.uk/){:target=”\_blank”}
-- the maintained lists of [Marine Species](https://marinespecies.org/) and [Marine Regions](https://marineregions.org){:target=”\_blank”}
+- the maintained lists of [Marine Species](https://marinespecies.org/) and <a href="https://marineregions.org" target="_blank" nochange>Marine Regions</a>
 - relevant additional concepts (projects, people, organizations, ...) from [MarineInfo.org](https://marineinfo.org){:target=”\_blank”}
 
 ## Introductory presentation
