@@ -82,7 +82,7 @@
                 <li class="menu-item menu-item--collapsed">
                   <a {% if item.highlight %}class="highlight" {% endif %} href="{{ site.base_url }}{{ item.url }}"
                     data-doormat-target="doormat-block-hoofdnavigatie{% if forloop.index != 1 %}-{{ forloop.index }}{% endif %}"
-                    nochange>{{
+                    mia-extra-properties="nochange">{{
                     item.title }}</a>
                 </li>
                 {% else %}
@@ -113,14 +113,14 @@
 
           <li class="menu-item menu-item--expanded">
             <a href="{{ site.base_url }}{{subitem.url}}" {% unless subitem.url contains site.base_url %} target="blank"
-              {% endunless %} nochange>{{subitem.title}}
+              {% endunless %} mia-extra-properties="nochange">{{subitem.title}}
             </a>
             {% if subitem.items %}
             <ul class="menu">
               {% for subsubitem in subitem.items %}
               <li class="menu-item">
                 <a href="{{ site.base_url }}{{subsubitem.url}}" {% unless subsubitem.url contains site.base_url %}
-                  target="blank" {% endunless %} nochange>{{subsubitem.title}}</a>
+                  target="blank" {% endunless %} mia-extra-properties="nochange">{{subsubitem.title}}</a>
               </li>
               {% endfor %}
             </ul>
@@ -130,13 +130,13 @@
           {% assign width = 100 | divided_by: item.items.size %}
           <li class="menu-item menu-item--expanded" style="width:{{width}}%">
             <a href="{{ site.base_url }}{{subitem.url}}" {% unless subitem.url contains site.base_url %} target="blank"
-              {% endunless %} nochange>{{subitem.title}}</a>
+              {% endunless %} mia-extra-properties="nochange">{{subitem.title}}</a>
             {% if subitem.items %}
             <ul class="menu">
               {% for subsubitem in subitem.items %}
               <li class="menu-item">
                 <a href="{{ site.base_url }}{{subsubitem.url}}" {% unless subsubitem.url contains site.base_url %}
-                  target="blank" {% endunless %} nochange>{{subsubitem.title}}</a>
+                  target="blank" {% endunless %} mia-extra-properties="mia-extra-properties="nochange"">{{subsubitem.title}}</a>
               </li>
               {% endfor %}
             </ul>
