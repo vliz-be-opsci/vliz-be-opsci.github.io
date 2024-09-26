@@ -31,6 +31,16 @@ items:
       github: https://gitlab.com/openais/
       book: https://open-ais.org
 
+  - title: "Marine Info Affordances"
+    description: "MIA or Marine Info Affordances is a project that aims to provide information about the marine environment to the user. All information that comes from marineinfo.org has been tripelised and can be retrieved via accessing their respective ttl URI's. This information can then be displayed in a user-friendly way to the user via pop-up cards."
+    clickthrough_url: "/MIA"
+    image: "/assets/media/img/app/marine_info_affordances.jpg"
+    tags:
+      - open data
+      - demo
+    icon_url:
+      github: https://gitlab.com/vliz-be-opsci/MIA
+
   - title: "RO-Crate demo"
     description: "Applying RO-Crates is a practical way to achieve an elegant a FAIR and open linked data publication of your research data.  We have created a number of tools to exploit that in combination with using git."
     clickthrough_url: "/applications-tools/ro-crate-demo"
