@@ -35,7 +35,7 @@ items:
 
   - title: "py-sema"
     description: "Python package involving semantic manipulation of RDF data."
-    clickthrough_url: https://github.com/vliz-be-opsci/py-sdn-cdi-client
+    clickthrough_url: https://github.com/vliz-be-opsci/py-sema
     image: "/assets/media/img/socials/github-mark.svg"
     tags:
       - k-gap
