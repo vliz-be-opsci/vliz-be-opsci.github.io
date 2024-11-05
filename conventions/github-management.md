@@ -1,7 +1,6 @@
 ---
-title: github-management
-author: "João dos Santos"
-graph_logo_bg: true
+author: "João dos Santos / Decruw Cedric"
+graph_logo_bg: false
 layout: default
 permalink: /conventions/github-management
 description: "Conventions relating to github management, repository naming, branch naming, commit messages, and pull requests."
@@ -9,24 +8,32 @@ description: "Conventions relating to github management, repository naming, bran
 
 # Conventions relating to _github management_
 
-This document outlines the conventions for github management, repository naming, branch naming, commit messages, and pull requests.
+This document outlines the conventions for GitHub management, including:
+
+- [Repository Naming](#repositories)
+- [Branch Naming](#branches)
+- [Commit Messages](#commits)
+- [Pull Requests](#pull-request)
+- [Language-Specifics](#python-projects)
 
 ## Naming and Messages <a name="naming-messages"></a>
 
 ### Repositories <a name="repositories"></a>
 
-- Repository names should use kebab-case, which consists of all lowercase letters and dashes. For example, `name-of-repo`. Refer to [Kebab case](https://en.wikipedia.org/wiki/Letter_case#Kebab_case){:target=”_blank”} for more details.
+- Repository names should use kebab-case, which consists of all lowercase letters and dashes. For example, `name-of-repo`. Refer to [Kebab case](https://en.wikipedia.org/wiki/Letter_case#Kebab_case){:target=”\_blank”} for more details.
 - Repositories should be tagged with appropriate topics in the about section (e.g., python, docker-compose, react, etc.). These topics can be used to filter repositories.
-- Releases should use git tags and conform to Semantic Versioning, using the format `major.minor.patch` without a 'v' prefix.
+- Releases should use git tags and conform to [Semantic Versioning](https://semver.org/){:target=”\_blank”}, using the format `major.minor.patch` without a 'v' prefix.
 - Each repository should include a LICENSE file. For source code, use the MIT license. For datasets, use the CC-BY license.
 
-Specific rules for naming:
+##### Specific rules for naming
 
-- Python packages: Use short, undelimited names for short package names (e.g., `pyhello`). For longer names, use dashes as delimiters (e.g., `py-hello-world`)
-- GitHub Actions: Append `\*-action` to the name.
-- GitHub Pages Actions: Append  `\*-to-pages` to the name.
-- RO-Crates: Append `\*-crate` to the name.
-- Web components: Append `\*-widget` to the name.
+| Application          | Example                                                                           | Regex Rule             |
+| -------------------- | --------------------------------------------------------------------------------- | ---------------------- |
+| Python packages      | [py-sema](https://github.com/vliz-be-opsci/py-sema)                               | `^py-[a-z0-9\-]+$`     |
+| GitHub Actions       | [rohub-sync-action](https://github.com/vliz-be-opsci/rohub-sync-action)           | `^[a-z0-9\-]+-action$` |
+| GitHub Pages Actions | [space-to-pages](https://github.com/vliz-be-opsci/space-to-pages)                 | `^[a-z0-9\-]+-pages$`  |
+| RO-Crates            | [observatory-bpns-crate](https://github.com/emo-bon/observatory-bpns-crate)       | `^[a-z0-9\-]+-crate$`  |
+| Web components       | [rocrate-preview-widget](https://github.com/vliz-be-opsci/rocrate-preview-widget) | `^[a-z0-9\-]+-widget$` |
 
 ### Branches <a name="branches"></a>
 
@@ -35,7 +42,7 @@ Each repository should have two default branches:
 - `main`: For release-ready code.
 - `gh-pages`: For documentation. This branch is automatically maintained by a documentation workflow.
 
-Additional branches should be created for each change. The branch name should reflect the change, using the format `{category}/{description}`. For example, `fix/connection_bug`. The description should be a short summary of the change, using [snake case](https://en.wikipedia.org/wiki/Letter_case#Snake_case){:target=”_blank”}
+Additional branches should be created for each change. The branch name should reflect the change, using the format `{category}/{description}`. For example, `fix/connection_bug`. The description should be a short summary of the change, using [snake case](https://en.wikipedia.org/wiki/Letter_case#Snake_case){:target=”\_blank”}
 
 The category should be one of the following:
 
@@ -48,7 +55,7 @@ The category should be one of the following:
 
 ### Commits <a name="commits"></a>
 
-Commit messages should follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/){:target=”_blank”}.
+Commit messages should follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/){:target=”\_blank”}.
 The commit message should follow this format:
 
     "<type>: {action} {what} {where} {why} "
@@ -69,15 +76,17 @@ The allowed types are:
 - test
 
 The Conventional Commits specification allows for additional information in the body and footer of the commit message.
+
 ## Rules <a name="rules"></a>
 
 ### Pull Request <a name="pull-request"></a>
 
 Every code change should be made on a new branch and submitted as a pull request (PR). Direct pushes to the `main` branch are not allowed.
 
-When opening a PR, provide a descriptive name (which can be similar to the branch name) and a description explaining the purpose of the PR. Use [GitHub keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests#linking-a-pull-request-to-an-issue){:target=”_blank”} if applicable.
+When opening a PR, provide a descriptive name (which can be similar to the branch name) and a description explaining the purpose of the PR. Use [GitHub keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests#linking-a-pull-request-to-an-issue){:target=”\_blank”} if applicable.
 
 Before a PR can be merged, it must:
+
 - Receive at least one approval.
 - Pass all checks, including:
   - Linting
@@ -85,6 +94,9 @@ Before a PR can be merged, it must:
   - Test Coverage
 
 The commits within the PR should tell a cohesive story. Each commit should be clear, concise, and focused on a single change.
-### Language-Specifics 
 
-#### [Python Projects](python)  <a name="python-projects"></a>
+### Language-Specifics
+
+##### [Python Projects](python) <a name="python-projects"></a>
+
+##### [Typescript Projects](typescript) <a name="typescript-projects"></a>

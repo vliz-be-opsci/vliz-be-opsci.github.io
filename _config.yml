@@ -4,7 +4,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # Base URI for your site, e.g. http://example.com/test-repo/ => for development leave empty for gh-pages fill in the name of the repo of not the main gh-pages repo
-base_url: "" 
+base_url: ""
 
 # Main title for your site --> TODO investigate and document where this is actually used
 title: "VLIZ Open Science"
@@ -15,13 +15,12 @@ social_media:
   - name: github
     url: https://github.com/vliz-be-opsci/
 
-
 # Enables global share buttons to twitter (X), facebook, printer, email, linkedIn | default true
-share_enabled: false 
+share_enabled: false
 
 # used ruby gems for building this jekyll based site
 gems:
-  - jekyll-mermaid              # allows mermaid diagrams included in ```mermaid blocks in md
+  - jekyll-mermaid # allows mermaid diagrams included in ```mermaid blocks in md
 plugins:
-  - jekyll-datapage-generator   # TODO investigate and document why this is here
-  - jemoji                      # allows :emoji-name: inline images in markdown
+  - jekyll-datapage-generator # TODO investigate and document why this is here
+  - jemoji # allows :emoji-name: inline images in markdown

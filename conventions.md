@@ -9,8 +9,6 @@ items:
     clickthrough_url: "/conventions/github-management"
   - title: "Python Coding"
     clickthrough_url: "/conventions/python"
-  - title: "JavaScript Projects"
-    clickthrough_url: "/conventions/javascript"
   - title: "TypeScript Projects"
     clickthrough_url: "/conventions/typescript"
 ---
