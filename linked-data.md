@@ -33,9 +33,8 @@ A thorough description and motivation of its development and workings can be fou
 A practical description of the available uri-templates for the individual GeoObject representations and the [LDES fragmentation](https://marineregions.org/feed){:target=”_blank”} of the full dataset can be found under this [webservices description](https://marineregions.org/gazetteer.php?p=webservices){:target=”_blank”} 
 
 
-## marinespecies.org (coming soon!) <a name="marinespecies"></a>
+## aphia.org <a name="aphia"></a>
 
 The [World Register of Marine Species (WoRMS)](https://marinespecies.org/){:target=”_blank”} is a taxonomic database that aims to provide an authoritative and comprehensive list of names of marine organisms.
 
-Through our participation in the [MareGraph project](https://www.maregraph.eu/){:target=”_blank”} we are preparing the linked-open-data publication of this important reference.
-
+Through our involvement in the [MareGraph project](https://www.maregraph.eu/){:target=”_blank”}, we are facilitating the linked-open-data release of this key reference, now accessible via [LDES fragmentation](https://aphia.org/feed).
