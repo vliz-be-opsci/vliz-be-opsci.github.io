@@ -13,7 +13,6 @@ some images of
 
 possibly embed the slides from 
 
-
 ## Embedded presentation <a name="presentation"></a>
 
 {% include presentation/google-slides.html
