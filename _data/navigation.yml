@@ -58,8 +58,8 @@
           url: https://marineinfo.org/
         - title: marineregions.org
           url: https://www.marineregions.org/gazetteer.php?p=webservices
-        - title: marinespecies.org
-          url: https://www.marinespecies.org/
+        - title: aphia.org
+          url: https://www.aphia.org/
     - title: Applications & tools
       url: /applications-tools
       items:
