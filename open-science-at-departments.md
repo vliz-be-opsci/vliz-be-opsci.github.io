@@ -33,9 +33,11 @@ Open access repositories serve as a key tool for implementing open access princi
 
 VLIZ supports the Declaration on Research Assessment (DORA), that advocates for changes in the way research outputs are assessed and evaluated and encourages a more holistic and fair approach to assessing research outputs.
 
+<!--
 ### Policy and valorisation <a name="innoval"></a>
 
 ... ? [Hans???](https://marineinfo.org/id/person/16470)
+-->
 
 ### Science Communication <a name="wcomm"></a>
 
