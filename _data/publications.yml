@@ -23,38 +23,3 @@ items:
     journal:
     access:
     display: main-3
-
-  - clickthrough_url: https://doi.org/...
-    title: Pleasant paper 4
-    authors: more awesome people et al.
-    abstract:
-    date:
-    journal:
-    access:
-    display:
-
-conferenceProceedings:
-  - clickthrough_url: "https://doi.org/..."
-    title: "example 1 conf proceeding"
-    authors: "blablabla"
-    abstract: "qmqdjfqmughiuhvfdjkgbqidrg"
-    date:
-    journal:
-    access:
-    display: main-1
-  - clickthrough_url: "https://doi.org/..."
-    title: "example 2 conf proceeding"
-    authors: "blablabla"
-    abstract: "qmqdjfqmughiuhvfdjkgbqidrg"
-    date:
-    journal:
-    access:
-    display: main-2
-  - clickthrough_url: "https://doi.org/..."
-    title: "example 3 conf proceeding"
-    authors: "blablabla"
-    abstract: "qmqdjfqmughiuhvfdjkgbqidrg"
-    date:
-    journal:
-    access:
-    display: main-3
